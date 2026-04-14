@@ -57,6 +57,17 @@ export default function ImproveHubPage() {
       />
       <FaqSchema items={FAQS} />
 
+      <div className="mb-8 overflow-hidden rounded-2xl">
+        <img
+          src="https://calculatorsites.b-cdn.net/vo2max/hero-improve.jpg"
+          alt="Athletic person walking briskly uphill on a forest trail at sunrise"
+          width={800}
+          height={450}
+          loading="eager"
+          className="h-auto w-full"
+        />
+      </div>
+
       <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         How to Improve VO2 Max
       </h1>

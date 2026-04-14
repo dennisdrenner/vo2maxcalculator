@@ -58,6 +58,17 @@ export default function LongevityPage() {
       />
       <FaqSchema items={FAQS} />
 
+      <div className="mb-8 overflow-hidden rounded-2xl">
+        <img
+          src="https://calculatorsites.b-cdn.net/vo2max/hero-longevity.jpg"
+          alt="Older adult jogging on a wooded park path in warm afternoon light"
+          width={800}
+          height={450}
+          loading="eager"
+          className="h-auto w-full"
+        />
+      </div>
+
       <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         VO2 Max and Longevity
       </h1>

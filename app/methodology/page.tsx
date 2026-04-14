@@ -28,6 +28,17 @@ export default function MethodologyPage() {
         datePublished="2026-04-13"
       />
 
+      <div className="mb-8 overflow-hidden rounded-2xl">
+        <img
+          src="https://calculatorsites.b-cdn.net/vo2max/hero-methodology.jpg"
+          alt="Flat-lay of a running log, heart-rate monitor, sports watch, and coffee cup"
+          width={800}
+          height={450}
+          loading="eager"
+          className="h-auto w-full"
+        />
+      </div>
+
       <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         Methodology
       </h1>

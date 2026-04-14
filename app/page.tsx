@@ -62,17 +62,23 @@ export default function HomePage() {
       />
       <FaqSchema items={FAQS} />
 
-      <section className="bg-gradient-to-b from-teal-50 to-white py-10 sm:py-14">
-        <div className="mx-auto max-w-4xl px-4">
-          <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-5xl">
+      <section className="relative overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('https://calculatorsites.b-cdn.net/vo2max/hero-homepage.jpg')" }}
+          aria-hidden
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/65 to-slate-900/30" aria-hidden />
+        <div className="relative mx-auto max-w-4xl px-4 py-16 sm:py-24">
+          <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl">
             VO2 Max Calculator
           </h1>
-          <p className="mt-4 max-w-2xl text-lg text-slate-700">
+          <p className="mt-4 max-w-2xl text-lg text-slate-100">
             Calculate your VO2 max in 2 minutes using any of 17 validated field tests. Get your
             percentile rank, fitness category, and an evidence-based plan to improve. Free, no
             signup, imperial or metric.
           </p>
-          <p className="mt-2 text-sm text-slate-600">
+          <p className="mt-3 max-w-2xl text-sm text-slate-200">
             Norms from the Cooper Institute's Aerobics Center Longitudinal Study — the same dataset
             used in ACSM Guidelines for Exercise Testing and Prescription, 11th edition.
           </p>

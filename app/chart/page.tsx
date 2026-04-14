@@ -53,6 +53,17 @@ export default function ChartPage() {
       />
       <FaqSchema items={FAQS} />
 
+      <div className="mb-8 overflow-hidden rounded-2xl">
+        <img
+          src="https://calculatorsites.b-cdn.net/vo2max/hero-chart.jpg"
+          alt="Runner checking a sports watch post-effort on a track"
+          width={800}
+          height={450}
+          loading="eager"
+          className="h-auto w-full"
+        />
+      </div>
+
       <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         VO2 Max Chart by Age and Sex
       </h1>
