@@ -37,6 +37,8 @@ const FOOTER_LINKS = [
       { href: '/wearables/', label: 'Wearables' },
       { href: '/methodology/', label: 'Methodology' },
       { href: '/about/', label: 'About' },
+      { href: '/privacy/', label: 'Privacy Policy' },
+      { href: '/terms/', label: 'Terms of Service' },
     ],
   },
 ];
