@@ -1,0 +1,39 @@
+# VO2 Max Calculator
+
+> Free VO2 max calculator using 17 validated field tests (Cooper 12-minute run, 1.5-mile run, Rockport walk, YMCA cycle, Åstrand-Rhyming, Bruce treadmill, Harvard step test, and more). Percentile norms sourced from the Cooper Institute's Aerobics Center Longitudinal Study — the same dataset behind ACSM Guidelines for Exercise Testing and Prescription, 11th edition, Table 4.7. Results in ml/kg/min with age- and sex-adjusted percentile and fitness category (Poor / Fair / Average / Good / Excellent / Superior).
+
+Spelling used site-wide: "VO2 max" (two words, no subscript).
+
+## Core tools
+
+- [VO2 Max Calculator](/): Master calculator — pick any of 17 tests, enter inputs, get VO2 max in ml/kg/min plus percentile and category
+- [Percentile Calculator](/percentile-calculator/): Enter a known VO2 max + age + sex, get percentile rank
+- [VO2 Max Chart by Age and Sex](/chart/): Complete Cooper Institute percentile tables, men and women, ages 20–79
+
+## Reference
+
+- [What is a good VO2 max?](/good-vo2-max/): Category thresholds, context by age and sex
+- [What is a good VO2 max by age?](/good-vo2-max/by-age/): Age-adjusted thresholds
+- [VO2 max norms by age](/by-age/): Decade-by-decade tables (20s, 30s, 40s, 50s, 60s, 70s)
+- [All 17 test methods](/methods/): Method comparison — accuracy, equipment, time required
+- [VO2 max formulas](/formula/): Plain-text equations for each test with variable definitions and citations
+- [Methodology](/methodology/): How we compute scores, norm source, limitations
+
+## Training
+
+- [How to improve VO2 max](/improve/): Evidence-based programming overview
+- [Zone 2 training](/improve/zone-2-training/)
+- [Norwegian 4x4 intervals](/improve/norwegian-4x4/)
+- [Polarized training](/improve/polarized-training/)
+- [VO2 max and longevity](/improve/vo2-max-and-longevity/)
+
+## Wearables
+
+- [Garmin VO2 max accuracy](/wearables/garmin-vo2-max-accuracy/)
+- [Apple Watch VO2 max](/wearables/apple-watch-vo2-max/)
+- [Whoop VO2 max](/wearables/whoop-vo2-max/)
+
+## About
+
+- [About](/about/)
+- [Methodology](/methodology/)
