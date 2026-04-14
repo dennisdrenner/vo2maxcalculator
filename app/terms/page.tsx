@@ -161,10 +161,10 @@ export default function TermsPage() {
       <section className="mt-8">
         <h2 className="text-2xl font-bold text-slate-900">10. Governing law and disputes</h2>
         <p className="mt-3 text-slate-700">
-          These Terms are governed by the laws of the United States and the state in which we
-          operate, without regard to conflict-of-laws principles. Any dispute arising from
-          these Terms or your use of the Site will be resolved in the state or federal courts
-          of that jurisdiction, and you consent to personal jurisdiction there.
+          These Terms are governed by the laws of the State of Maryland and the United States,
+          without regard to conflict-of-laws principles. Any dispute arising from these Terms or
+          your use of the Site will be resolved exclusively in the state or federal courts
+          located in Maryland, and you consent to personal jurisdiction there.
         </p>
       </section>
 
@@ -172,8 +172,8 @@ export default function TermsPage() {
         <h2 className="text-2xl font-bold text-slate-900">11. Contact</h2>
         <p className="mt-3 text-slate-700">
           Questions about these Terms can be sent to{' '}
-          <a href="mailto:legal@vo2maxcalculators.com" className="text-teal-700 underline">
-            legal@vo2maxcalculators.com
+          <a href="mailto:dennis@smartraven.ai" className="text-teal-700 underline">
+            dennis@smartraven.ai
           </a>
           .
         </p>
