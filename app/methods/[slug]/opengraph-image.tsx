@@ -67,7 +67,7 @@ export default function MethodOgImage({ params }: { params: { slug: string } }) 
               </span>
             ) : null}
           </div>
-          <div style={{ fontWeight: 600 }}>vo2max-calculator.com</div>
+          <div style={{ fontWeight: 600 }}>vo2maxcalculators.com</div>
         </div>
       </div>
     ),

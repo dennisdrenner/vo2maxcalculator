@@ -87,7 +87,7 @@ export default async function OpengraphImage() {
           }}
         >
           <div>Cooper · 1.5-mile · Rockport · Åstrand · Bruce · Beep test</div>
-          <div style={{ fontWeight: 600 }}>vo2max-calculator.com</div>
+          <div style={{ fontWeight: 600 }}>vo2maxcalculators.com</div>
         </div>
       </div>
     ),
