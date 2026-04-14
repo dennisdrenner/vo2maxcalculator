@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -195,6 +196,18 @@ export default function WhoopPage() {
               </tr>
             </tbody>
           </table>
+        </div>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-slate-900">For better VO2 max accuracy</h2>
+        <p className="mt-2 text-sm text-slate-600">
+          If VO2 max precision matters more than recovery tracking, pair one of these with a
+          chest strap. As an Amazon Associate we earn from qualifying purchases.
+        </p>
+        <div className="mt-4">
+          <AffiliateCard product="garminFr265" />
+          <AffiliateCard product="polarH10" />
         </div>
       </section>
 

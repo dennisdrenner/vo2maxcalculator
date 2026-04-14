@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { AffiliateCard } from '@/components/AffiliateCard';
 import type { MethodArticle } from './types';
 
 const article: MethodArticle = {
@@ -171,6 +172,18 @@ const article: MethodArticle = {
           </Link>{' '}
           are better choices if your equipment and fitness allow.
         </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-bold text-slate-900">Gear for this test</h2>
+        <p className="mt-2 text-sm text-slate-600">
+          Official protocol uses a 12" bench — most standard step-aerobics platforms adjust to
+          that height. As an Amazon Associate we earn from qualifying purchases.
+        </p>
+        <div className="mt-4">
+          <AffiliateCard product="stepBench" />
+          <AffiliateCard product="polarH10" />
+        </div>
       </section>
     </>
   ),

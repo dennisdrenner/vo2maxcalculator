@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { AffiliateCard } from '@/components/AffiliateCard';
 import type { MethodArticle } from './types';
 
 const article: MethodArticle = {
@@ -164,6 +165,19 @@ const article: MethodArticle = {
           </Link>{' '}
           (more accurate, more time required).
         </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-bold text-slate-900">Gear for this test</h2>
+        <p className="mt-2 text-sm text-slate-600">
+          You'll need a bench around 16.25" tall — an adjustable aerobics step gets close. A
+          chest-strap HR monitor is strongly recommended for the recovery-HR measurement.
+          As an Amazon Associate we earn from qualifying purchases.
+        </p>
+        <div className="mt-4">
+          <AffiliateCard product="stepBench" />
+          <AffiliateCard product="polarH10" />
+        </div>
       </section>
     </>
   ),

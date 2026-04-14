@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -173,6 +174,17 @@ export default function AppleWatchPage() {
           (~5 ml/kg/min). If you already own an Apple Watch, it's good enough for trend tracking;
           don't buy one specifically for VO2 max measurement.
         </p>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-slate-900">Apple Watch Ultra + chest strap combo</h2>
+        <p className="mt-2 text-sm text-slate-600">
+          As an Amazon Associate we earn from qualifying purchases.
+        </p>
+        <div className="mt-4">
+          <AffiliateCard product="appleWatchUltra" />
+          <AffiliateCard product="polarH10" />
+        </div>
       </section>
 
       <section className="mt-12">

@@ -95,27 +95,52 @@ export default function LongevityPage() {
             </thead>
             <tbody>
               <tr>
-                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">Blair et al. 1989<br /><span className="text-xs font-normal text-slate-500">JAMA</span></th>
+                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/2795824/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">
+                    Blair et al. 1989
+                  </a>
+                  <br /><span className="text-xs font-normal text-slate-500">JAMA</span>
+                </th>
                 <td className="border border-slate-200 px-3 py-2">13,344 Cooper Clinic patients, 8-yr follow-up</td>
                 <td className="border border-slate-200 px-3 py-2">Least-fit quintile had 3.4× higher all-cause mortality vs. fittest quintile</td>
               </tr>
               <tr>
-                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">Myers et al. 2002<br /><span className="text-xs font-normal text-slate-500">NEJM</span></th>
+                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/11882703/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">
+                    Myers et al. 2002
+                  </a>
+                  <br /><span className="text-xs font-normal text-slate-500">NEJM</span>
+                </th>
                 <td className="border border-slate-200 px-3 py-2">6,213 men referred for treadmill testing</td>
                 <td className="border border-slate-200 px-3 py-2">Exercise capacity was the strongest mortality predictor — each MET reduction associated with 12% higher mortality</td>
               </tr>
               <tr>
-                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">Kodama et al. 2009<br /><span className="text-xs font-normal text-slate-500">JAMA meta-analysis</span></th>
+                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/19454641/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">
+                    Kodama et al. 2009
+                  </a>
+                  <br /><span className="text-xs font-normal text-slate-500">JAMA meta-analysis</span>
+                </th>
                 <td className="border border-slate-200 px-3 py-2">33 studies, 102,980 adults</td>
                 <td className="border border-slate-200 px-3 py-2">Each MET improvement: 13% lower all-cause mortality, 15% lower cardiovascular mortality</td>
               </tr>
               <tr>
-                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">Mandsager et al. 2018<br /><span className="text-xs font-normal text-slate-500">JAMA Network Open</span></th>
+                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/30646288/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">
+                    Mandsager et al. 2018
+                  </a>
+                  <br /><span className="text-xs font-normal text-slate-500">JAMA Network Open</span>
+                </th>
                 <td className="border border-slate-200 px-3 py-2">122,007 Cleveland Clinic patients, 10-yr follow-up</td>
                 <td className="border border-slate-200 px-3 py-2">No upper threshold: fittest 2% had 80% lower mortality vs. least fit</td>
               </tr>
               <tr>
-                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">Clausen et al. 2018<br /><span className="text-xs font-normal text-slate-500">J Am Coll Cardiol</span></th>
+                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/30025579/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">
+                    Clausen et al. 2018
+                  </a>
+                  <br /><span className="text-xs font-normal text-slate-500">J Am Coll Cardiol</span>
+                </th>
                 <td className="border border-slate-200 px-3 py-2">4,925 healthy adults, 24-yr follow-up</td>
                 <td className="border border-slate-200 px-3 py-2">Low VO2 max associated with 2× cardiovascular mortality even in healthy populations</td>
               </tr>

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { AffiliateCard } from '@/components/AffiliateCard';
 import type { MethodArticle } from './types';
 
 const article: MethodArticle = {
@@ -160,6 +161,17 @@ const article: MethodArticle = {
           </Link>{' '}
           will give you a more accurate result (SEE ~3.0 vs. 5.0 ml/kg/min).
         </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-bold text-slate-900">Gear for this test</h2>
+        <p className="mt-2 text-sm text-slate-600">
+          Accurate HR measurement is the Rockport test's biggest error source. A chest strap
+          eliminates wrist-sensor noise. As an Amazon Associate we earn from qualifying purchases.
+        </p>
+        <div className="mt-4">
+          <AffiliateCard product="polarH10" />
+        </div>
       </section>
     </>
   ),

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { AffiliateCard } from '@/components/AffiliateCard';
 import type { MethodArticle } from './types';
 
 const article: MethodArticle = {
@@ -181,6 +182,18 @@ const article: MethodArticle = {
             — substantially more accurate.
           </li>
         </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-bold text-slate-900">Gear for this test</h2>
+        <p className="mt-2 text-sm text-slate-600">
+          Original protocol calls for a 20" bench — taller than most aerobics steps. An
+          adjustable step gets you close; for exactly 20" many testers use a sturdy plyo box.
+          As an Amazon Associate we earn from qualifying purchases.
+        </p>
+        <div className="mt-4">
+          <AffiliateCard product="stepBench" />
+        </div>
       </section>
     </>
   ),

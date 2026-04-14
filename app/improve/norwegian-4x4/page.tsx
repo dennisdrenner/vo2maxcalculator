@@ -124,6 +124,30 @@ export default function Norwegian4x4Page() {
       </section>
 
       <section className="mt-10">
+        <h2 className="text-2xl font-bold text-slate-900">Reversing cardiac aging</h2>
+        <p className="mt-3 text-slate-700">
+          The most striking result for middle-aged adults comes from the{' '}
+          <a
+            href="https://pubmed.ncbi.nlm.nih.gov/29311053/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-teal-700 underline"
+          >
+            2018 Dallas trial by Howden, Levine et al.
+          </a>{' '}
+          (Circulation), which had 53 previously sedentary middle-aged adults (mean age 53) do
+          two years of progressive exercise including Norwegian 4×4 intervals. Compared to a
+          control group that did only balance and flexibility training, the exercise group saw
+          an <strong>18% increase in VO2 max</strong> and — more remarkably — a measurable
+          reversal of left-ventricular stiffness that had accumulated from decades of
+          sedentary living. The researchers concluded that the interval-plus-base program was
+          able to restore the cardiac compliance of a 50-year-old to approximately that of a
+          30-year-old. This is the strongest published evidence that VO2-max-focused training
+          is cardioprotective, not just performance-enhancing.
+        </p>
+      </section>
+
+      <section className="mt-10">
         <h2 className="text-2xl font-bold text-slate-900">Validated results</h2>
         <div className="mt-4 overflow-x-auto">
           <table className="w-full border-collapse text-sm">
@@ -136,22 +160,38 @@ export default function Norwegian4x4Page() {
             </thead>
             <tbody>
               <tr>
-                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">Helgerud et al. 2007 — healthy men</th>
+                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/17414804/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">
+                    Helgerud et al. 2007
+                  </a> — healthy men
+                </th>
                 <td className="border border-slate-200 px-3 py-2">8 weeks, 3×/week</td>
                 <td className="border border-slate-200 px-3 py-2">+5.5 ml/kg/min (+7.2%)</td>
               </tr>
               <tr>
-                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">Wisløff et al. 2007 — post-MI patients</th>
+                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/17576867/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">
+                    Wisløff et al. 2007
+                  </a> — post-MI patients
+                </th>
                 <td className="border border-slate-200 px-3 py-2">12 weeks, 2×/week</td>
                 <td className="border border-slate-200 px-3 py-2">+5.2 ml/kg/min (+17.9%)</td>
               </tr>
               <tr>
-                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">Støren et al. 2017 — older adults 70–77</th>
-                <td className="border border-slate-200 px-3 py-2">8 weeks, 3×/week</td>
-                <td className="border border-slate-200 px-3 py-2">+3.4 ml/kg/min (+14%)</td>
+                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/29311053/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">
+                    Howden et al. 2018
+                  </a> — middle-aged sedentary adults
+                </th>
+                <td className="border border-slate-200 px-3 py-2">2 years, progressive 4×4 plus base</td>
+                <td className="border border-slate-200 px-3 py-2">Reversed cardiac stiffness; +18% VO2 max</td>
               </tr>
               <tr>
-                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">Weston et al. 2014 — systematic review</th>
+                <th scope="row" className="border border-slate-200 px-3 py-2 text-left font-medium">
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/24297738/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">
+                    Weston et al. 2014
+                  </a> — systematic review
+                </th>
                 <td className="border border-slate-200 px-3 py-2">Meta-analysis of 10 RCTs</td>
                 <td className="border border-slate-200 px-3 py-2">+4.9 ml/kg/min vs +2.4 for MICT</td>
               </tr>

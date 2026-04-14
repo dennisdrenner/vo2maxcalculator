@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { AffiliateCard } from '@/components/AffiliateCard';
 import type { MethodArticle } from './types';
 
 const article: MethodArticle = {
@@ -158,6 +159,17 @@ const article: MethodArticle = {
             .
           </li>
         </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-bold text-slate-900">Gear for this test</h2>
+        <p className="mt-2 text-sm text-slate-600">
+          The formula depends on accurate finishing HR — a chest strap is strongly preferred
+          over wrist optical. As an Amazon Associate we earn from qualifying purchases.
+        </p>
+        <div className="mt-4">
+          <AffiliateCard product="polarH10" />
+        </div>
       </section>
     </>
   ),

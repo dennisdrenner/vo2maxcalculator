@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -179,6 +180,19 @@ export default function GarminAccuracyPage() {
             . If they disagree by more than 5 ml/kg/min, the wearable estimate needs calibration.
           </li>
         </ol>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-slate-900">Garmin watches and accessories we recommend</h2>
+        <p className="mt-2 text-sm text-slate-600">
+          As an Amazon Associate we earn from qualifying purchases. Links below are affiliate
+          links — clicking doesn't change the price you pay.
+        </p>
+        <div className="mt-4">
+          <AffiliateCard product="garminFr265" />
+          <AffiliateCard product="garminFr965" />
+          <AffiliateCard product="polarH10" />
+        </div>
       </section>
 
       <section className="mt-12">
