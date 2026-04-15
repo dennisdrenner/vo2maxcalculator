@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import {
   AGE_BRACKETS,
@@ -174,6 +175,8 @@ export default async function GoodVo2ValuePage({ params }: { params: Promise<Par
           traditional cardiovascular risk factors.
         </p>
       </section>
+
+      <AdSlot slot="value-mid" className="my-10" />
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold text-slate-900">Next steps</h2>

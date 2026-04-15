@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { NormsTable } from '@/components/NormsTable';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AdSlot } from '@/components/AdSlot';
+import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -96,6 +98,8 @@ export default function ChartPage() {
         <NormsTable sex="male" caption="Men, VO2 max percentiles by age bracket" />
       </div>
 
+      <AdSlot slot="chart-mid" className="my-10" />
+
       <div className="mt-10">
         <h2 className="text-2xl font-bold text-slate-900">Women — VO2 max by age (ml/kg/min)</h2>
         <p className="mt-2 text-slate-700">
@@ -183,6 +187,17 @@ export default function ChartPage() {
             — it interpolates between the listed breakpoints.
           </li>
         </ol>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-bold text-slate-900">Track your VO2 max over time</h2>
+        <p className="mt-2 text-sm text-slate-600">
+          The easiest way to retest every month is a running watch that computes VO2 max
+          passively from your workouts. As an Amazon Associate we earn from qualifying purchases.
+        </p>
+        <div className="mt-4">
+          <AffiliateCard product="garminFr265" />
+        </div>
       </section>
 
       <section className="mt-12">

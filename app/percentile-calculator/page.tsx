@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { PercentileTool } from '@/components/PercentileTool';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -87,6 +88,18 @@ export default function PercentileCalculatorPage() {
           population-health statistics. Within a narrow band of ±5 ml/kg/min it is accurate to
           within 2–3 percentile points compared to the full underlying distribution.
         </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-bold text-slate-900">For a more precise VO2 max</h2>
+        <p className="mt-2 text-sm text-slate-600">
+          A chest strap tightens the HR-dependent tests (Rockport, Åstrand, YMCA cycle) by
+          2–3 ml/kg/min vs. wrist optical. As an Amazon Associate we earn from qualifying
+          purchases.
+        </p>
+        <div className="mt-4">
+          <AffiliateCard product="polarH10" />
+        </div>
       </section>
 
       <section className="mt-12">

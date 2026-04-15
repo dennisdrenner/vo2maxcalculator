@@ -170,6 +170,11 @@ const article: MethodArticle = {
         <div className="mt-4">
           <AffiliateCard product="polarH10" />
         </div>
+        <p className="mt-3 text-sm">
+          <Link href="/equipment/" className="font-semibold text-teal-700 hover:underline">
+            See all recommended equipment →
+          </Link>
+        </p>
       </section>
     </>
   ),

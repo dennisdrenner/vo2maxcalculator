@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -104,6 +105,8 @@ export default function ImproveHubPage() {
           hook="The evidence linking VO2 max to all-cause mortality. Why each MET gain is associated with 10–15% lower mortality risk."
         />
       </div>
+
+      <AdSlot slot="improve-hub" className="my-10" />
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-slate-900">The training principles that actually work</h2>

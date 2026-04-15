@@ -2,7 +2,39 @@
 
 import Link from 'next/link';
 import { categoryForVo2Max, ageToBracket, bracketToDecadeSlug, Sex } from '@/lib/norms';
+import { AFFILIATES, type AffiliateKey } from '@/lib/affiliates';
+import { analytics } from '@/lib/analytics';
 import { EmailGate } from './EmailGate';
+
+const GEAR_BY_METHOD: Record<string, AffiliateKey | null> = {
+  'cooper-12-minute-run': 'garminFr265',
+  '1-5-mile-run': 'garminFr265',
+  '1-mile-run': 'polarH10',
+  '2-4-km-run': 'garminFr265',
+  'rockport-1-mile-walk': 'polarH10',
+  '1-5-mile-walk': 'polarH10',
+  'beep-test': 'garminFr265',
+  'yo-yo-intermittent-recovery': 'garminFr265',
+  'queens-college-step-test': 'stepBench',
+  'harvard-step-test': 'stepBench',
+  'ymca-3-minute-step-test': 'stepBench',
+  'astrand-rhyming-cycle': 'polarH10',
+  'ymca-cycle-ergometer': 'polarH10',
+  'resting-heart-rate': 'polarH10',
+  'non-exercise-estimator': null,
+  'bruce-treadmill-protocol': 'polarH10',
+  '6-minute-walk-test': 'polarH10',
+};
+
+const GEAR_BLURB: Record<AffiliateKey, string> = {
+  polarH10: 'The most accurate chest strap for this test',
+  garminFr265: 'Our top-pick running watch for ongoing VO2 max tracking',
+  garminFr965: 'Premium running watch with extended VO2 max metrics',
+  appleWatchUltra: 'Apple Watch with Cardio Fitness tracking',
+  whoop: 'Recovery-first wearable',
+  beepTestAudio: 'Official beep test audio',
+  stepBench: 'Adjustable step platform for this test',
+};
 
 interface ResultProps {
   vo2max: number;
@@ -68,8 +100,36 @@ export function Result({ vo2max, age, sex, method, methodSlug }: ResultProps) {
         </Link>
       </div>
 
+      <GearTip methodSlug={methodSlug} />
+
       <EmailGate vo2max={vo2max} age={age} sex={sex} method={methodSlug} />
     </section>
+  );
+}
+
+function GearTip({ methodSlug }: { methodSlug: string }) {
+  const key = GEAR_BY_METHOD[methodSlug];
+  if (!key) return null;
+  const product = AFFILIATES[key];
+  if (!product?.url) return null;
+  const blurb = GEAR_BLURB[key] ?? product.blurb;
+  return (
+    <div className="mt-6 flex items-center justify-between gap-3 rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 text-sm">
+      <div className="min-w-0">
+        <span className="font-medium text-slate-900">Tip: </span>
+        <span className="text-slate-700">{blurb} — </span>
+        <a
+          href={product.url}
+          target="_blank"
+          rel="sponsored noopener noreferrer"
+          onClick={() => analytics.affiliateClick(key)}
+          className="font-semibold text-brand hover:underline"
+        >
+          {product.label} →
+        </a>
+      </div>
+      <span className="shrink-0 text-xs text-slate-400">(affiliate)</span>
+    </div>
   );
 }
 

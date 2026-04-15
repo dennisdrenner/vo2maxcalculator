@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -199,6 +200,8 @@ export default function Norwegian4x4Page() {
           </table>
         </div>
       </section>
+
+      <AdSlot slot="improve-article" className="my-10" />
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold text-slate-900">Practical execution tips</h2>

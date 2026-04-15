@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -80,6 +81,8 @@ export default function WearablesHubPage() {
           hook="Whoop estimates VO2 max from workout data and resting HR. Validation is thinner than Garmin; mean error is typically 5–8 ml/kg/min."
         />
       </div>
+
+      <AdSlot slot="wearable-hub" className="my-10" />
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-slate-900">Where wearables get VO2 max from</h2>

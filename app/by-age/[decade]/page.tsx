@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { NormsTable } from '@/components/NormsTable';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import {
   ACSM_NORMS,
@@ -108,6 +109,8 @@ export default async function ByAgeDecadePage({ params }: { params: Promise<Para
         <NormsTable sex="female" brackets={[bracket]} caption={`Women, ${bracketLabel(bracket)}`} />
         <DecadeInterpretation row={female} sex="female" decade={decade} />
       </section>
+
+      <AdSlot slot="decade-mid" className="my-10" />
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-slate-900">Training targets for your {decade}</h2>

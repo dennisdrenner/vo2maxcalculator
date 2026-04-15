@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { Calculator } from '@/components/Calculator';
 import RelatedLinks from '@/components/RelatedLinks';
+import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema } from '@/components/Schema';
 import { METHODS, getMethod, type MethodSlug } from '@/lib/methods';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
@@ -100,6 +101,8 @@ export default async function MethodPage({ params }: { params: Promise<Params> }
           <Calculator defaultMethod={slug} hideMethodSelector />
         </div>
       </section>
+
+      <AdSlot slot="method-mid" className="my-10" />
 
       {article?.body ?? (
         <section className="mt-10 rounded-xl border border-amber-200 bg-amber-50 p-5 text-amber-900">
