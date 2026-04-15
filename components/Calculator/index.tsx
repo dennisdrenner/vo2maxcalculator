@@ -1,8 +1,10 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { METHODS, getMethod, type MethodInput, type MethodSlug, type UnitSystem } from '@/lib/methods';
+import Link from 'next/link';
+import { METHODS, getMethod, type MethodInput, type MethodMeta, type MethodSlug, type UnitSystem } from '@/lib/methods';
 import { categoryForVo2Max, type Sex } from '@/lib/norms';
+import { QUICK_PROTOCOLS } from '@/lib/quickProtocols';
 import { analytics } from '@/lib/analytics';
 import { Result } from './Result';
 
@@ -166,6 +168,8 @@ export function Calculator({ defaultMethod = 'cooper-12-minute-run', hideMethodS
         </p>
       </form>
 
+      <MethodInfo method={method} />
+
       {result ? (
         <Result
           vo2max={result.vo2max}
@@ -176,6 +180,65 @@ export function Calculator({ defaultMethod = 'cooper-12-minute-run', hideMethodS
         />
       ) : null}
     </div>
+  );
+}
+
+const ACCURACY_LABEL: Record<'high' | 'moderate' | 'low', string> = {
+  high: 'High accuracy',
+  moderate: 'Moderate accuracy',
+  low: 'Rough estimate',
+};
+
+const ACCURACY_BADGE: Record<'high' | 'moderate' | 'low', string> = {
+  high: 'bg-emerald-100 text-emerald-800',
+  moderate: 'bg-amber-100 text-amber-800',
+  low: 'bg-rose-100 text-rose-800',
+};
+
+function MethodInfo({ method }: { method: MethodMeta }) {
+  const steps = QUICK_PROTOCOLS[method.slug as MethodSlug];
+  return (
+    <section className="mt-6 rounded-xl border border-slate-200 bg-slate-50 p-5">
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <h3 className="text-base font-semibold text-slate-900">
+            How to perform the {method.displayName}
+          </h3>
+          <p className="mt-1 text-sm text-slate-700">{method.description}</p>
+        </div>
+        <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${ACCURACY_BADGE[method.accuracy]}`}>
+          {ACCURACY_LABEL[method.accuracy]}
+        </span>
+      </div>
+
+      <dl className="mt-4 grid gap-3 text-xs sm:grid-cols-2">
+        <div>
+          <dt className="font-semibold uppercase tracking-wide text-slate-500">Equipment</dt>
+          <dd className="mt-0.5 text-slate-800">{method.equipment}</dd>
+        </div>
+        <div>
+          <dt className="font-semibold uppercase tracking-wide text-slate-500">Time</dt>
+          <dd className="mt-0.5 text-slate-800">~{method.timeMinutes} minutes</dd>
+        </div>
+      </dl>
+
+      {steps?.length ? (
+        <ol className="mt-4 list-decimal space-y-1.5 pl-5 text-sm text-slate-700">
+          {steps.map((step, i) => (
+            <li key={i}>{step}</li>
+          ))}
+        </ol>
+      ) : null}
+
+      <p className="mt-4 text-sm">
+        <Link
+          href={`/methods/${method.slug}/`}
+          className="font-semibold text-teal-700 hover:underline"
+        >
+          Read the full {method.shortName} protocol, formula, and accuracy data →
+        </Link>
+      </p>
+    </section>
   );
 }
 

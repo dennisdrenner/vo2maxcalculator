@@ -39,13 +39,18 @@ export function AdSlot({ slot, format = 'auto', responsive = true, className }: 
   }
 
   return (
-    <ins
-      className={`adsbygoogle my-6 block ${className ?? ''}`}
-      style={{ display: 'block' }}
-      data-ad-client={adsenseId}
-      data-ad-slot={slot}
-      data-ad-format={format}
-      data-full-width-responsive={responsive ? 'true' : 'false'}
-    />
+    <div className={`my-6 ${className ?? ''}`}>
+      <div className="mb-1 text-center text-[10px] uppercase tracking-wider text-slate-400">
+        Advertisement
+      </div>
+      <ins
+        className="adsbygoogle block"
+        style={{ display: 'block', minHeight: 0 }}
+        data-ad-client={adsenseId}
+        data-ad-slot={slot}
+        data-ad-format={format}
+        data-full-width-responsive={responsive ? 'true' : 'false'}
+      />
+    </div>
   );
 }
