@@ -4,6 +4,8 @@ import { Calculator } from '@/components/Calculator';
 import RelatedLinks from '@/components/RelatedLinks';
 import { FaqSchema, WebApplicationSchema, type FaqItem } from '@/components/Schema';
 import { AdSlot } from '@/components/AdSlot';
+import { Hero } from '@/components/Hero';
+import { SectionLabel } from '@/components/SectionLabel';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -62,28 +64,13 @@ export default function HomePage() {
       />
       <FaqSchema items={FAQS} />
 
-      <section className="relative overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('https://calculatorsites.b-cdn.net/vo2max/hero-homepage.jpg')" }}
-          aria-hidden
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/65 to-slate-900/30" aria-hidden />
-        <div className="relative mx-auto max-w-4xl px-4 py-16 sm:py-24">
-          <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl">
-            VO2 Max Calculator
-          </h1>
-          <p className="mt-4 max-w-2xl text-lg text-slate-100">
-            Calculate your VO2 max in 2 minutes using any of 17 validated field tests. Get your
-            percentile rank, fitness category, and an evidence-based plan to improve. Free, no
-            signup, imperial or metric.
-          </p>
-          <p className="mt-3 max-w-2xl text-sm text-slate-200">
-            Norms from the Cooper Institute's Aerobics Center Longitudinal Study — the same dataset
-            used in ACSM Guidelines for Exercise Testing and Prescription, 11th edition.
-          </p>
-        </div>
-      </section>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-homepage.jpg"
+        label="Free • No signup"
+        title="VO2 Max Calculator"
+        subtitle="Calculate your VO2 max in 2 minutes using any of 17 validated field tests. Get your percentile rank, fitness category, and an evidence-based plan to improve."
+        size="lg"
+      />
 
       <section className="mx-auto max-w-4xl px-4 py-10">
         <Calculator />
@@ -92,7 +79,8 @@ export default function HomePage() {
       <AdSlot slot="home-mid" className="mx-auto my-8 max-w-4xl px-4" />
 
       <section className="mx-auto max-w-4xl px-4 py-10">
-        <h2 className="text-2xl font-bold text-slate-900">What is VO2 max?</h2>
+        <SectionLabel>The Basics</SectionLabel>
+        <h2 className="mt-2 text-2xl font-bold text-slate-900">What is VO2 max?</h2>
         <p className="mt-4 text-slate-700">
           VO2 max — short for maximal oxygen uptake — is the highest rate at which your body can
           consume and use oxygen during exercise. It is expressed in milliliters of oxygen per
@@ -119,7 +107,8 @@ export default function HomePage() {
 
       <section className="bg-slate-50 py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold text-slate-900">How to use this calculator</h2>
+          <SectionLabel>Walkthrough</SectionLabel>
+          <h2 className="mt-2 text-2xl font-bold text-slate-900">How to use this calculator</h2>
           <ol className="mt-4 list-decimal space-y-3 pl-6 text-slate-700">
             <li>
               <strong>Pick a test.</strong> The default is the Cooper 12-minute run. If you don't
@@ -144,7 +133,8 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-4xl px-4 py-10">
-        <h2 className="text-2xl font-bold text-slate-900">The 17 test methods</h2>
+        <SectionLabel>Methods</SectionLabel>
+        <h2 className="mt-2 text-2xl font-bold text-slate-900">The 17 test methods</h2>
         <p className="mt-3 text-slate-700">
           Each test uses a peer-reviewed regression equation validated against direct gas analysis.
           Running tests are the most accurate for runners; walking and cycling tests are preferred
@@ -208,7 +198,8 @@ export default function HomePage() {
 
       <section className="bg-slate-50 py-10">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-2xl font-bold text-slate-900">Frequently asked questions</h2>
+          <SectionLabel>FAQ</SectionLabel>
+          <h2 className="mt-2 text-2xl font-bold text-slate-900">Frequently asked questions</h2>
           <dl className="mt-6 space-y-6">
             {FAQS.map((f) => (
               <div key={f.question}>

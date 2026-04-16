@@ -5,6 +5,7 @@ import RelatedLinks from '@/components/RelatedLinks';
 import { AdSlot } from '@/components/AdSlot';
 import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -40,7 +41,7 @@ const FAQS: FaqItem[] = [
 
 export default function ChartPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -55,21 +56,15 @@ export default function ChartPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <div className="mb-8 overflow-hidden rounded-2xl">
-        <img
-          src="https://calculatorsites.b-cdn.net/vo2max/hero-chart.jpg"
-          alt="Runner checking a sports watch post-effort on a track"
-          width={800}
-          height={450}
-          loading="eager"
-          className="h-auto w-full"
-        />
-      </div>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-chart.jpg"
+        label="Reference"
+        title="VO2 Max Chart by Age and Sex"
+        subtitle="Full percentile norms from the Cooper Institute — the same dataset used in ACSM Guidelines, 11th edition."
+      />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        VO2 Max Chart by Age and Sex
-      </h1>
-      <p className="mt-4 text-lg text-slate-700">
+      <article className="mx-auto max-w-4xl px-4 py-10">
+      <p className="text-lg text-slate-700">
         This is the full VO2 max percentile chart — the same reference table used by the American
         College of Sports Medicine, sourced from The Cooper Institute's Aerobics Center
         Longitudinal Study. Values are in ml/kg/min. Find your age row and compare your score to
@@ -213,6 +208,7 @@ export default function ChartPage() {
       </section>
 
       <RelatedLinks pageType="chart" />
-    </article>
+      </article>
+    </>
   );
 }

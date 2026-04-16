@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -316,7 +317,7 @@ function ExternalList({ items }: { items: Resource[] }) {
 
 export default function ResourcesPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -330,9 +331,14 @@ export default function ResourcesPage() {
         datePublished="2026-04-15"
       />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        VO2 Max Resources
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-resources.jpg"
+        label="Further Reading"
+        title="VO2 Max Resources"
+        subtitle="Curated PubMed studies, expert podcasts, YouTube channels, and blogs for going deeper on the science."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         A curated list of resources for readers who want to go deeper than what we cover on this
         site. Studies are linked to PubMed. Podcasts, YouTube channels, blogs, and organizations
@@ -422,5 +428,6 @@ export default function ResourcesPage() {
 
       <RelatedLinks pageType="home" />
     </article>
+      </>
   );
 }

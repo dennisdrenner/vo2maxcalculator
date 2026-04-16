@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -48,7 +49,7 @@ const FAQS: FaqItem[] = [
 
 export default function Zone2Page() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -64,9 +65,14 @@ export default function Zone2Page() {
       />
       <FaqSchema items={FAQS} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Zone 2 Training for VO2 Max
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-improve.jpg"
+        label="Training"
+        title="Zone 2 Training for VO2 Max"
+        subtitle="60–70% of max heart rate — the aerobic base every elite endurance athlete relies on."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         <strong>Zone 2</strong> is steady aerobic exercise at <strong>60–70% of your maximum
         heart rate</strong> — roughly the top of the intensity range where blood lactate remains
@@ -234,5 +240,6 @@ export default function Zone2Page() {
 
       <RelatedLinks pageType="improve" />
     </article>
+      </>
   );
 }

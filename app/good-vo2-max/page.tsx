@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -37,7 +38,7 @@ const FAQS: FaqItem[] = [
 
 export default function GoodVo2HubPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -52,10 +53,15 @@ export default function GoodVo2HubPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        What Is a Good VO2 Max?
-      </h1>
-      <p className="mt-4 text-lg text-slate-700">
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-good-vo2.jpg"
+        label="Interpretation"
+        title="What Is a Good VO2 Max?"
+        subtitle='In the ACSM framework, the 60th–79th percentile is "Good" and the 80th–94th is "Excellent" — for your specific age and sex.'
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
+      <p className="text-lg text-slate-700">
         A "good" VO2 max depends entirely on your age and sex. In the ACSM framework used by
         exercise physiologists, <strong>the 60th–79th percentile is "Good"</strong> and the
         80th–94th is "Excellent." For a 35-year-old man, that means 45–49 ml/kg/min is good and
@@ -74,28 +80,28 @@ export default function GoodVo2HubPage() {
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           <Link
             href="/good-vo2-max/men/"
-            className="block rounded-xl border border-slate-200 bg-white p-5 hover:border-teal-500"
+            className="block rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
           >
             <h3 className="font-bold text-slate-900">By sex: men</h3>
             <p className="mt-1 text-sm text-slate-600">Good VO2 max for men at every age decade.</p>
           </Link>
           <Link
             href="/good-vo2-max/women/"
-            className="block rounded-xl border border-slate-200 bg-white p-5 hover:border-teal-500"
+            className="block rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
           >
             <h3 className="font-bold text-slate-900">By sex: women</h3>
             <p className="mt-1 text-sm text-slate-600">Good VO2 max for women at every age decade.</p>
           </Link>
           <Link
             href="/good-vo2-max/by-age/"
-            className="block rounded-xl border border-slate-200 bg-white p-5 hover:border-teal-500"
+            className="block rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
           >
             <h3 className="font-bold text-slate-900">By age</h3>
             <p className="mt-1 text-sm text-slate-600">Good-VO2-max thresholds by decade, both sexes.</p>
           </Link>
           <Link
             href="/chart/"
-            className="block rounded-xl border border-slate-200 bg-white p-5 hover:border-teal-500"
+            className="block rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
           >
             <h3 className="font-bold text-slate-900">Full percentile chart</h3>
             <p className="mt-1 text-sm text-slate-600">Every value from 5th to 95th, every age bracket.</p>
@@ -154,6 +160,7 @@ export default function GoodVo2HubPage() {
       </section>
 
       <RelatedLinks pageType="good-vo2-hub" />
-    </article>
+      </article>
+    </>
   );
 }

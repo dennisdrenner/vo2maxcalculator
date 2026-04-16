@@ -47,16 +47,18 @@ const FOOTER_LINKS = [
 
 export function Footer() {
   return (
-    <footer className="mt-16 border-t border-slate-200 bg-slate-50">
-      <div className="mx-auto max-w-6xl px-4 py-10">
+    <footer className="mt-16 border-t border-charcoal-deep bg-charcoal-deep text-slate-300">
+      <div className="mx-auto max-w-6xl px-4 py-12">
         <div className="grid gap-8 md:grid-cols-4">
           {FOOTER_LINKS.map((col) => (
             <div key={col.heading}>
-              <h4 className="text-sm font-semibold text-slate-900">{col.heading}</h4>
-              <ul className="mt-2 space-y-1 text-sm">
+              <h4 className="font-nav text-xs font-semibold uppercase tracking-[0.2em] text-white">
+                {col.heading}
+              </h4>
+              <ul className="mt-3 space-y-1.5 text-sm">
                 {col.items.map((item) => (
                   <li key={item.href}>
-                    <Link href={item.href} className="text-slate-600 hover:text-brand">
+                    <Link href={item.href} className="text-slate-400 transition-colors hover:text-brand-soft">
                       {item.label}
                     </Link>
                   </li>
@@ -65,7 +67,7 @@ export function Footer() {
             </div>
           ))}
         </div>
-        <p className="mt-8 text-xs text-slate-500">
+        <p className="mt-10 border-t border-charcoal/60 pt-6 text-xs text-slate-500">
           © {new Date().getFullYear()} VO2 Max Calculator. Information on this site is for educational purposes and is not medical advice. Consult a physician before beginning an exercise program.
         </p>
       </div>

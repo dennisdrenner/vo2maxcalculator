@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -43,7 +44,7 @@ const FAQS: FaqItem[] = [
 
 export default function LongevityPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -59,20 +60,14 @@ export default function LongevityPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <div className="mb-8 overflow-hidden rounded-2xl">
-        <img
-          src="https://calculatorsites.b-cdn.net/vo2max/hero-longevity.jpg"
-          alt="Older adult jogging on a wooded park path in warm afternoon light"
-          width={800}
-          height={450}
-          loading="eager"
-          className="h-auto w-full"
-        />
-      </div>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-longevity.jpg"
+        label="Longevity"
+        title="VO2 Max and Longevity"
+        subtitle="Each 1-MET improvement is associated with 13–15% lower all-cause mortality. The evidence in plain English."
+      />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        VO2 Max and Longevity
-      </h1>
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         <strong>Higher VO2 max predicts longer life.</strong> Across large cohort studies, each
         1-MET (3.5 ml/kg/min) gain in cardiorespiratory fitness is associated with a{' '}
@@ -281,5 +276,6 @@ export default function LongevityPage() {
 
       <RelatedLinks pageType="improve" />
     </article>
+      </>
   );
 }

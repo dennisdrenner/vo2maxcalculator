@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { METHODS, methodsByCategory } from '@/lib/methods';
 
 type Category = 'run' | 'walk' | 'cycle' | 'step' | 'shuttle' | 'treadmill' | 'non-exercise';
@@ -45,7 +46,7 @@ export default function MethodsHubPage() {
   ];
 
   return (
-    <article className="mx-auto max-w-5xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -59,9 +60,14 @@ export default function MethodsHubPage() {
         datePublished="2026-04-13"
       />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        All 17 VO2 Max Test Methods
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-methods.jpg"
+        label="Methods"
+        title="All 17 VO2 Max Test Methods"
+        subtitle="Every validated field test we support, grouped by category — running, walking, cycling, step, shuttle, treadmill, and no-exercise estimators."
+      />
+
+      <article className="mx-auto max-w-5xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         Every field test we support, grouped by category. For most trained runners, the Cooper
         12-minute run or the 1.5-mile run are the most accurate. For non-runners, the Rockport
@@ -117,7 +123,7 @@ export default function MethodsHubPage() {
                   <Link
                     key={m.slug}
                     href={`/methods/${m.slug}/`}
-                    className="block rounded-xl border border-slate-200 bg-white p-5 hover:border-teal-500"
+                    className="block rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
                   >
                     <div className="flex items-start justify-between">
                       <h3 className="font-bold text-slate-900">{m.displayName}</h3>
@@ -188,5 +194,6 @@ export default function MethodsHubPage() {
 
       <RelatedLinks pageType="home" />
     </article>
+      </>
   );
 }

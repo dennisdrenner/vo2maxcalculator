@@ -4,6 +4,7 @@ import { PercentileTool } from '@/components/PercentileTool';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -34,7 +35,7 @@ const FAQS: FaqItem[] = [
 
 export default function PercentileCalculatorPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -49,12 +50,17 @@ export default function PercentileCalculatorPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        VO2 Max Percentile Calculator
-      </h1>
-      <p className="mt-4 text-lg text-slate-700">
-        Enter your VO2 max, age, and sex below. The tool returns your exact percentile rank and
-        ACSM fitness category, interpolated from the Cooper Institute percentile breakpoints.
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-percentile.jpg"
+        label="Tool"
+        title="VO2 Max Percentile Calculator"
+        subtitle="Enter your VO2 max, age, and sex to get your exact percentile rank and ACSM fitness category."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
+      <p className="text-lg text-slate-700">
+        The tool returns your exact percentile rank and ACSM fitness category, interpolated from
+        the Cooper Institute percentile breakpoints.
       </p>
       <p className="mt-2 text-sm text-slate-600">
         Don't know your VO2 max yet?{' '}
@@ -115,6 +121,7 @@ export default function PercentileCalculatorPage() {
       </section>
 
       <RelatedLinks pageType="percentile" />
-    </article>
+      </article>
+    </>
   );
 }

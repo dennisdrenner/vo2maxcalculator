@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -43,7 +44,7 @@ const FAQS: FaqItem[] = [
 
 export default function PolarizedPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -59,9 +60,14 @@ export default function PolarizedPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Polarized Training (80/20)
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-improve.jpg"
+        label="Training"
+        title="Polarized Training (80/20)"
+        subtitle="How elite endurance athletes actually structure their week — ~80% easy, ~20% hard, almost no moderate."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         <strong>Polarized training</strong> places roughly <strong>80% of total training volume
         at low intensity</strong> (below the first lactate threshold, approximately zones 1–2)
@@ -231,5 +237,6 @@ export default function PolarizedPage() {
 
       <RelatedLinks pageType="improve" />
     </article>
+      </>
   );
 }

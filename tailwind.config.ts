@@ -15,9 +15,14 @@ const config: Config = {
           fg: '#064e3b',
           soft: '#ccfbf1',
         },
+        charcoal: {
+          DEFAULT: '#2d3748',
+          mid: '#4a5568',
+          deep: '#1a202c',
+        },
       },
       fontFamily: {
-        sans: ['system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+        sans: ['var(--font-body)', 'Inter', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
         nav: ['var(--font-nav)', 'Oswald', 'system-ui', 'sans-serif'],
       },
     },

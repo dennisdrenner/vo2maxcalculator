@@ -17,7 +17,7 @@ export function AffiliateCard({ product }: AffiliateCardProps) {
       target="_blank"
       rel="sponsored noopener noreferrer"
       onClick={() => analytics.affiliateClick(product)}
-      className="my-3 flex items-center gap-4 rounded-lg border border-slate-200 bg-white p-4 transition hover:border-brand hover:shadow-sm"
+      className="my-3 flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-4 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
     >
       {item.image ? (
         <img

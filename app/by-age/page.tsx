@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { AGE_BRACKETS, ACSM_NORMS, bracketLabel, bracketToDecadeSlug } from '@/lib/norms';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -15,7 +16,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function ByAgeHubPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -29,10 +30,15 @@ export default function ByAgeHubPage() {
         datePublished="2026-04-13"
       />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        VO2 Max by Age
-      </h1>
-      <p className="mt-4 text-lg text-slate-700">
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-by-age.jpg"
+        label="Norms by Age"
+        title="VO2 Max by Age"
+        subtitle="Age-decade percentile tables for men and women, sourced from The Cooper Institute."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
+      <p className="text-lg text-slate-700">
         VO2 max declines about 10% per decade after 30 in untrained adults, roughly 5% per decade
         in trained adults. To compare your score meaningfully, use age- and sex-adjusted norms.
         Pick your decade below for the full percentile breakdown, category thresholds, and
@@ -48,7 +54,7 @@ export default function ByAgeHubPage() {
             <Link
               key={bracket}
               href={`/by-age/${slug}/`}
-              className="block rounded-xl border border-slate-200 bg-white p-5 transition hover:border-teal-500 hover:shadow-sm"
+              className="block rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
             >
               <div className="flex items-baseline justify-between">
                 <h2 className="text-xl font-bold text-slate-900">VO2 max in your {slug}</h2>
@@ -103,6 +109,7 @@ export default function ByAgeHubPage() {
       </section>
 
       <RelatedLinks pageType="by-age-hub" />
-    </article>
+      </article>
+    </>
   );
 }

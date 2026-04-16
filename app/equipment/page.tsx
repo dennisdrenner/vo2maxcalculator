@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -54,7 +55,7 @@ const FAQS: FaqItem[] = [
 
 export default function EquipmentPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -69,9 +70,14 @@ export default function EquipmentPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Equipment for VO2 Max Testing
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-equipment.jpg"
+        label="Gear"
+        title="Equipment for VO2 Max Testing"
+        subtitle="The chest straps, running watches, and step platforms that actually matter for accurate field testing."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         Most VO2 max field tests need two things: a reliable <strong>heart rate monitor</strong>{' '}
         and either a <strong>measured running course</strong> or a{' '}
@@ -264,5 +270,6 @@ export default function EquipmentPage() {
 
       <RelatedLinks pageType="home" />
     </article>
+      </>
   );
 }

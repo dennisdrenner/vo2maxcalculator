@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AdSlot } from '@/components/AdSlot';
+import { Hero } from '@/components/Hero';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -43,7 +44,7 @@ const FAQS: FaqItem[] = [
 
 export default function ImproveHubPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -58,21 +59,15 @@ export default function ImproveHubPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <div className="mb-8 overflow-hidden rounded-2xl">
-        <img
-          src="https://calculatorsites.b-cdn.net/vo2max/hero-improve.jpg"
-          alt="Athletic person walking briskly uphill on a forest trail at sunrise"
-          width={800}
-          height={450}
-          loading="eager"
-          className="h-auto w-full"
-        />
-      </div>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-improve.jpg"
+        label="Training Guide"
+        title="How to Improve VO2 Max"
+        subtitle="Untrained adults typically gain 15–20% in 8–12 weeks. Here's the evidence-based protocol that actually works."
+      />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        How to Improve VO2 Max
-      </h1>
-      <p className="mt-4 text-lg text-slate-700">
+      <article className="mx-auto max-w-4xl px-4 py-10">
+      <p className="text-lg text-slate-700">
         VO2 max is highly trainable. Untrained adults typically gain <strong>15–20%</strong> in
         8–12 weeks of structured training; already-fit recreational athletes gain{' '}
         <strong>3–10%</strong>. The fastest gains come from combining low-intensity base training
@@ -174,13 +169,14 @@ export default function ImproveHubPage() {
       </section>
 
       <RelatedLinks pageType="improve" />
-    </article>
+      </article>
+    </>
   );
 }
 
 function ArticleCard({ href, title, hook }: { href: string; title: string; hook: string }) {
   return (
-    <Link href={href} className="block rounded-xl border border-slate-200 bg-white p-5 hover:border-teal-500">
+    <Link href={href} className="block rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg">
       <h2 className="font-bold text-slate-900">{title}</h2>
       <p className="mt-2 text-sm text-slate-600">{hook}</p>
       <span className="mt-3 inline-block text-sm font-semibold text-teal-700">Read →</span>

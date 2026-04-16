@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -38,7 +39,7 @@ const FAQS: FaqItem[] = [
 
 export default function WearablesHubPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -53,9 +54,14 @@ export default function WearablesHubPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Wearable VO2 Max Accuracy
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-wearables.jpg"
+        label="Wearables"
+        title="Wearable VO2 Max Accuracy"
+        subtitle="How accurate are Garmin, Apple Watch, and Whoop VO2 max estimates? Validation data from peer-reviewed studies."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         Most modern fitness wearables estimate VO2 max from heart-rate response to running pace
         or cycling power. Accuracy varies by device and platform, typically within 3–8 ml/kg/min
@@ -150,13 +156,14 @@ export default function WearablesHubPage() {
       </section>
 
       <RelatedLinks pageType="wearable" />
-    </article>
+      </article>
+    </>
   );
 }
 
 function WearableCard({ href, title, hook }: { href: string; title: string; hook: string }) {
   return (
-    <Link href={href} className="block rounded-xl border border-slate-200 bg-white p-5 hover:border-teal-500">
+    <Link href={href} className="block rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg">
       <h2 className="font-bold text-slate-900">{title}</h2>
       <p className="mt-2 text-sm text-slate-600">{hook}</p>
       <span className="mt-3 inline-block text-sm font-semibold text-teal-700">Read →</span>

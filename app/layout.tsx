@@ -1,7 +1,14 @@
 import type { Metadata } from 'next';
-import { Oswald } from 'next/font/google';
+import { Inter, Oswald } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/Header';
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-body',
+  display: 'swap',
+});
 
 const oswald = Oswald({
   subsets: ['latin'],
@@ -35,7 +42,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={oswald.variable}>
+    <html lang="en" className={`${inter.variable} ${oswald.variable}`}>
       <head>
         {ADSENSE_ID ? (
           <script

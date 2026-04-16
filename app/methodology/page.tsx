@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -14,7 +15,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function MethodologyPage() {
   return (
-    <article className="mx-auto max-w-3xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -28,21 +29,16 @@ export default function MethodologyPage() {
         datePublished="2026-04-13"
       />
 
-      <div className="mb-8 overflow-hidden rounded-2xl">
-        <img
-          src="https://calculatorsites.b-cdn.net/vo2max/hero-methodology.jpg"
-          alt="Flat-lay of a running log, heart-rate monitor, sports watch, and coffee cup"
-          width={800}
-          height={450}
-          loading="eager"
-          className="h-auto w-full"
-        />
-      </div>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-methodology.jpg"
+        label="Behind the Numbers"
+        title="Methodology"
+        subtitle="How every number on this site is computed — from raw inputs to percentile and category."
+        size="sm"
+      />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Methodology
-      </h1>
-      <p className="mt-4 text-lg text-slate-700">
+      <article className="mx-auto max-w-3xl px-4 py-10">
+      <p className="text-lg text-slate-700">
         This page documents exactly how every number on this site is computed, from the raw
         input in the calculator to the final percentile rank and fitness category. We prioritize
         reproducibility: if you follow the formulas and data below, you should get the same
@@ -197,6 +193,7 @@ export default function MethodologyPage() {
       </section>
 
       <RelatedLinks pageType="home" />
-    </article>
+      </article>
+    </>
   );
 }

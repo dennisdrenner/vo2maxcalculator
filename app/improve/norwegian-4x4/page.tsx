@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AdSlot } from '@/components/AdSlot';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -43,7 +44,7 @@ const FAQS: FaqItem[] = [
 
 export default function Norwegian4x4Page() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -59,9 +60,14 @@ export default function Norwegian4x4Page() {
       />
       <FaqSchema items={FAQS} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Norwegian 4x4 Intervals
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-improve.jpg"
+        label="Training"
+        title="Norwegian 4x4 Intervals"
+        subtitle="The most thoroughly validated VO2 max protocol — 4 × 4-min intervals at 85–95% HRmax."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         The <strong>Norwegian 4x4</strong> is a high-intensity interval protocol: four 4-minute
         intervals at <strong>85–95% of maximum heart rate</strong>, each followed by 3 minutes of
@@ -280,5 +286,6 @@ export default function Norwegian4x4Page() {
 
       <RelatedLinks pageType="improve" />
     </article>
+      </>
   );
 }
