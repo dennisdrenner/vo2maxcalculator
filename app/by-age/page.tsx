@@ -72,6 +72,15 @@ export default function ByAgeHubPage() {
         })}
       </div>
 
+      <img
+        src="https://calculatorsites.b-cdn.net/vo2max/hero-by-age.jpg"
+        alt="Athletes of different ages warming up together on a track at golden hour."
+        width={800}
+        height={450}
+        loading="lazy"
+        className="mt-10 w-full rounded-2xl"
+      />
+
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-slate-900">Split by sex</h2>
         <p className="mt-3 text-slate-700">

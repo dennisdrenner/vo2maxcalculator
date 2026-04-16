@@ -103,6 +103,15 @@ export default function ImproveHubPage() {
 
       <AdSlot slot="improve-hub" className="my-10" />
 
+      <img
+        src="https://calculatorsites.b-cdn.net/vo2max/inline-intervals.jpg"
+        alt="Runner mid-stride on a track at dusk during high-intensity intervals."
+        width={800}
+        height={450}
+        loading="lazy"
+        className="mt-10 w-full rounded-2xl"
+      />
+
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-slate-900">The training principles that actually work</h2>
         <p className="mt-3 text-slate-700">
@@ -129,6 +138,15 @@ export default function ImproveHubPage() {
           </li>
         </ol>
       </section>
+
+      <img
+        src="https://calculatorsites.b-cdn.net/vo2max/inline-zone2.jpg"
+        alt="Runner on a forest trail at an easy, steady pace during a zone 2 training session."
+        width={800}
+        height={450}
+        loading="lazy"
+        className="mt-10 w-full rounded-2xl"
+      />
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-slate-900">What doesn't work (or barely works)</h2>

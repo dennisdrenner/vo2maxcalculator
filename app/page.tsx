@@ -81,6 +81,14 @@ export default function HomePage() {
       <section className="mx-auto max-w-4xl px-4 py-10">
         <SectionLabel>The Basics</SectionLabel>
         <h2 className="mt-2 text-2xl font-bold text-slate-900">What is VO2 max?</h2>
+        <img
+          src="https://calculatorsites.b-cdn.net/vo2max/inline-physiology.jpg"
+          alt="Illustration of oxygen flowing from lungs through the heart and bloodstream to working muscles."
+          width={800}
+          height={450}
+          loading="lazy"
+          className="mt-4 w-full rounded-2xl md:float-right md:ml-6 md:mt-2 md:mb-2 md:w-80"
+        />
         <p className="mt-4 text-slate-700">
           VO2 max — short for maximal oxygen uptake — is the highest rate at which your body can
           consume and use oxygen during exercise. It is expressed in milliliters of oxygen per

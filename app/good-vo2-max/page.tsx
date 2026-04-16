@@ -75,6 +75,15 @@ export default function GoodVo2HubPage() {
         .
       </p>
 
+      <img
+        src="https://calculatorsites.b-cdn.net/vo2max/hero-longevity.jpg"
+        alt="Runner cresting a hill at sunrise — higher VO2 max is linked to better longevity outcomes."
+        width={800}
+        height={450}
+        loading="lazy"
+        className="mt-8 w-full rounded-2xl"
+      />
+
       <section className="mt-10">
         <h2 className="text-2xl font-bold text-slate-900">Drill down</h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">

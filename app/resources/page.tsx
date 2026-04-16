@@ -292,6 +292,30 @@ const ORGS: Resource[] = [
   },
 ];
 
+function ExpertAvatar({ name, index }: { name: string; index: number }) {
+  const initials = name
+    .replace(/,.*$/, '')
+    .split(' ')
+    .slice(0, 2)
+    .map((p) => p[0])
+    .join('');
+  const gradients = [
+    'from-teal-600 to-teal-800',
+    'from-slate-700 to-slate-900',
+    'from-emerald-600 to-teal-800',
+    'from-charcoal to-charcoal-deep',
+  ];
+  const g = gradients[index % gradients.length];
+  return (
+    <div
+      className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-br ${g} font-nav text-xl font-bold uppercase tracking-wide text-white`}
+      aria-hidden
+    >
+      {initials}
+    </div>
+  );
+}
+
 function ExternalList({ items }: { items: Resource[] }) {
   return (
     <ul className="mt-4 space-y-5">
@@ -362,28 +386,31 @@ export default function ResourcesPage() {
           and longevity is worth following.
         </p>
         <div className="mt-6 grid gap-6 sm:grid-cols-2">
-          {EXPERTS.map((e) => (
+          {EXPERTS.map((e, i) => (
             <div
               key={e.name}
-              className="rounded-xl border border-slate-200 bg-white p-5"
+              className="flex gap-4 rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
             >
-              <h3 className="font-bold text-slate-900">{e.name}</h3>
-              <p className="text-xs uppercase tracking-wide text-slate-500">{e.role}</p>
-              <p className="mt-2 text-sm text-slate-700">{e.blurb}</p>
-              <ul className="mt-3 flex flex-wrap gap-x-3 gap-y-1 text-sm">
-                {e.links.map((l) => (
-                  <li key={l.href}>
-                    <a
-                      href={l.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-teal-700 hover:underline"
-                    >
-                      {l.label} ↗
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <ExpertAvatar name={e.name} index={i} />
+              <div className="min-w-0 flex-1">
+                <h3 className="font-bold text-slate-900">{e.name}</h3>
+                <p className="text-xs uppercase tracking-wide text-slate-500">{e.role}</p>
+                <p className="mt-2 text-sm text-slate-700">{e.blurb}</p>
+                <ul className="mt-3 flex flex-wrap gap-x-3 gap-y-1 text-sm">
+                  {e.links.map((l) => (
+                    <li key={l.href}>
+                      <a
+                        href={l.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-teal-700 hover:underline"
+                      >
+                        {l.label} ↗
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           ))}
         </div>

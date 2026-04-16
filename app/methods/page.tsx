@@ -111,6 +111,15 @@ export default function MethodsHubPage() {
         </table>
       </div>
 
+      <img
+        src="https://calculatorsites.b-cdn.net/vo2max/hero-methods.jpg"
+        alt="Flat-lay of fitness test equipment: stopwatch, heart rate monitor, sport watch, and measuring tape."
+        width={800}
+        height={450}
+        loading="lazy"
+        className="mt-10 w-full rounded-2xl"
+      />
+
       <div className="mt-10 space-y-10">
         {categoryOrder.map((cat) => {
           const items = grouped[cat];
