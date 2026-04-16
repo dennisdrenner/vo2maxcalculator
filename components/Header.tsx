@@ -13,7 +13,11 @@ const NAV = [
   { href: '/methods/', label: 'Methods' },
   { href: '/improve/', label: 'Improve' },
   { href: '/equipment/', label: 'Equipment' },
+  { href: '/resources/', label: 'Resources' },
 ];
+
+const NAV_LINK_BASE =
+  'font-nav uppercase tracking-wider text-sm transition-colors duration-150';
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -42,14 +46,26 @@ export function Header() {
 
         {/* Desktop nav */}
         <nav className="hidden md:block" aria-label="Primary">
-          <ul className="flex gap-5 text-sm">
-            {NAV.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href} className="text-slate-700 hover:text-brand">
-                  {item.label}
-                </Link>
-              </li>
-            ))}
+          <ul className="flex items-center gap-1">
+            {NAV.map((item) => {
+              const active =
+                pathname === item.href ||
+                (item.href !== '/' && pathname.startsWith(item.href));
+              return (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className={`${NAV_LINK_BASE} block rounded-md px-3 py-2 ${
+                      active
+                        ? 'bg-brand-soft text-brand-fg'
+                        : 'text-slate-700 hover:bg-brand-soft hover:text-brand-fg'
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
 
@@ -99,8 +115,8 @@ export function Header() {
                   <li key={item.href}>
                     <Link
                       href={item.href}
-                      className={`block border-b border-slate-100 py-3 text-base ${
-                        active ? 'font-semibold text-brand' : 'text-slate-700 hover:text-brand'
+                      className={`${NAV_LINK_BASE} block border-b border-slate-100 px-1 py-3 text-base active:bg-brand-soft ${
+                        active ? 'text-brand-fg' : 'text-slate-700 hover:text-brand-fg'
                       }`}
                       onClick={() => setOpen(false)}
                     >

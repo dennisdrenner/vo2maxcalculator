@@ -33,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ['/formula/', 0.7],
     ['/methodology/', 0.6],
     ['/equipment/', 0.75],
+    ['/resources/', 0.65],
     ['/about/', 0.5],
     ['/privacy/', 0.3],
     ['/terms/', 0.3],

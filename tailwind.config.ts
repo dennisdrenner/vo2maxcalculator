@@ -18,6 +18,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+        nav: ['var(--font-nav)', 'Oswald', 'system-ui', 'sans-serif'],
       },
     },
   },

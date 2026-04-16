@@ -1,6 +1,14 @@
 import type { Metadata } from 'next';
+import { Oswald } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/Header';
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  weight: ['500', '600'],
+  variable: '--font-nav',
+  display: 'swap',
+});
 import { Footer } from '@/components/Footer';
 import { OrganizationSchema } from '@/components/Schema';
 
@@ -27,7 +35,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={oswald.variable}>
       <head>
         {ADSENSE_ID ? (
           <script

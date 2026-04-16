@@ -127,11 +127,28 @@ export default async function MethodPage({ params }: { params: Promise<Params> }
 
       <section className="mt-10 rounded-xl border border-slate-200 bg-white p-5">
         <h2 className="text-lg font-semibold text-slate-900">Citation</h2>
-        <p className="mt-2 text-sm text-slate-700">{method.citation}</p>
+        <p className="mt-2 text-sm text-slate-700">
+          {method.citationUrl ? (
+            <a
+              href={method.citationUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-700 hover:underline"
+            >
+              {method.citation} ↗
+            </a>
+          ) : (
+            method.citation
+          )}
+        </p>
         <p className="mt-2 text-xs text-slate-500">
           Norms referenced on this page are from The Cooper Institute — see{' '}
           <Link href="/methodology/" className="text-teal-700 underline">
             methodology
+          </Link>
+          . For more studies and expert resources, see our{' '}
+          <Link href="/resources/" className="text-teal-700 underline">
+            resources page
           </Link>
           .
         </p>

@@ -60,6 +60,8 @@ export interface MethodMeta {
   accuracy: 'high' | 'moderate' | 'low';
   description: string;
   citation: string;
+  /** Optional PubMed or DOI URL for the primary source. Rendered as link when present. */
+  citationUrl?: string;
   inputs: MethodInput[];
   /**
    * Called with a normalized input object (units converted to formula-expected form).
@@ -83,6 +85,7 @@ export const METHODS: MethodMeta[] = [
       'Run as far as possible in 12 minutes. VO2 max is estimated from total distance covered.',
     citation:
       'Cooper KH. A means of assessing maximal oxygen intake. JAMA. 1968;203(3):201-204.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/5694044/',
     inputs: [
       {
         key: 'distance',
@@ -109,6 +112,7 @@ export const METHODS: MethodMeta[] = [
       'Run 1.5 miles as fast as possible. VO2 max is estimated from total time.',
     citation:
       'ACSM Guidelines for Exercise Testing and Prescription, 11th ed. 2021. Derived from George et al. 1993.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/8455458/',
     inputs: [
       { key: 'timeMm', label: 'Minutes', type: 'integer', min: 5, max: 30 },
       { key: 'timeSs', label: 'Seconds', type: 'integer', min: 0, max: 59 },
@@ -130,6 +134,7 @@ export const METHODS: MethodMeta[] = [
       'Run 1 mile as fast as possible. Requires final heart rate. Best for fit college-age adults.',
     citation:
       'George JD, Vehrs PR, Allsen PE, et al. Med Sci Sports Exerc. 1993;25(3):401-406.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/8455458/',
     inputs: [
       { key: 'sex', label: 'Sex', type: 'sex' },
       { key: 'weight', label: 'Weight', type: 'weight' },
@@ -166,6 +171,7 @@ export const METHODS: MethodMeta[] = [
     description:
       'Metric equivalent of the 1.5-mile run (2.4 km ≈ 1.5 mi). Same formula applies.',
     citation: 'Derived from ACSM 11th ed. / George et al. 1993.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/8455458/',
     inputs: [
       { key: 'timeMm', label: 'Minutes', type: 'integer', min: 5, max: 30 },
       { key: 'timeSs', label: 'Seconds', type: 'integer', min: 0, max: 59 },
@@ -187,6 +193,7 @@ export const METHODS: MethodMeta[] = [
       'Walk 1 mile as briskly as possible. Best option for lower fitness levels and older adults.',
     citation:
       'Kline GM, Porcari JP, Hintermeister R, et al. Med Sci Sports Exerc. 1987;19(3):253-259.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/3600239/',
     inputs: [
       { key: 'sex', label: 'Sex', type: 'sex' },
       { key: 'weight', label: 'Weight', type: 'weight' },
@@ -230,6 +237,7 @@ export const METHODS: MethodMeta[] = [
     description:
       'Walk 1.5 miles as briskly as possible. Longer variant of Rockport; less validated.',
     citation: 'Modified Rockport (Kline et al. 1987).',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/3600239/',
     inputs: [
       { key: 'sex', label: 'Sex', type: 'sex' },
       { key: 'weight', label: 'Weight', type: 'weight' },
@@ -274,6 +282,7 @@ export const METHODS: MethodMeta[] = [
       'Multi-stage 20m shuttle run synchronized to audio beeps. Widely used for team sport athletes.',
     citation:
       'Flouris AD, Metsios GS, Koutedakis Y. Br J Sports Med. 2005;39(3):166-170.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/15728696/',
     inputs: [
       { key: 'level', label: 'Final level reached', type: 'integer', min: 1, max: 21 },
       { key: 'shuttle', label: 'Final shuttle within level', type: 'integer', min: 1, max: 16 },
@@ -296,6 +305,7 @@ export const METHODS: MethodMeta[] = [
       '20m shuttles with 10s recovery. Designed for intermittent-sport athletes (soccer, basketball).',
     citation:
       'Bangsbo J, Iaia FM, Krustrup P. Sports Med. 2008;38(1):37-51.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/18081366/',
     inputs: [
       {
         key: 'distance',
@@ -404,6 +414,7 @@ export const METHODS: MethodMeta[] = [
       'Cycle at steady workload for 6 minutes. Predicts VO2 max from steady-state HR, workload, age, and sex.',
     citation:
       'Åstrand PO, Ryhming I. J Appl Physiol. 1954;7(2):218-221.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/13211501/',
     inputs: [
       { key: 'sex', label: 'Sex', type: 'sex' },
       { key: 'weight', label: 'Weight', type: 'weight' },
@@ -494,6 +505,7 @@ export const METHODS: MethodMeta[] = [
       'Uth-Sørensen-Overgaard-Pedersen method. Estimates VO2 max from the ratio of HRmax to HRrest.',
     citation:
       'Uth N, Sørensen H, Overgaard K, Pedersen PK. Eur J Appl Physiol. 2004;91(1):111-115.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/14624296/',
     inputs: [
       {
         key: 'hrRest',
@@ -534,6 +546,7 @@ export const METHODS: MethodMeta[] = [
       'Jackson et al. 1990. Estimates VO2 max from sex, age, BMI, and self-reported activity level.',
     citation:
       'Jackson AS, Blair SN, Mahar MT, et al. Med Sci Sports Exerc. 1990;22(6):863-870.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/2287267/',
     inputs: [
       { key: 'sex', label: 'Sex', type: 'sex' },
       { key: 'weight', label: 'Weight', type: 'weight' },
@@ -581,6 +594,7 @@ export const METHODS: MethodMeta[] = [
       'Standard clinical stress test: treadmill speed and grade increase every 3 minutes until exhaustion.',
     citation:
       'Bruce RA, Kusumi F, Hosmer D. Am Heart J. 1973;85(4):546-562. Women: Pollock ML et al. 1982.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/4632004/',
     inputs: [
       { key: 'sex', label: 'Sex', type: 'sex' },
       { key: 'timeMm', label: 'Minutes completed', type: 'integer', min: 3, max: 30 },
@@ -605,6 +619,7 @@ export const METHODS: MethodMeta[] = [
       'Walk as far as possible in 6 minutes. Common clinical test; distance predicts VO2 max.',
     citation:
       'Burr JF, Bredin SS, Faktor MD, Warburton DE. Phys Sportsmed. 2011;39(2):133-139.',
+    citationUrl: 'https://pubmed.ncbi.nlm.nih.gov/21673490/',
     inputs: [
       {
         key: 'distance',
