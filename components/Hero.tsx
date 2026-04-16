@@ -37,7 +37,7 @@ export function Hero({
 }: HeroProps) {
   return (
     <section
-      className={`relative mx-auto my-6 max-w-6xl overflow-hidden rounded-2xl bg-charcoal ${className}`}
+      className={`relative overflow-hidden bg-charcoal ${className}`}
     >
       {bgImage ? (
         <div
@@ -50,7 +50,7 @@ export function Hero({
         className="absolute inset-0 bg-gradient-to-r from-charcoal-deep/95 via-charcoal/80 to-charcoal/40"
         aria-hidden
       />
-      <div className={`relative px-6 sm:px-12 ${SIZE_PADDING[size]}`}>
+      <div className={`relative mx-auto max-w-6xl px-6 sm:px-12 ${SIZE_PADDING[size]}`}>
         {label ? (
           <div className="mb-3 font-nav text-xs font-medium uppercase tracking-[0.2em] text-brand-soft">
             {label}
