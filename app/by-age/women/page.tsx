@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { NormsTable } from '@/components/NormsTable';
 import RelatedLinks from '@/components/RelatedLinks';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { AGE_BRACKETS, ACSM_NORMS, bracketLabel, bracketToDecadeSlug } from '@/lib/norms';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -18,7 +19,7 @@ export default function ByAgeWomenPage() {
   const women = AGE_BRACKETS.map((b) => ACSM_NORMS.find((n) => n.sex === 'female' && n.ageBracket === b)!);
 
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -33,9 +34,14 @@ export default function ByAgeWomenPage() {
         datePublished="2026-04-13"
       />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        VO2 Max Norms for Women by Age
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-by-age.jpg"
+        label="Norms by Age"
+        title="VO2 Max Norms for Women by Age"
+        subtitle="Cooper Institute percentile tables for women, ages 20–79."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         This is the complete female VO2 max percentile table from The Cooper Institute, ages
         20–79. All values are in ml/kg/min, measured via treadmill maximal test with open-circuit
@@ -89,5 +95,6 @@ export default function ByAgeWomenPage() {
 
       <RelatedLinks pageType="by-age-hub" />
     </article>
+      </>
   );
 }

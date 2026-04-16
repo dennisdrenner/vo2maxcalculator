@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -38,7 +39,7 @@ const FAQS: FaqItem[] = [
 
 export default function WhoopPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -54,9 +55,14 @@ export default function WhoopPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Whoop VO2 Max
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-wearables.jpg"
+        label="Wearables"
+        title="Whoop VO2 Max"
+        subtitle="How Whoop estimates VO2 max from workout HR and resting HR — and where the algorithm falls short."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         Whoop's <strong>Aerobic Fitness</strong> metric estimates VO2 max from a combination of
         workout heart-rate patterns, resting heart rate trends, and demographic inputs. In
@@ -225,5 +231,6 @@ export default function WhoopPage() {
 
       <RelatedLinks pageType="wearable" />
     </article>
+      </>
   );
 }

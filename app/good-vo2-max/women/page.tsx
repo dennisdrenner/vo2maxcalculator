@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { ACSM_NORMS, AGE_BRACKETS, bracketLabel, bracketToDecadeSlug } from '@/lib/norms';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -17,7 +18,7 @@ export default function GoodVo2WomenPage() {
   const women = AGE_BRACKETS.map((b) => ACSM_NORMS.find((n) => n.sex === 'female' && n.ageBracket === b)!);
 
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -32,9 +33,14 @@ export default function GoodVo2WomenPage() {
         datePublished="2026-04-13"
       />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        What Is a Good VO2 Max for Women?
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-good-vo2.jpg"
+        label="Interpretation"
+        title="What Is a Good VO2 Max for Women?"
+        subtitle="Age-adjusted thresholds for Good, Excellent, and Superior VO2 max scores in women."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         For women, a "Good" VO2 max means being in the 60th–79th percentile for your age. In your
         20s that's roughly 40–45 ml/kg/min; by your 50s it drops to 21–28. Always compare your
@@ -118,5 +124,6 @@ export default function GoodVo2WomenPage() {
 
       <RelatedLinks pageType="good-vo2-hub" />
     </article>
+      </>
   );
 }

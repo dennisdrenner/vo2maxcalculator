@@ -132,10 +132,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-4 py-10">
-        <SectionLabel>Methods</SectionLabel>
-        <h2 className="mt-2 text-2xl font-bold text-slate-900">The 17 test methods</h2>
-        <p className="mt-3 text-slate-700">
+      <section className="bg-charcoal py-14 text-white">
+        <div className="mx-auto max-w-4xl px-4">
+        <SectionLabel className="text-brand-soft">Methods</SectionLabel>
+        <h2 className="mt-2 text-2xl font-bold text-white">The 17 test methods</h2>
+        <p className="mt-3 text-slate-300">
           Each test uses a peer-reviewed regression equation validated against direct gas analysis.
           Running tests are the most accurate for runners; walking and cycling tests are preferred
           when running isn't practical.
@@ -190,9 +191,10 @@ export default function HomePage() {
           />
         </div>
         <div className="mt-6">
-          <Link href="/methods/" className="text-sm font-semibold text-teal-700 underline">
+          <Link href="/methods/" className="text-sm font-semibold text-brand-soft underline">
             See all methods with accuracy, equipment, and time →
           </Link>
+        </div>
         </div>
       </section>
 
@@ -220,12 +222,12 @@ export default function HomePage() {
 
 function MethodGroup({ title, items }: { title: string; items: Array<[string, string]> }) {
   return (
-    <div className="rounded-xl border border-slate-200 bg-white p-5">
-      <h3 className="font-semibold text-slate-900">{title}</h3>
+    <div className="rounded-2xl border border-charcoal-mid bg-charcoal-deep p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg">
+      <h3 className="font-semibold text-white">{title}</h3>
       <ul className="mt-3 space-y-1.5 text-sm">
         {items.map(([slug, label]) => (
           <li key={slug}>
-            <Link href={`/methods/${slug}/`} className="text-teal-700 hover:underline">
+            <Link href={`/methods/${slug}/`} className="text-slate-300 hover:text-brand-soft">
               {label}
             </Link>
           </li>

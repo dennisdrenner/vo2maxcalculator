@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -43,7 +44,7 @@ const FAQS: FaqItem[] = [
 
 export default function AppleWatchPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -59,9 +60,14 @@ export default function AppleWatchPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Apple Watch VO2 Max (Cardio Fitness)
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-wearables.jpg"
+        label="Wearables"
+        title="Apple Watch VO2 Max (Cardio Fitness)"
+        subtitle="How Apple's Cardio Fitness metric works and how it compares to lab-measured VO2 max."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         Apple Watch estimates VO2 max via its <strong>Cardio Fitness</strong> metric, computed
         from heart rate and GPS data during outdoor walks and runs. In published validation
@@ -201,5 +207,6 @@ export default function AppleWatchPage() {
 
       <RelatedLinks pageType="wearable" />
     </article>
+      </>
   );
 }

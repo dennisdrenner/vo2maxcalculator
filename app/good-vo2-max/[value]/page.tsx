@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AdSlot } from '@/components/AdSlot';
+import { Hero } from '@/components/Hero';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import {
   AGE_BRACKETS,
@@ -85,7 +86,7 @@ export default async function GoodVo2ValuePage({ params }: { params: Promise<Par
   const neighbors = [v - 1, v + 1].filter((n) => n >= MIN_VALUE && n <= MAX_VALUE);
 
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -101,10 +102,15 @@ export default async function GoodVo2ValuePage({ params }: { params: Promise<Par
       />
       <FaqSchema items={faqs} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Is {v} a Good VO2 Max?
-      </h1>
-      <p className="mt-4 text-lg text-slate-700">
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-good-vo2.jpg"
+        label={`${v} ml/kg/min`}
+        title={`Is ${v} a Good VO2 Max?`}
+        subtitle={`How a VO2 max of ${v} ranks by age and sex — full breakdown across every Cooper Institute bracket.`}
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
+      <p className="text-lg text-slate-700">
         A VO2 max of <strong>{v} ml/kg/min</strong> is{' '}
         <strong>"{anchorMale.category}"</strong> for a 35-year-old man ({anchorMale.percentile}th
         percentile) and <strong>"{anchorFemale.category}"</strong> for a 35-year-old woman ({anchorFemale.percentile}th
@@ -241,6 +247,7 @@ export default async function GoodVo2ValuePage({ params }: { params: Promise<Par
       </section>
 
       <RelatedLinks pageType="good-vo2-value" vo2Value={v} />
-    </article>
+      </article>
+    </>
   );
 }

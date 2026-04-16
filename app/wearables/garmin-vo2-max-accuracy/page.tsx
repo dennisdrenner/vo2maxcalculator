@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AffiliateCard } from '@/components/AffiliateCard';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -43,7 +44,7 @@ const FAQS: FaqItem[] = [
 
 export default function GarminAccuracyPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -59,9 +60,14 @@ export default function GarminAccuracyPage() {
       />
       <FaqSchema items={FAQS} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        Garmin VO2 Max Accuracy
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-wearables.jpg"
+        label="Wearables"
+        title="Garmin VO2 Max Accuracy"
+        subtitle="How accurate is Garmin's FirstBeat algorithm vs. lab-measured VO2 max? Validation data and how to improve it."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         Garmin uses the <strong>FirstBeat algorithm</strong> (acquired by Garmin in 2020) to
         estimate VO2 max from heart-rate response to running pace or cycling power during regular
@@ -209,5 +215,6 @@ export default function GarminAccuracyPage() {
 
       <RelatedLinks pageType="wearable" />
     </article>
+      </>
   );
 }

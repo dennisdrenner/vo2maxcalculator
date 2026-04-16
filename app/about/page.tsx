@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -13,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function AboutPage() {
   return (
-    <article className="mx-auto max-w-3xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -27,9 +28,16 @@ export default function AboutPage() {
         datePublished="2026-04-13"
       />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">About</h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-resources.jpg"
+        label="About"
+        title="About"
+        subtitle="Who we are, why we built it, how we make money, and our editorial standards."
+        size="sm"
+      />
 
-      <p className="mt-4 text-lg text-slate-700">
+      <article className="mx-auto max-w-3xl px-4 py-10">
+      <p className="text-lg text-slate-700">
         VO2 Max Calculator is a free, independent reference site for estimating and interpreting
         cardiorespiratory fitness. We built it because most VO2 max calculators on the web
         implement a single formula, use outdated norms, or gate results behind email signups. Our
@@ -137,6 +145,7 @@ export default function AboutPage() {
       </section>
 
       <RelatedLinks pageType="home" />
-    </article>
+      </article>
+    </>
   );
 }

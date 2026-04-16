@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Calculator } from '@/components/Calculator';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AdSlot } from '@/components/AdSlot';
+import { Hero } from '@/components/Hero';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema } from '@/components/Schema';
 import { METHODS, getMethod, type MethodSlug } from '@/lib/methods';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
@@ -47,7 +48,7 @@ export default async function MethodPage({ params }: { params: Promise<Params> }
   const article = METHOD_ARTICLES[slug];
 
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -63,14 +64,18 @@ export default async function MethodPage({ params }: { params: Promise<Params> }
       />
       {article?.faqs?.length ? <FaqSchema items={article.faqs} /> : null}
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        {method.displayName} VO2 Max Calculator
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-methods.jpg"
+        label={`Method · ${method.category}`}
+        title={`${method.displayName} VO2 Max Calculator`}
+        subtitle={method.description}
+      />
 
-      <div className="mt-6">
+      <article className="mx-auto max-w-4xl px-4 py-10">
+      <div>
         {article?.lead ?? (
           <p className="text-lg text-slate-700">
-            {method.description} Enter your inputs below to calculate your VO2 max using the{' '}
+            Enter your inputs below to calculate your VO2 max using the{' '}
             {method.displayName} formula.
           </p>
         )}
@@ -155,6 +160,7 @@ export default async function MethodPage({ params }: { params: Promise<Params> }
       </section>
 
       <RelatedLinks pageType="method" methodSlug={slug} />
-    </article>
+      </article>
+    </>
   );
 }

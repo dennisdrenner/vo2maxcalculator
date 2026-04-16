@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { ACSM_NORMS, AGE_BRACKETS, bracketLabel, bracketToDecadeSlug } from '@/lib/norms';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
@@ -15,7 +16,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function GoodVo2ByAgePage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -30,9 +31,14 @@ export default function GoodVo2ByAgePage() {
         datePublished="2026-04-13"
       />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        What Is a Good VO2 Max by Age?
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-good-vo2.jpg"
+        label="Thresholds"
+        title="What Is a Good VO2 Max by Age?"
+        subtitle="Age- and sex-adjusted thresholds at every decade from 20s through 70s."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         "Good" (60th–79th percentile) and "Excellent" (80th–94th) VO2 max values shift substantially
         across decades. The tables below give the threshold values at each age bracket, for men and
@@ -71,6 +77,7 @@ export default function GoodVo2ByAgePage() {
 
       <RelatedLinks pageType="good-vo2-hub" />
     </article>
+      </>
   );
 }
 

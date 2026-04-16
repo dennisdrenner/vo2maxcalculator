@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedLinks from '@/components/RelatedLinks';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
+import { Hero } from '@/components/Hero';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -155,7 +156,7 @@ const FORMULAS: FormulaEntry[] = [
 
 export default function FormulaPage() {
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -169,9 +170,14 @@ export default function FormulaPage() {
         datePublished="2026-04-13"
       />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        VO2 Max Formulas
-      </h1>
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-methods.jpg"
+        label="Reference"
+        title="VO2 Max Formulas"
+        subtitle="Every VO2 max equation used on this site, with variable definitions and primary-source citations."
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
       <p className="mt-4 text-lg text-slate-700">
         Every VO2 max equation used on this site in plain text, with variable definitions and
         citations. All formulas return VO2 max in <strong>ml/kg/min</strong>.
@@ -227,5 +233,6 @@ export default function FormulaPage() {
 
       <RelatedLinks pageType="method" />
     </article>
+      </>
   );
 }

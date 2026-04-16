@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { NormsTable } from '@/components/NormsTable';
 import RelatedLinks from '@/components/RelatedLinks';
 import { AdSlot } from '@/components/AdSlot';
+import { Hero } from '@/components/Hero';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema, type FaqItem } from '@/components/Schema';
 import {
   ACSM_NORMS,
@@ -61,7 +62,7 @@ export default async function ByAgeDecadePage({ params }: { params: Promise<Para
   ];
 
   return (
-    <article className="mx-auto max-w-4xl px-4 py-10">
+    <>
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: `${SITE_URL}/` },
@@ -77,10 +78,15 @@ export default async function ByAgeDecadePage({ params }: { params: Promise<Para
       />
       <FaqSchema items={faqs} />
 
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        VO2 Max Norms for Your {decade}
-      </h1>
-      <p className="mt-4 text-lg text-slate-700">
+      <Hero
+        bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-by-age.jpg"
+        label={`Ages ${bracketLabel(bracket)}`}
+        title={`VO2 Max Norms for Your ${decade}`}
+        subtitle={`Percentile tables, fitness categories, and training targets for ages ${bracketLabel(bracket)}.`}
+      />
+
+      <article className="mx-auto max-w-4xl px-4 py-10">
+      <p className="text-lg text-slate-700">
         If you're between ages {bracketLabel(bracket)}, the median VO2 max is{' '}
         <strong>{male.percentiles[50].toFixed(1)} ml/kg/min</strong> for men and{' '}
         <strong>{female.percentiles[50].toFixed(1)} ml/kg/min</strong> for women. Anything at or
@@ -155,7 +161,8 @@ export default async function ByAgeDecadePage({ params }: { params: Promise<Para
       </section>
 
       <RelatedLinks pageType="by-age-decade" ageBracket={bracket} />
-    </article>
+      </article>
+    </>
   );
 }
 

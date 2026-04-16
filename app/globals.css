@@ -14,6 +14,12 @@ html, body {
   color: var(--fg);
 }
 
+/* All headings use the nav font (Oswald) for the brand voice — body stays Inter. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-nav), Oswald, system-ui, sans-serif;
+  letter-spacing: -0.005em;
+}
+
 .prose-site :where(h1, h2, h3, h4) {
   @apply font-semibold tracking-tight;
 }
