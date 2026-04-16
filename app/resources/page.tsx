@@ -406,8 +406,8 @@ export default function ResourcesPage() {
         <h2 className="text-lg font-semibold text-slate-900">Missing something?</h2>
         <p className="mt-2 text-sm text-slate-700">
           If there's a paper, podcast, or researcher we should add, email{' '}
-          <a href="mailto:dennis@smartraven.ai" className="text-teal-700 underline">
-            dennis@smartraven.ai
+          <a href="mailto:dennis@smartravenai.com" className="text-teal-700 underline">
+            dennis@smartravenai.com
           </a>
           . This list is editorially curated, not comprehensive — the goal is quality over
           volume.

@@ -288,8 +288,8 @@ export default function PrivacyPage() {
         <h2 className="text-2xl font-bold text-slate-900">9. Contact</h2>
         <p className="mt-3 text-slate-700">
           Questions, requests, or complaints about this Privacy Policy can be sent to{' '}
-          <a href="mailto:dennis@smartraven.ai" className="text-teal-700 underline">
-            dennis@smartraven.ai
+          <a href="mailto:dennis@smartravenai.com" className="text-teal-700 underline">
+            dennis@smartravenai.com
           </a>
           . We aim to respond within 30 days.
         </p>
