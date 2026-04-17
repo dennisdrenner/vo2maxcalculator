@@ -55,6 +55,15 @@ export default function FindALabPage() {
           built this directory to help. Search by city or state, or browse below.
         </p>
 
+        <img
+          src="https://calculatorsites.b-cdn.net/vo2max/inline-cpet.jpg"
+          alt="Person running on a treadmill during a CPET lab test, wearing a metabolic mask connected to a gas analysis cart."
+          width={800}
+          height={450}
+          loading="lazy"
+          className="mt-8 w-full rounded-2xl"
+        />
+
         <div className="mt-8">
           <DirectorySearch />
         </div>

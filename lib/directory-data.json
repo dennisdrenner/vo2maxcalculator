@@ -1,6 +1,6 @@
 {
   "generated": "2026-04-17",
-  "total_facilities": 269,
+  "total_facilities": 207,
   "total_states": 47,
   "states": {
     "AK": [
@@ -30,7 +30,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-soldotna-ak"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-soldotna-ak-edgington-rd"
       }
     ],
     "AL": [
@@ -46,7 +46,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-alabaster-al"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-alabaster-al-brown-cir"
       },
       {
         "name": "",
@@ -60,7 +60,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-homewood-al"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-homewood-al-w-oxmoor-rd"
       },
       {
         "name": "",
@@ -118,7 +118,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-benton-ar"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-benton-ar-hwy-35-n"
       },
       {
         "name": "",
@@ -162,7 +162,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-carefree-az"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-carefree-az-n-pima-rd"
       },
       {
         "name": "",
@@ -176,7 +176,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-chandler-az"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-chandler-az-s-alma-school-rd"
       },
       {
         "name": "",
@@ -190,7 +190,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-flagstaff-az"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-flagstaff-az-n-beaver-st"
       },
       {
         "name": "",
@@ -218,7 +218,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-phoenix-az"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-phoenix-az-e-camelback-rd"
       },
       {
         "name": "",
@@ -264,20 +264,6 @@
       }
     ],
     "CA": [
-      {
-        "name": "",
-        "city": "Benicia",
-        "state": "CA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-benicia-ca"
-      },
       {
         "name": "Robert Huizenga MD",
         "city": "Beverly Hills",
@@ -332,7 +318,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-costa-mesa-ca"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-costa-mesa-ca-st-clair-st"
       },
       {
         "name": "",
@@ -360,7 +346,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-davis-ca"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-davis-ca-spafford-st"
       },
       {
         "name": "",
@@ -388,21 +374,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-glendale-ca"
-      },
-      {
-        "name": "",
-        "city": "Grover Beach",
-        "state": "CA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-grover-beach-ca"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-glendale-ca-n-central-ave"
       },
       {
         "name": "",
@@ -430,7 +402,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-la-jolla-ca"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-la-jolla-ca-gilman-drive"
       },
       {
         "name": "",
@@ -445,20 +417,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-long-beach-ca"
-      },
-      {
-        "name": "",
-        "city": "Los Alamitos",
-        "state": "CA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-los-alamitos-ca"
       },
       {
         "name": "",
@@ -486,21 +444,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-los-gatos-ca"
-      },
-      {
-        "name": "",
-        "city": "Lynwood",
-        "state": "CA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-lynwood-ca"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-los-gatos-ca-university-ave"
       },
       {
         "name": "",
@@ -514,7 +458,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-oakland-ca"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-oakland-ca-redwood-rd"
       },
       {
         "name": "",
@@ -588,20 +532,6 @@
       },
       {
         "name": "",
-        "city": "San Juan Capistrano",
-        "state": "CA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-san-juan-capistrano-ca"
-      },
-      {
-        "name": "",
         "city": "San Marcos",
         "state": "CA",
         "address": "",
@@ -658,20 +588,6 @@
       },
       {
         "name": "",
-        "city": "Signal Hill",
-        "state": "CA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-signal-hill-ca"
-      },
-      {
-        "name": "",
         "city": "Solana Beach",
         "state": "CA",
         "address": "",
@@ -682,7 +598,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-solana-beach-ca"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-solano-beach-ca-s-highway-101"
       },
       {
         "name": "",
@@ -710,21 +626,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-venice-ca"
-      },
-      {
-        "name": "",
-        "city": "Westlake",
-        "state": "CA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-westlake-ca"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-venice-ca-main-st"
       },
       {
         "name": "",
@@ -738,7 +640,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-woodland-hills-ca"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-woodland-hills-ca-ventura-blvd"
       },
       {
         "name": "",
@@ -752,7 +654,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-yorba-linda-ca"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-yorba-linda-ca-yorba-linda-blvd"
       }
     ],
     "CO": [
@@ -768,7 +670,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-boulder-co"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-boulder-co-38th-street"
       },
       {
         "name": "",
@@ -796,7 +698,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-colorado-springs-co"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-colorado-springs-co-corporate-drive"
       },
       {
         "name": "",
@@ -853,34 +755,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-littleton-co"
-      },
-      {
-        "name": "",
-        "city": "Louisville",
-        "state": "CO",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-louisville-co"
-      },
-      {
-        "name": "",
-        "city": "Superior",
-        "state": "CO",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-superior-co"
       }
     ],
     "CT": [
@@ -952,7 +826,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-milford-ct"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-bridgeport-ave-milford-ct"
       },
       {
         "name": "",
@@ -967,20 +841,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-new-haven-ct"
-      },
-      {
-        "name": "",
-        "city": "Newtown",
-        "state": "CT",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-newtown-ct"
       },
       {
         "name": "",
@@ -1010,7 +870,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-washington-dc"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-washington-dc-4th-st-ne"
       }
     ],
     "FL": [
@@ -1027,20 +887,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-boca-raton-fl"
-      },
-      {
-        "name": "",
-        "city": "Cooper City",
-        "state": "FL",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-cooper-city-fl"
       },
       {
         "name": "",
@@ -1100,48 +946,6 @@
       },
       {
         "name": "",
-        "city": "Miami Shores",
-        "state": "FL",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-miami-shores-fl"
-      },
-      {
-        "name": "",
-        "city": "Ocala",
-        "state": "FL",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-ocala-fl"
-      },
-      {
-        "name": "",
-        "city": "Ocoee",
-        "state": "FL",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-ocoee-fl"
-      },
-      {
-        "name": "",
         "city": "Orlando",
         "state": "FL",
         "address": "",
@@ -1194,21 +998,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-pinecrest-fl"
-      },
-      {
-        "name": "",
-        "city": "Riviera Beach",
-        "state": "FL",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-riviera-beach-fl"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-pinecrest-fl-sw-136th-st"
       },
       {
         "name": "",
@@ -1295,20 +1085,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://vo2master.com/testing-facilities/"
-      },
-      {
-        "name": "",
-        "city": "Flowery Branch",
-        "state": "GA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-flowery-branch-ga"
       },
       {
         "name": "",
@@ -1484,7 +1260,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-edwardsville-il"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-edwardsville-il-center-grove-rd"
       },
       {
         "name": "3PT",
@@ -1540,66 +1316,10 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-skokie-il"
-      },
-      {
-        "name": "",
-        "city": "Sycamore",
-        "state": "IL",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-sycamore-il"
-      },
-      {
-        "name": "",
-        "city": "Villa Park",
-        "state": "IL",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-villa-park-il"
-      },
-      {
-        "name": "",
-        "city": "Willowbrook",
-        "state": "IL",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-willowbrook-il"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-skokie-il-w-touhy-ave"
       }
     ],
     "IN": [
-      {
-        "name": "",
-        "city": "Batesville",
-        "state": "IN",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-batesville-in"
-      },
       {
         "name": "",
         "city": "Carmel",
@@ -1612,7 +1332,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-carmel-in"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-carmel-in-south-rangeline-road"
       },
       {
         "name": "",
@@ -1641,20 +1361,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-evansville-in"
-      },
-      {
-        "name": "",
-        "city": "Huntington",
-        "state": "IN",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-huntington-in"
       },
       {
         "name": "",
@@ -1688,20 +1394,6 @@
     "KS": [
       {
         "name": "",
-        "city": "Leawood",
-        "state": "KS",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-leawood-ks"
-      },
-      {
-        "name": "",
         "city": "Merriam",
         "state": "KS",
         "address": "",
@@ -1713,20 +1405,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-merriam-ks"
-      },
-      {
-        "name": "",
-        "city": "Olathe",
-        "state": "KS",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-olathe-ks"
       },
       {
         "name": "",
@@ -1862,20 +1540,6 @@
       },
       {
         "name": "",
-        "city": "Brookline",
-        "state": "MA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-brookline-ma"
-      },
-      {
-        "name": "",
         "city": "Cambridge",
         "state": "MA",
         "address": "",
@@ -1887,20 +1551,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-cambridge-ma"
-      },
-      {
-        "name": "",
-        "city": "Chicopee",
-        "state": "MA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-chicopee-ma"
       },
       {
         "name": "",
@@ -1942,21 +1592,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-wellesley-ma"
-      },
-      {
-        "name": "",
-        "city": "Westborough",
-        "state": "MA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-westborough-ma"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-wellesley-ma-central-street"
       }
     ],
     "MD": [
@@ -1972,7 +1608,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-chevy-chase-md"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-chevy-chase-md-connecticut-avenue"
       },
       {
         "name": "",
@@ -1986,7 +1622,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-jessup-md"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-savage-md-bollman-place"
       }
     ],
     "ME": [
@@ -2002,7 +1638,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-bangor-me"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-bangor-me-essex-st"
       },
       {
         "name": "",
@@ -2016,21 +1652,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-scarborough-me"
-      },
-      {
-        "name": "",
-        "city": "Topsham",
-        "state": "ME",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-topsham-me"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-scarborough-me-haigis-pkwy"
       }
     ],
     "MI": [
@@ -2047,20 +1669,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-ann-arbor-mi"
-      },
-      {
-        "name": "",
-        "city": "Auburn Hills",
-        "state": "MI",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-auburn-hills-mi"
       },
       {
         "name": "",
@@ -2088,63 +1696,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-madison-heights-mi"
-      },
-      {
-        "name": "",
-        "city": "Mason",
-        "state": "MI",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-mason-mi"
-      },
-      {
-        "name": "",
-        "city": "Northville",
-        "state": "MI",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-northville-mi"
-      },
-      {
-        "name": "",
-        "city": "Okemos",
-        "state": "MI",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-okemos-mi"
-      },
-      {
-        "name": "",
-        "city": "Taylor",
-        "state": "MI",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-taylor-mi"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-detroit-mi"
       },
       {
         "name": "",
@@ -2159,37 +1711,9 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-traverse-city-mi"
-      },
-      {
-        "name": "",
-        "city": "Waterford",
-        "state": "MI",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-waterford-mi"
       }
     ],
     "MN": [
-      {
-        "name": "",
-        "city": "Bonifacius",
-        "state": "MN",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-bonifacius-mn"
-      },
       {
         "name": "",
         "city": "Edina",
@@ -2202,7 +1726,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-edina-mn"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-edina-mn-west-50th-street"
       },
       {
         "name": "",
@@ -2216,7 +1740,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-minneapolis-mn"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-center-minneapolis-mn"
       },
       {
         "name": "",
@@ -2231,20 +1755,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-new-hope-mn"
-      },
-      {
-        "name": "",
-        "city": "St. Louis Park",
-        "state": "MN",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-st.-louis-park-mn"
       }
     ],
     "MO": [
@@ -2260,7 +1770,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-columbia-mo"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-columbia-mo-s-keene-st"
       },
       {
         "name": "",
@@ -2288,7 +1798,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-st.-charles-mo"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-st-charles-mo"
       }
     ],
     "MS": [
@@ -2320,7 +1830,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-helena-mt"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-helena-mt-saddle-drive"
       },
       {
         "name": "",
@@ -2379,34 +1889,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-greensboro-nc"
-      },
-      {
-        "name": "",
-        "city": "Matthews",
-        "state": "NC",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-matthews-nc"
-      },
-      {
-        "name": "",
-        "city": "Mooresville",
-        "state": "NC",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-mooresville-nc"
       },
       {
         "name": "",
@@ -2486,48 +1968,6 @@
     "NJ": [
       {
         "name": "",
-        "city": "Atco",
-        "state": "NJ",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-atco-nj"
-      },
-      {
-        "name": "",
-        "city": "Eatontown",
-        "state": "NJ",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-eatontown-nj"
-      },
-      {
-        "name": "",
-        "city": "Haddon Heights",
-        "state": "NJ",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-haddon-heights-nj"
-      },
-      {
-        "name": "",
         "city": "Manasquan",
         "state": "NJ",
         "address": "",
@@ -2566,21 +2006,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-morristown-nj"
-      },
-      {
-        "name": "",
-        "city": "North Brunswick",
-        "state": "NJ",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-north-brunswick-nj"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-morristown-nj-speedwell-ave"
       },
       {
         "name": "",
@@ -2656,21 +2082,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-albany-ny"
-      },
-      {
-        "name": "",
-        "city": "Bellmore",
-        "state": "NY",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-bellmore-ny"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-albany-ny-osborne-road"
       },
       {
         "name": "",
@@ -2688,62 +2100,6 @@
       },
       {
         "name": "",
-        "city": "Harrison",
-        "state": "NY",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-harrison-ny"
-      },
-      {
-        "name": "",
-        "city": "Jericho",
-        "state": "NY",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-jericho-ny"
-      },
-      {
-        "name": "",
-        "city": "Long Island City",
-        "state": "NY",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-long-island-city-ny"
-      },
-      {
-        "name": "",
-        "city": "Lynbrook",
-        "state": "NY",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-lynbrook-ny"
-      },
-      {
-        "name": "",
         "city": "New York",
         "state": "NY",
         "address": "",
@@ -2754,7 +2110,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-new-york-ny"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-nyc"
       },
       {
         "name": "",
@@ -2797,37 +2153,9 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-rochester-ny"
-      },
-      {
-        "name": "",
-        "city": "Southampton",
-        "state": "NY",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-southampton-ny"
       }
     ],
     "OH": [
-      {
-        "name": "",
-        "city": "Akron",
-        "state": "OH",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-akron-oh"
-      },
       {
         "name": "",
         "city": "Cincinnati",
@@ -2858,20 +2186,6 @@
       },
       {
         "name": "",
-        "city": "Medina",
-        "state": "OH",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-medina-oh"
-      },
-      {
-        "name": "",
         "city": "Wadsworth",
         "state": "OH",
         "address": "",
@@ -2898,21 +2212,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-edmond-ok"
-      },
-      {
-        "name": "",
-        "city": "Lawton",
-        "state": "OK",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-lawton-ok"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-oklahoma-city-edmond-ok"
       },
       {
         "name": "",
@@ -2976,34 +2276,6 @@
     "PA": [
       {
         "name": "",
-        "city": "Beach Lake",
-        "state": "PA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-beach-lake-pa"
-      },
-      {
-        "name": "",
-        "city": "Carlisle",
-        "state": "PA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-carlisle-pa"
-      },
-      {
-        "name": "",
         "city": "Conshohocken",
         "state": "PA",
         "address": "",
@@ -3060,20 +2332,6 @@
       },
       {
         "name": "",
-        "city": "Glenside",
-        "state": "PA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-glenside-pa"
-      },
-      {
-        "name": "",
         "city": "Horsham",
         "state": "PA",
         "address": "",
@@ -3085,48 +2343,6 @@
         "latitude": null,
         "longitude": null,
         "source_url": "https://www.fitnescity.com/vo2-max-test-in-horsham-pa"
-      },
-      {
-        "name": "",
-        "city": "Loretto",
-        "state": "PA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-loretto-pa"
-      },
-      {
-        "name": "",
-        "city": "Manayunk",
-        "state": "PA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-manayunk-pa"
-      },
-      {
-        "name": "",
-        "city": "Newtown",
-        "state": "PA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-newtown-pa"
       },
       {
         "name": "",
@@ -3154,7 +2370,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-pittsburgh-pa"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-pittsburgh-pa-baum-blvd"
       },
       {
         "name": "",
@@ -3184,7 +2400,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-greenville-sc"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-greenville-sc-laurens-rd"
       },
       {
         "name": "",
@@ -3214,7 +2430,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-sioux-falls-sd"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-sioux-falls-sd-e-57th-st"
       }
     ],
     "TN": [
@@ -3230,7 +2446,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-knoxville-tn"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-knoxville-tn-1"
       },
       {
         "name": "",
@@ -3244,7 +2460,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-memphis-tn"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-memphis-tn-kirby-pkwy"
       },
       {
         "name": "",
@@ -3262,20 +2478,6 @@
       }
     ],
     "TX": [
-      {
-        "name": "",
-        "city": "Aledo",
-        "state": "TX",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-aledo-tx"
-      },
       {
         "name": "",
         "city": "Amarillo",
@@ -3320,34 +2522,6 @@
       },
       {
         "name": "",
-        "city": "Commerce",
-        "state": "TX",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-commerce-tx"
-      },
-      {
-        "name": "",
-        "city": "Cypress",
-        "state": "TX",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-cypress-tx"
-      },
-      {
-        "name": "",
         "city": "Dallas",
         "state": "TX",
         "address": "",
@@ -3372,7 +2546,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-el-paso-tx"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-el-paso-tx-montana-ave"
       },
       {
         "name": "",
@@ -3442,21 +2616,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-plano-tx"
-      },
-      {
-        "name": "",
-        "city": "Round Rock",
-        "state": "TX",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-round-rock-tx"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-plano-tx-tennyson-pkwy"
       },
       {
         "name": "",
@@ -3490,20 +2650,6 @@
     "UT": [
       {
         "name": "",
-        "city": "Centerville",
-        "state": "UT",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-centerville-ut"
-      },
-      {
-        "name": "",
         "city": "Lehi",
         "state": "UT",
         "address": "",
@@ -3514,7 +2660,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-lehi-ut"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-lehi-ut-w-mayflower-ave"
       },
       {
         "name": "",
@@ -3542,7 +2688,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-murray-ut"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-salt-lake-city-ut"
       },
       {
         "name": "",
@@ -3570,7 +2716,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-saint-george-ut"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-saint-george-ut-e-riverside-dr"
       }
     ],
     "VA": [
@@ -3586,7 +2732,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-arlington-va"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-arlington-va-n-randolph-st"
       },
       {
         "name": "",
@@ -3614,21 +2760,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-falls-church-va"
-      },
-      {
-        "name": "",
-        "city": "Glen Allen",
-        "state": "VA",
-        "address": "",
-        "phone": "",
-        "website": "",
-        "source": "fitnescity",
-        "rating": null,
-        "reviews_count": null,
-        "latitude": null,
-        "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-glen-allen-va"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-falls-church-va-park-ave"
       },
       {
         "name": "",
@@ -3700,7 +2832,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-bellevue-wa"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-bellevue-wa-112th-ave"
       },
       {
         "name": "",
@@ -3728,7 +2860,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-olympia-wa"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-olympia-wa-rich-rd-se"
       },
       {
         "name": "",
@@ -3742,7 +2874,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-redmond-wa"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-redmond-wa-ne-85th-street"
       }
     ],
     "WI": [
@@ -3758,7 +2890,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-delafield-wi"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-delafield-wi-n-genesee-st"
       },
       {
         "name": "",
@@ -3800,7 +2932,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-la-crosse-wi"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-la-crosse-wi-4th-st-s"
       },
       {
         "name": "",
@@ -3860,7 +2992,7 @@
         "reviews_count": null,
         "latitude": null,
         "longitude": null,
-        "source_url": "https://www.fitnescity.com/vo2-max-test-in-wilson-wy"
+        "source_url": "https://www.fitnescity.com/vo2-max-test-in-wilson-wy-n-fall-creek"
       }
     ]
   }

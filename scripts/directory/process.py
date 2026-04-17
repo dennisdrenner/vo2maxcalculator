@@ -22,13 +22,17 @@ SCRIPT_DIR = Path(__file__).parent
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 def load_seed_fitnescity():
-    """Load Fitnescity seed data (state/city pairs, no full addresses yet)."""
-    path = SCRIPT_DIR / "seed-fitnescity.json"
+    """Load Fitnescity seed data with real URL slugs."""
+    path = SCRIPT_DIR / "seed-fitnescity-v2.json"
+    if not path.exists():
+        path = SCRIPT_DIR / "seed-fitnescity.json"
     if not path.exists():
         return []
     data = json.loads(path.read_text())
+    if "facilities" in data:
+        return data["facilities"]
     facilities = []
-    for entry in data["states"]:
+    for entry in data.get("states", []):
         state = entry["state"]
         for city in entry["cities"]:
             facilities.append({
@@ -39,7 +43,6 @@ def load_seed_fitnescity():
                 "phone": "",
                 "website": "",
                 "source": "fitnescity",
-                "source_url": f"https://www.fitnescity.com/vo2-max-test-in-{city.lower().replace(' ', '-')}-{state.lower()}",
                 "confirmed": True,
             })
     return facilities
