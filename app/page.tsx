@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Calculator } from '@/components/Calculator';
 import RelatedLinks from '@/components/RelatedLinks';
 import { FaqSchema, WebApplicationSchema, type FaqItem } from '@/components/Schema';
 import { AdSlot } from '@/components/AdSlot';
+import { HomeCalculatorSection } from '@/components/HomeCalculatorSection';
 import { Hero } from '@/components/Hero';
 import { SectionLabel } from '@/components/SectionLabel';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
@@ -99,9 +99,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-4 py-10">
-        <Calculator />
-      </section>
+      <HomeCalculatorSection />
 
       <AdSlot slot="home-mid" className="mx-auto my-8 max-w-4xl px-4" />
 
