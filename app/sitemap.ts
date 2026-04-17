@@ -34,6 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ['/methodology/', 0.6],
     ['/equipment/', 0.75],
     ['/resources/', 0.65],
+    ['/find-a-lab/', 0.8],
     ['/about/', 0.5],
     ['/privacy/', 0.3],
     ['/terms/', 0.3],

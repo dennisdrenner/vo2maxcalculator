@@ -36,6 +36,7 @@ const FOOTER_LINKS = [
       { href: '/improve/', label: 'How to Improve' },
       { href: '/wearables/', label: 'Wearables' },
       { href: '/equipment/', label: 'Equipment' },
+      { href: '/find-a-lab/', label: 'Find a Lab' },
       { href: '/resources/', label: 'Resources' },
       { href: '/methodology/', label: 'Methodology' },
       { href: '/about/', label: 'About' },

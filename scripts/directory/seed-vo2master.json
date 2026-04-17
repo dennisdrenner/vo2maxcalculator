@@ -1,0 +1,14 @@
+[
+  {"name": "The Raisig Clinic And Wellness Center", "city": "East Ellijay", "state": "GA", "address": "60 Highland Court, East Ellijay, GA 30540", "phone": "7066983627", "source": "vo2master"},
+  {"name": "Robert Huizenga MD", "city": "Beverly Hills", "state": "CA", "address": "415 N Crescent, 200, Beverly Hills, CA 90211", "phone": "3103672066", "source": "vo2master"},
+  {"name": "Morvant Endurance", "city": "Shreveport", "state": "LA", "address": "2147 Pine Hill Rd, Shreveport, LA 71107", "phone": "318-564-3016", "source": "vo2master"},
+  {"name": "Permanence Health", "city": "San Antonio", "state": "TX", "address": "20655 W Interstate 10, Unit 105, San Antonio, TX 78257", "phone": "3055273945", "source": "vo2master"},
+  {"name": "A-Line Health", "city": "Whitefish", "state": "MT", "address": "1828 Baker Avenue, Whitefish, MT 59937", "phone": "7196611952", "source": "vo2master"},
+  {"name": "The Practice: Habits for Healthspan", "city": "Greenwich", "state": "CT", "address": "334 Pemberwick Road, Greenwich, CT 06831", "phone": "203-244-8404", "source": "vo2master"},
+  {"name": "Peak Performance Medicine", "city": "Erie", "state": "PA", "address": "6023 West Ridge Road, Erie, PA 16506", "phone": "4403446662", "source": "vo2master"},
+  {"name": "RX FIT", "city": "Port Washington", "state": "NY", "address": "57-61 Manorhaven Blvd, Port Washington, NY 11050", "phone": "5162127353", "source": "vo2master"},
+  {"name": "Max Heart Health", "city": "Beverly Hills", "state": "CA", "address": "9777 Wilshire Blvd Suite 510, Beverly Hills, CA 90212", "phone": "310-499-2684", "source": "vo2master"},
+  {"name": "Delta Performance and Rehab", "city": "Pembroke Pines", "state": "FL", "address": "200 SW 172nd Ave, Pembroke Pines, FL 33029", "phone": "7542333907", "source": "vo2master"},
+  {"name": "3PT", "city": "Mokena", "state": "IL", "address": "19807 S La Grange Rd., Mokena, IL 60448", "phone": "7089383378", "source": "vo2master"},
+  {"name": "John (testing facility)", "city": "Hayden", "state": "ID", "address": "265 West Prairie Shopping Center, Hayden, ID 83835", "phone": "2086992136", "source": "vo2master"}
+]
