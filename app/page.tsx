@@ -68,7 +68,7 @@ export default function HomePage() {
         bgImage="https://calculatorsites.b-cdn.net/vo2max/hero-homepage.jpg"
         label="Free • No signup"
         title="VO2 Max Calculator"
-        subtitle="Calculate your VO2 max in 2 minutes using any of 17 validated field tests. Get your percentile rank, fitness category, and an evidence-based plan to improve."
+        subtitle={<>The gold standard for measuring VO2 max is a lab test with a metabolic cart — but it costs $200–500 and requires a clinical visit. We built this calculator so you can estimate your VO2 max for free using any of 17 validated field tests. See how each test <a href="/methods/#accuracy-tiers" className="underline">compares to the lab test</a>.</>}
         size="lg"
       />
 

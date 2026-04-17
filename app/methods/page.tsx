@@ -75,6 +75,101 @@ export default function MethodsHubPage() {
         are the least accurate but require no physical test.
       </p>
 
+      <section className="mt-10 rounded-2xl bg-charcoal p-6 text-white sm:p-8">
+        <h2 className="text-2xl font-bold text-white">The gold standard: lab CPET</h2>
+        <p className="mt-3 text-slate-300">
+          The most accurate way to measure VO2 max is a <strong className="text-white">cardiopulmonary exercise test (CPET)</strong> in
+          a clinical or sports-medicine lab. You wear a mask connected to a metabolic cart that measures
+          the exact volume and composition of every breath while running on a treadmill or cycling an
+          ergometer at progressively harder intensities until exhaustion. The result is a direct
+          measurement — not an estimate.
+        </p>
+        <div className="mt-4 grid gap-4 sm:grid-cols-3">
+          <div className="rounded-xl bg-charcoal-deep p-4">
+            <p className="font-nav text-xs font-semibold uppercase tracking-wider text-brand-soft">Cost</p>
+            <p className="mt-1 text-sm text-slate-300">$200–$500 at most sports-medicine clinics and university exercise-physiology labs.</p>
+          </div>
+          <div className="rounded-xl bg-charcoal-deep p-4">
+            <p className="font-nav text-xs font-semibold uppercase tracking-wider text-brand-soft">Duration</p>
+            <p className="mt-1 text-sm text-slate-300">8–15 minutes of graded exercise, plus setup and recovery. ~45 minutes total visit.</p>
+          </div>
+          <div className="rounded-xl bg-charcoal-deep p-4">
+            <p className="font-nav text-xs font-semibold uppercase tracking-wider text-brand-soft">Accuracy</p>
+            <p className="mt-1 text-sm text-slate-300">Direct measurement — this is the benchmark. All field tests below are validated against it.</p>
+          </div>
+        </div>
+        <p className="mt-4 text-sm text-slate-400">
+          If you have access to a CPET, take it — nothing else comes close. But for most people,
+          the cost and logistics make field tests the practical alternative. The tier list below shows
+          how closely each field test correlates with a lab-measured result.
+        </p>
+      </section>
+
+      <section id="accuracy-tiers" className="mt-10">
+        <h2 className="text-2xl font-bold text-slate-900">Accuracy tier list</h2>
+        <p className="mt-2 text-slate-700">
+          How closely each method correlates with lab-measured VO2 max. Correlation values (r) are
+          from the original validation studies.
+        </p>
+
+        <div className="mt-6 space-y-4">
+          <div className="rounded-2xl border-2 border-emerald-300 bg-emerald-50 p-5">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-600 font-nav text-lg font-bold text-white">S</span>
+              <div>
+                <p className="font-bold text-emerald-900">Gold standard — direct measurement</p>
+                <p className="text-sm text-emerald-800">Lab CPET with metabolic cart (r = 1.00)</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="rounded-2xl border border-emerald-200 bg-emerald-50/50 p-5">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500 font-nav text-lg font-bold text-white">A</span>
+              <p className="font-bold text-slate-900">High accuracy — r ≈ 0.87–0.92</p>
+            </div>
+            <ul className="mt-3 space-y-2 pl-[52px]">
+              {METHODS.filter((m) => m.accuracy === 'high').map((m) => (
+                <li key={m.slug} className="flex items-center gap-3">
+                  <img src={`https://calculatorsites.b-cdn.net/vo2max/methods/${m.slug}.jpg`} alt="" width={32} height={32} className="h-8 w-8 rounded-lg object-cover" />
+                  <Link href={`/methods/${m.slug}/`} className="text-sm font-medium text-teal-700 hover:underline">{m.displayName}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="rounded-2xl border border-amber-200 bg-amber-50/50 p-5">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-amber-500 font-nav text-lg font-bold text-white">B</span>
+              <p className="font-bold text-slate-900">Moderate accuracy — r ≈ 0.75–0.88</p>
+            </div>
+            <ul className="mt-3 space-y-2 pl-[52px]">
+              {METHODS.filter((m) => m.accuracy === 'moderate').map((m) => (
+                <li key={m.slug} className="flex items-center gap-3">
+                  <img src={`https://calculatorsites.b-cdn.net/vo2max/methods/${m.slug}.jpg`} alt="" width={32} height={32} className="h-8 w-8 rounded-lg object-cover" />
+                  <Link href={`/methods/${m.slug}/`} className="text-sm font-medium text-teal-700 hover:underline">{m.displayName}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="rounded-2xl border border-rose-200 bg-rose-50/50 p-5">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-rose-400 font-nav text-lg font-bold text-white">C</span>
+              <p className="font-bold text-slate-900">Low accuracy — r ≈ 0.50–0.75</p>
+            </div>
+            <ul className="mt-3 space-y-2 pl-[52px]">
+              {METHODS.filter((m) => m.accuracy === 'low').map((m) => (
+                <li key={m.slug} className="flex items-center gap-3">
+                  <img src={`https://calculatorsites.b-cdn.net/vo2max/methods/${m.slug}.jpg`} alt="" width={32} height={32} className="h-8 w-8 rounded-lg object-cover" />
+                  <Link href={`/methods/${m.slug}/`} className="text-sm font-medium text-teal-700 hover:underline">{m.displayName}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <div className="mt-8 overflow-x-auto">
         <table className="w-full border-collapse text-sm">
           <caption className="mb-2 text-left text-sm font-semibold text-slate-700">
