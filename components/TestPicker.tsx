@@ -96,7 +96,7 @@ const PILL =
   'rounded-full border px-4 py-2 text-sm font-semibold transition-all duration-150 cursor-pointer';
 const PILL_ACTIVE = 'border-brand bg-brand-soft text-brand-fg';
 const PILL_INACTIVE =
-  'border-slate-200 bg-white text-slate-600 hover:border-brand hover:text-brand-fg';
+  'border-charcoal-mid bg-charcoal-deep text-slate-300 hover:border-brand hover:text-brand-soft';
 
 const ACCURACY_DOT: Record<string, string> = {
   high: 'bg-emerald-500',
@@ -115,13 +115,13 @@ export function TestPicker({
   const recs = activity && effort ? recommend(activity, effort) : [];
 
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-      <h3 className="text-lg font-bold text-slate-900">
+    <div className="rounded-2xl bg-charcoal p-6 shadow-sm">
+      <h3 className="text-lg font-bold text-white">
         Which test is right for you?
       </h3>
 
       <div className="mt-4">
-        <p className="text-sm font-medium text-slate-700">
+        <p className="text-sm font-medium text-slate-300">
           What activity can you do?
         </p>
         <div className="mt-2 flex flex-wrap gap-2">
@@ -144,7 +144,7 @@ export function TestPicker({
 
       {activity && activity !== 'none' && (
         <div className="mt-5">
-          <p className="text-sm font-medium text-slate-700">
+          <p className="text-sm font-medium text-slate-300">
             How hard do you want to push?
           </p>
           <div className="mt-2 flex flex-wrap gap-2">
@@ -167,13 +167,13 @@ export function TestPicker({
 
       {recs.length > 0 && (
         <div className="mt-6 space-y-3">
-          <p className="text-sm font-medium text-slate-700">
+          <p className="text-sm font-medium text-slate-300">
             {recs.length === 1 ? 'Recommended test' : 'Recommended tests'}
           </p>
           {recs.map((rec) => (
             <div
               key={rec.slug}
-              className="flex items-center gap-4 rounded-xl border border-slate-100 bg-slate-50 p-4"
+              className="flex items-center gap-4 rounded-xl border border-charcoal-mid bg-charcoal-deep p-4"
             >
               <img
                 src={rec.image}
@@ -184,13 +184,13 @@ export function TestPicker({
               />
               <div className="min-w-0 flex-1">
                 <div className="flex items-center gap-2">
-                  <span className="font-bold text-slate-900">{rec.name}</span>
+                  <span className="font-bold text-white">{rec.name}</span>
                   <span
                     className={`inline-block h-2 w-2 rounded-full ${ACCURACY_DOT[rec.accuracy]}`}
                     title={`${rec.accuracy} accuracy`}
                   />
                 </div>
-                <p className="mt-0.5 text-sm text-slate-600">{rec.why}</p>
+                <p className="mt-0.5 text-sm text-slate-400">{rec.why}</p>
                 <p className="mt-1 text-xs text-slate-500">~{rec.time} min</p>
               </div>
               <button
@@ -211,7 +211,7 @@ export function TestPicker({
             Or{' '}
             <Link
               href="/methods/"
-              className="text-teal-700 underline"
+              className="text-brand-soft underline"
             >
               browse all 17 methods
             </Link>

@@ -452,6 +452,25 @@ export default function ResourcesPage() {
         <ExternalList items={ORGS} />
       </section>
 
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-slate-900">Related tools</h2>
+        <ul className="mt-4 space-y-3">
+          <li>
+            <a
+              href="https://calculatepeptide.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-teal-700 hover:underline"
+            >
+              Peptide Calculator ↗
+            </a>
+            <p className="mt-1 text-sm text-slate-700">
+              Free peptide reconstitution and dosage calculator for research use.
+            </p>
+          </li>
+        </ul>
+      </section>
+
       <section className="mt-12 rounded-xl border border-slate-200 bg-slate-50 p-5">
         <h2 className="text-lg font-semibold text-slate-900">Missing something?</h2>
         <p className="mt-2 text-sm text-slate-700">
