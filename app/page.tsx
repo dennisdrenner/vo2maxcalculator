@@ -72,6 +72,33 @@ export default function HomePage() {
         size="lg"
       />
 
+      <section className="bg-slate-50 py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <SectionLabel>Walkthrough</SectionLabel>
+          <h2 className="mt-2 text-2xl font-bold text-slate-900">How to use this calculator</h2>
+          <ol className="mt-4 list-decimal space-y-3 pl-6 text-slate-700">
+            <li>
+              <strong>Pick a test.</strong> The default is the Cooper 12-minute run. If you don't
+              run, try the <Link href="/methods/rockport-1-mile-walk/" className="text-teal-700 underline">Rockport 1-mile walk</Link>{' '}
+              or <Link href="/methods/astrand-rhyming-cycle/" className="text-teal-700 underline">Åstrand-Rhyming cycle test</Link>.
+            </li>
+            <li>
+              <strong>Enter your inputs.</strong> Age, sex, and test-specific measurements like
+              distance covered, time, or heart rate.
+            </li>
+            <li>
+              <strong>Read the result.</strong> Your VO2 max in ml/kg/min, your age- and
+              sex-adjusted percentile, and your fitness category (Poor, Fair, Average, Good,
+              Excellent, Superior).
+            </li>
+            <li>
+              <strong>Compare and improve.</strong> See the <Link href="/chart/" className="text-teal-700 underline">full chart</Link>{' '}
+              or jump to <Link href="/improve/" className="text-teal-700 underline">how to improve VO2 max</Link>.
+            </li>
+          </ol>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-4xl px-4 py-10">
         <Calculator />
       </section>
@@ -111,33 +138,6 @@ export default function HomePage() {
           <li>Trackable over time — a direct signal of whether your training is working.</li>
           <li>Responsive to training: 5–20% gains in 6–12 weeks are typical in untrained adults.</li>
         </ul>
-      </section>
-
-      <section className="bg-slate-50 py-10">
-        <div className="mx-auto max-w-4xl px-4">
-          <SectionLabel>Walkthrough</SectionLabel>
-          <h2 className="mt-2 text-2xl font-bold text-slate-900">How to use this calculator</h2>
-          <ol className="mt-4 list-decimal space-y-3 pl-6 text-slate-700">
-            <li>
-              <strong>Pick a test.</strong> The default is the Cooper 12-minute run. If you don't
-              run, try the <Link href="/methods/rockport-1-mile-walk/" className="text-teal-700 underline">Rockport 1-mile walk</Link>{' '}
-              or <Link href="/methods/astrand-rhyming-cycle/" className="text-teal-700 underline">Åstrand-Rhyming cycle test</Link>.
-            </li>
-            <li>
-              <strong>Enter your inputs.</strong> Age, sex, and test-specific measurements like
-              distance covered, time, or heart rate.
-            </li>
-            <li>
-              <strong>Read the result.</strong> Your VO2 max in ml/kg/min, your age- and
-              sex-adjusted percentile, and your fitness category (Poor, Fair, Average, Good,
-              Excellent, Superior).
-            </li>
-            <li>
-              <strong>Compare and improve.</strong> See the <Link href="/chart/" className="text-teal-700 underline">full chart</Link>{' '}
-              or jump to <Link href="/improve/" className="text-teal-700 underline">how to improve VO2 max</Link>.
-            </li>
-          </ol>
-        </div>
       </section>
 
       <section className="bg-charcoal py-14 text-white">
