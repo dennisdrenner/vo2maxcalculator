@@ -292,23 +292,40 @@ const ORGS: Resource[] = [
   },
 ];
 
-function ExpertAvatar({ name, index }: { name: string; index: number }) {
+const EXPERT_PHOTOS: Record<string, string> = {
+  'Peter Attia, MD': 'https://calculatorsites.b-cdn.net/vo2max/experts/peter-attia.jpg',
+  'Rhonda Patrick, PhD': 'https://calculatorsites.b-cdn.net/vo2max/experts/rhonda-patrick.jpg',
+  'Nick Norwitz, PhD': 'https://calculatorsites.b-cdn.net/vo2max/experts/nick-norwitz.jpg',
+  'Benjamin Levine, MD': 'https://calculatorsites.b-cdn.net/vo2max/experts/benjamin-levine.jpg',
+  'Iñigo San Millán, PhD': 'https://calculatorsites.b-cdn.net/vo2max/experts/inigo-san-millan.jpg',
+  'Stacy Sims, PhD': 'https://calculatorsites.b-cdn.net/vo2max/experts/stacy-sims.jpg',
+  'Andy Galpin, PhD': 'https://calculatorsites.b-cdn.net/vo2max/experts/andy-galpin.jpg',
+  'Andrew Huberman, PhD': 'https://calculatorsites.b-cdn.net/vo2max/experts/andrew-huberman.jpg',
+};
+
+function ExpertAvatar({ name }: { name: string; index: number }) {
+  const src = EXPERT_PHOTOS[name];
+  if (src) {
+    return (
+      <img
+        src={src}
+        alt={name.replace(/,.*$/, '')}
+        width={64}
+        height={64}
+        loading="lazy"
+        className="h-16 w-16 shrink-0 rounded-full object-cover"
+      />
+    );
+  }
   const initials = name
     .replace(/,.*$/, '')
     .split(' ')
     .slice(0, 2)
     .map((p) => p[0])
     .join('');
-  const gradients = [
-    'from-teal-600 to-teal-800',
-    'from-slate-700 to-slate-900',
-    'from-emerald-600 to-teal-800',
-    'from-charcoal to-charcoal-deep',
-  ];
-  const g = gradients[index % gradients.length];
   return (
     <div
-      className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-br ${g} font-nav text-xl font-bold uppercase tracking-wide text-white`}
+      className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-teal-600 to-teal-800 font-nav text-xl font-bold uppercase tracking-wide text-white"
       aria-hidden
     >
       {initials}
