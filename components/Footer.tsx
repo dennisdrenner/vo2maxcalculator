@@ -55,7 +55,7 @@ export function Footer() {
               <h4 className="font-nav text-xs font-semibold uppercase tracking-[0.2em] text-white">
                 {col.heading}
               </h4>
-              <ul className="mt-3 space-y-1.5 text-sm uppercase tracking-wide">
+              <ul className="mt-3 space-y-1.5 text-xs uppercase tracking-wide">
                 {col.items.map((item) => (
                   <li key={item.href}>
                     <Link href={item.href} className="text-slate-400 transition-colors hover:text-brand-soft">

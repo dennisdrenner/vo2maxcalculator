@@ -12,13 +12,7 @@ interface NavItem {
 
 const NAV: NavItem[] = [
   { href: '/', label: 'Calculator' },
-  {
-    href: '/methods/',
-    label: 'Tests',
-    children: [
-      { href: '/methods/', label: 'All 17 Methods' },
-    ],
-  },
+  { href: '/methods/', label: 'Tests' },
   {
     href: '/chart/',
     label: 'Compare',
