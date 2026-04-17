@@ -132,18 +132,28 @@ export default function MethodsHubPage() {
                   <Link
                     key={m.slug}
                     href={`/methods/${m.slug}/`}
-                    className="block rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
+                    className="flex gap-4 rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
                   >
-                    <div className="flex items-start justify-between">
-                      <h3 className="font-bold text-slate-900">{m.displayName}</h3>
-                      <span className={`ml-3 shrink-0 rounded-full px-2 py-0.5 text-xs font-medium capitalize ${ACCURACY_BADGE[m.accuracy]}`}>
-                        {m.accuracy}
-                      </span>
+                    <img
+                      src={`https://calculatorsites.b-cdn.net/vo2max/methods/${m.slug}.jpg`}
+                      alt=""
+                      width={64}
+                      height={64}
+                      loading="lazy"
+                      className="h-16 w-16 shrink-0 rounded-xl object-cover"
+                    />
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-start justify-between">
+                        <h3 className="font-bold text-slate-900">{m.displayName}</h3>
+                        <span className={`ml-3 shrink-0 rounded-full px-2 py-0.5 text-xs font-medium capitalize ${ACCURACY_BADGE[m.accuracy]}`}>
+                          {m.accuracy}
+                        </span>
+                      </div>
+                      <p className="mt-2 text-sm text-slate-600">{m.description}</p>
+                      <p className="mt-2 text-xs text-slate-500">
+                        {m.equipment} · ~{m.timeMinutes} min
+                      </p>
                     </div>
-                    <p className="mt-2 text-sm text-slate-600">{m.description}</p>
-                    <p className="mt-2 text-xs text-slate-500">
-                      {m.equipment} · ~{m.timeMinutes} min
-                    </p>
                   </Link>
                 ))}
               </div>
