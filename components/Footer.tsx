@@ -55,7 +55,7 @@ export function Footer() {
               <h4 className="font-nav text-xs font-semibold uppercase tracking-[0.2em] text-white">
                 {col.heading}
               </h4>
-              <ul className="mt-3 space-y-1.5 text-sm">
+              <ul className="mt-3 space-y-1.5 text-sm uppercase tracking-wide">
                 {col.items.map((item) => (
                   <li key={item.href}>
                     <Link href={item.href} className="text-slate-400 transition-colors hover:text-brand-soft">
@@ -67,7 +67,7 @@ export function Footer() {
             </div>
           ))}
         </div>
-        <p className="mt-10 border-t border-charcoal/60 pt-6 text-xs text-slate-500">
+        <p className="mt-10 border-t border-charcoal/60 pt-6 text-xs uppercase tracking-wide text-slate-500">
           © {new Date().getFullYear()} VO2 Max Calculator. Information on this site is for educational purposes and is not medical advice. Consult a physician before beginning an exercise program.
         </p>
       </div>
