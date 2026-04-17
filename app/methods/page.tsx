@@ -111,6 +111,14 @@ export default function MethodsHubPage() {
           How closely each method correlates with lab-measured VO2 max. Correlation values (r) are
           from the original validation studies.
         </p>
+        <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700">
+          <strong>What does r mean?</strong> The correlation coefficient (r) measures how closely a
+          field test's estimate tracks the lab-measured value, on a scale from 0 to 1. An r of 0.90
+          means 90% of the variation in lab scores is captured by the field test — very strong. An r
+          of 0.70 is moderate: useful for a ballpark, but individual estimates can be off by several
+          ml/kg/min. Below 0.70, the estimate is rough and best used for tracking changes over time
+          rather than pinning down an exact number.
+        </div>
 
         <div className="mt-6 space-y-4">
           <div className="rounded-2xl border-2 border-emerald-300 bg-emerald-50 p-5">
