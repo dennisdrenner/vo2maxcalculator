@@ -63,7 +63,36 @@ export function DirectorySearch() {
                 {results.length} {results.length === 1 ? 'facility' : 'facilities'} found
               </p>
               <div className="mt-3 space-y-3">
-                {results.slice(0, 20).map((f, i) => (
+                {results.slice(0, 20).map((f, i) => {
+                  const isReferral = f.source === 'fitnescity' && !f.name;
+
+                  if (isReferral) {
+                    return (
+                      <div
+                        key={`${f.city}-${f.state}-${i}`}
+                        className="flex items-center justify-between rounded-xl border border-slate-200 bg-slate-50 px-4 py-3"
+                      >
+                        <div>
+                          <p className="text-sm font-medium text-slate-700">
+                            VO2 max testing available in {f.city}, {STATE_NAMES[f.state] || f.state}
+                          </p>
+                          <p className="text-xs text-slate-500">via Fitnescity (Quest Diagnostics partner)</p>
+                        </div>
+                        {f.source_url ? (
+                          <a
+                            href={f.source_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="shrink-0 rounded-lg bg-brand px-3 py-1.5 text-xs font-semibold text-white hover:bg-brand-fg"
+                          >
+                            Book ↗
+                          </a>
+                        ) : null}
+                      </div>
+                    );
+                  }
+
+                  return (
                   <div
                     key={`${f.city}-${f.state}-${i}`}
                     className="rounded-xl border border-slate-200 bg-white p-4"
@@ -95,7 +124,8 @@ export function DirectorySearch() {
                       </p>
                     ) : null}
                   </div>
-                ))}
+                  );
+                })}
                 {results.length > 20 && (
                   <p className="text-sm text-slate-500">
                     Showing 20 of {results.length} results. Try a more specific search.

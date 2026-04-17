@@ -8,6 +8,7 @@ export interface Facility {
   phone: string;
   website: string;
   source: string;
+  source_url?: string;
   rating: number | null;
   reviews_count: number | null;
   latitude: number | null;

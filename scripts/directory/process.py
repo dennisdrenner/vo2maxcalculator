@@ -211,7 +211,7 @@ def generate_output(facilities):
         st = f["state"]
         if st not in states:
             states[st] = []
-        states[st].append({
+        entry = {
             "name": f.get("name", ""),
             "city": f["city"],
             "state": f["state"],
@@ -223,7 +223,10 @@ def generate_output(facilities):
             "reviews_count": f.get("reviews_count"),
             "latitude": f.get("latitude"),
             "longitude": f.get("longitude"),
-        })
+        }
+        if f.get("source_url"):
+            entry["source_url"] = f["source_url"]
+        states[st].append(entry)
 
     for st in states:
         states[st].sort(key=lambda x: x["city"])

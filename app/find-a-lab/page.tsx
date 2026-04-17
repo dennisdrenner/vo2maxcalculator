@@ -115,39 +115,70 @@ export default function FindALabPage() {
             <section key={st} id={st.toLowerCase()} className="mt-12 scroll-mt-20">
               <h2 className="text-xl font-bold text-slate-900">{name}</h2>
               <div className="mt-4 space-y-3">
-                {facilities.map((f, i) => (
-                  <div
-                    key={`${f.city}-${i}`}
-                    className="rounded-xl border border-slate-200 bg-white p-4"
-                  >
-                    <div className="flex items-start justify-between">
-                      <div>
-                        {f.name ? (
-                          <h3 className="font-bold text-slate-900">{f.name}</h3>
+                {facilities.map((f, i) => {
+                  const isReferral = f.source === 'fitnescity' && !f.name;
+                  const bookingUrl = f.source_url;
+
+                  if (isReferral) {
+                    return (
+                      <div
+                        key={`${f.city}-${i}`}
+                        className="flex items-center justify-between rounded-xl border border-slate-200 bg-slate-50 px-4 py-3"
+                      >
+                        <div>
+                          <p className="text-sm font-medium text-slate-700">
+                            VO2 max testing available in {f.city}, {STATE_NAMES[f.state] || f.state}
+                          </p>
+                          <p className="text-xs text-slate-500">via Fitnescity (Quest Diagnostics partner)</p>
+                        </div>
+                        {bookingUrl ? (
+                          <a
+                            href={bookingUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="shrink-0 rounded-lg bg-brand px-3 py-1.5 text-xs font-semibold text-white hover:bg-brand-fg"
+                          >
+                            Book ↗
+                          </a>
                         ) : null}
-                        <p className="text-sm text-slate-700">
-                          {f.city}, {f.state}
-                          {f.address ? ` — ${f.address}` : ''}
-                        </p>
                       </div>
-                      {f.website ? (
-                        <a
-                          href={f.website.startsWith('http') ? f.website : `https://${f.website}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="shrink-0 text-sm font-semibold text-teal-700 hover:underline"
-                        >
-                          Website ↗
-                        </a>
+                    );
+                  }
+
+                  return (
+                    <div
+                      key={`${f.city}-${i}`}
+                      className="rounded-xl border border-slate-200 bg-white p-4"
+                    >
+                      <div className="flex items-start justify-between">
+                        <div>
+                          {f.name ? (
+                            <h3 className="font-bold text-slate-900">{f.name}</h3>
+                          ) : null}
+                          <p className="text-sm text-slate-700">
+                            {f.city}, {STATE_NAMES[f.state] || f.state}
+                            {f.address ? ` — ${f.address}` : ''}
+                          </p>
+                        </div>
+                        {f.website ? (
+                          <a
+                            href={f.website.startsWith('http') ? f.website : `https://${f.website}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="shrink-0 text-sm font-semibold text-teal-700 hover:underline"
+                          >
+                            Website ↗
+                          </a>
+                        ) : null}
+                      </div>
+                      {f.phone ? (
+                        <p className="mt-1 text-xs text-slate-500">
+                          Phone: <a href={`tel:${f.phone}`} className="text-teal-700 hover:underline">{f.phone}</a>
+                        </p>
                       ) : null}
                     </div>
-                    {f.phone ? (
-                      <p className="mt-1 text-xs text-slate-500">
-                        Phone: <a href={`tel:${f.phone}`} className="text-teal-700 hover:underline">{f.phone}</a>
-                      </p>
-                    ) : null}
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </section>
           );
