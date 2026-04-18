@@ -28,14 +28,7 @@ export function AdSlot({ slot, format = 'auto', responsive = true, className }: 
   }, [adsenseId]);
 
   if (!adsenseId) {
-    return (
-      <div
-        className={`my-6 flex h-24 items-center justify-center rounded-md border border-dashed border-slate-300 bg-slate-50 text-xs text-slate-400 ${className ?? ''}`}
-        aria-hidden
-      >
-        Ad slot: {slot}
-      </div>
-    );
+    return null;
   }
 
   return (

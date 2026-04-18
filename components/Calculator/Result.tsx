@@ -103,6 +103,12 @@ export function Result({ vo2max, age, sex, method, methodSlug }: ResultProps) {
       <GearTip methodSlug={methodSlug} />
 
       <EmailGate vo2max={vo2max} age={age} sex={sex} method={methodSlug} />
+
+      <p className="mt-4 text-xs text-slate-400">
+        This estimate is for educational purposes only and is not medical advice. Field-test
+        equations have a typical error of ±3–5 ml/kg/min. Consult a healthcare provider before
+        starting any exercise program.
+      </p>
     </section>
   );
 }

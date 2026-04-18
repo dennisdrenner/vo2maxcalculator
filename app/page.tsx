@@ -219,6 +219,20 @@ export default function HomePage() {
         </div>
       </section>
 
+      <div className="mx-auto max-w-4xl px-4 py-10">
+        <div className="rounded-xl border border-amber-200 bg-amber-50 p-6">
+          <h2 className="text-lg font-bold text-amber-900">Medical disclaimer</h2>
+          <p className="mt-2 text-sm text-amber-800">
+            This site provides educational fitness information only. It is <strong>not a substitute
+            for professional medical advice, diagnosis, or treatment</strong>. The VO2 max estimates
+            produced by these calculators are approximations derived from field-test regression
+            equations — they are not clinical measurements. Always consult a qualified healthcare
+            provider before beginning any exercise program or if you have any concerns about your
+            cardiovascular health.
+          </p>
+        </div>
+      </div>
+
       <div className="mx-auto max-w-4xl px-4">
         <RelatedLinks pageType="home" />
       </div>

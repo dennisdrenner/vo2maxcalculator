@@ -46,6 +46,27 @@ export default function AboutPage() {
       </p>
 
       <section className="mt-10">
+        <h2 className="text-2xl font-bold text-slate-900">Who we are</h2>
+        <p className="mt-3 text-slate-700">
+          This site is built and maintained by <strong>Dennis Drenner</strong>, founder of{' '}
+          <a href="https://smartravenai.com" className="text-teal-700 underline" target="_blank" rel="noopener noreferrer">
+            Smart Raven AI
+          </a>
+          , based in Maryland. Dennis is a lifelong endurance athlete, cyclist, and data enthusiast
+          who has been tracking his own VO2 max for over a decade. After being frustrated by the
+          lack of comprehensive, transparent, and free VO2 max tools online, he built this site to
+          provide the resource he wished existed.
+        </p>
+        <p className="mt-3 text-slate-700">
+          All formulas are sourced from peer-reviewed exercise physiology literature and
+          cross-checked against the original publications. The normative data comes from The Cooper
+          Institute's Aerobics Center Longitudinal Study. While we strive for accuracy, this site
+          is for educational and informational purposes only — it is not a substitute for
+          professional medical advice, diagnosis, or treatment.
+        </p>
+      </section>
+
+      <section className="mt-10">
         <h2 className="text-2xl font-bold text-slate-900">What's on the site</h2>
         <ul className="mt-3 list-disc space-y-2 pl-6 text-slate-700">
           <li>
@@ -139,8 +160,24 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold text-slate-900">Contact</h2>
         <p className="mt-3 text-slate-700">
           Spotted a bug, a broken formula, or an out-of-date citation? We want to hear about it.
-          The easiest way to reach us is via the contact form on the site footer. We try to reply
-          within a week.
+          Email us at{' '}
+          <a href="mailto:dennis@smartravenai.com" className="text-teal-700 underline">
+            dennis@smartravenai.com
+          </a>{' '}
+          — we try to reply within a week.
+        </p>
+      </section>
+
+      <section className="mt-10 rounded-xl border border-amber-200 bg-amber-50 p-6">
+        <h2 className="text-lg font-bold text-amber-900">Medical disclaimer</h2>
+        <p className="mt-2 text-sm text-amber-800">
+          This site provides educational fitness information only. It is <strong>not a substitute
+          for professional medical advice, diagnosis, or treatment</strong>. The VO2 max estimates
+          produced by these calculators are approximations derived from field-test regression
+          equations — they are not clinical measurements. Always consult a qualified healthcare
+          provider before beginning any exercise program, especially if you have a cardiovascular
+          condition, are pregnant, or are starting from a deconditioned state. Do not use this site
+          to make medical decisions.
         </p>
       </section>
 
