@@ -17,17 +17,18 @@ declare global {
 
 export function AdSlot({ slot, format = 'auto', responsive = true, className }: AdSlotProps) {
   const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID;
+  const adsEnabled = process.env.NEXT_PUBLIC_ADS_ENABLED === 'true';
 
   useEffect(() => {
-    if (!adsenseId) return;
+    if (!adsenseId || !adsEnabled) return;
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch {
       // silently ignore
     }
-  }, [adsenseId]);
+  }, [adsenseId, adsEnabled]);
 
-  if (!adsenseId) {
+  if (!adsenseId || !adsEnabled) {
     return null;
   }
 
