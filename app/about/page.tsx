@@ -52,10 +52,12 @@ export default function AboutPage() {
           <a href="https://smartravenai.com" className="text-teal-700 underline" target="_blank" rel="noopener noreferrer">
             Smart Raven AI
           </a>
-          , based in Maryland. Dennis is a lifelong endurance athlete, cyclist, and data enthusiast
-          who has been tracking his own VO2 max for over a decade. After being frustrated by the
-          lack of comprehensive, transparent, and free VO2 max tools online, he built this site to
-          provide the resource he wished existed.
+          , based in Maryland. Dennis holds a degree in biology from the University of Maryland
+          and works as a software developer. He is serious about fitness, has undergone lab-based
+          CPET testing himself, and has spent years studying the exercise physiology literature
+          behind VO2 max estimation. After being frustrated by the lack of comprehensive,
+          transparent, and free VO2 max tools online, he built this site to provide the resource
+          he wished existed.
         </p>
         <p className="mt-3 text-slate-700">
           All formulas are sourced from peer-reviewed exercise physiology literature and
