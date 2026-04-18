@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { METHODS } from '@/lib/methods';
 import { AGE_BRACKETS, bracketToDecadeSlug } from '@/lib/norms';
+import { getStates, getStateSlug } from '@/lib/directory';
 import { SITE_URL } from '@/lib/seo';
 
 const NOW = new Date();
@@ -59,6 +60,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const goodVo2ValuePages = Array.from({ length: 46 }, (_, i) => `/good-vo2-max/${25 + i}/`);
 
+  const statePages = getStates().map((abbr) => `/find-a-lab/${getStateSlug(abbr)}/`);
+
   return [
     ...staticP0.map(([p, pr]) => entry(p, pr, 'weekly')),
     ...staticP1.map(([p, pr]) => entry(p, pr, 'monthly')),
@@ -67,5 +70,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...improveArticles.map((p) => entry(p, 0.7, 'monthly')),
     ...wearableArticles.map((p) => entry(p, 0.65, 'monthly')),
     ...goodVo2ValuePages.map((p) => entry(p, 0.5, 'monthly')),
+    ...statePages.map((p) => entry(p, 0.7, 'monthly')),
   ];
 }

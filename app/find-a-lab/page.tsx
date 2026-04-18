@@ -4,7 +4,7 @@ import { ArticleSchema, BreadcrumbSchema } from '@/components/Schema';
 import { Hero } from '@/components/Hero';
 import { SectionLabel } from '@/components/SectionLabel';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
-import { DIRECTORY, STATE_NAMES, getStates, getFacilitiesByState } from '@/lib/directory';
+import { DIRECTORY, STATE_NAMES, getStates, getFacilitiesByState, getStateSlug } from '@/lib/directory';
 import { DirectorySearch } from '@/components/DirectorySearch';
 
 export const metadata: Metadata = buildMetadata({
@@ -104,94 +104,23 @@ export default function FindALabPage() {
               const facilities = getFacilitiesByState(st);
               const name = STATE_NAMES[st] || st;
               return (
-                <a
+                <Link
                   key={st}
-                  href={`#${st.toLowerCase()}`}
+                  href={`/find-a-lab/${getStateSlug(st)}/`}
                   className="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-3 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand hover:shadow-lg"
                 >
                   <span className="font-semibold text-slate-900">{name}</span>
-                  <span className="text-sm text-slate-500">{facilities.length} {facilities.length === 1 ? 'lab' : 'labs'}</span>
-                </a>
+                  <span className="flex items-center gap-1 text-sm text-slate-500">
+                    {facilities.length} {facilities.length === 1 ? 'lab' : 'labs'}
+                    <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
+                      <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
+                    </svg>
+                  </span>
+                </Link>
               );
             })}
           </div>
         </section>
-
-        {states.map((st) => {
-          const facilities = getFacilitiesByState(st);
-          const name = STATE_NAMES[st] || st;
-          return (
-            <section key={st} id={st.toLowerCase()} className="mt-12 scroll-mt-20">
-              <h2 className="text-xl font-bold text-slate-900">{name}</h2>
-              <div className="mt-4 space-y-3">
-                {facilities.map((f, i) => {
-                  const isReferral = f.source === 'fitnescity' && !f.name;
-                  const bookingUrl = f.source_url;
-
-                  if (isReferral) {
-                    return (
-                      <div
-                        key={`${f.city}-${i}`}
-                        className="flex items-center justify-between rounded-xl border border-slate-200 bg-slate-50 px-4 py-3"
-                      >
-                        <div>
-                          <p className="text-sm font-medium text-slate-700">
-                            VO2 max testing available in {f.city}, {STATE_NAMES[f.state] || f.state}
-                          </p>
-                          <p className="text-xs text-slate-500">via Fitnescity (Quest Diagnostics partner)</p>
-                        </div>
-                        {bookingUrl ? (
-                          <a
-                            href={bookingUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="shrink-0 rounded-lg bg-brand px-3 py-1.5 text-xs font-semibold text-white hover:bg-brand-fg"
-                          >
-                            Book ↗
-                          </a>
-                        ) : null}
-                      </div>
-                    );
-                  }
-
-                  return (
-                    <div
-                      key={`${f.city}-${i}`}
-                      className="rounded-xl border border-slate-200 bg-white p-4"
-                    >
-                      <div className="flex items-start justify-between">
-                        <div>
-                          {f.name ? (
-                            <h3 className="font-bold text-slate-900">{f.name}</h3>
-                          ) : null}
-                          <p className="text-sm text-slate-700">
-                            {f.city}, {STATE_NAMES[f.state] || f.state}
-                            {f.address ? ` — ${f.address}` : ''}
-                          </p>
-                        </div>
-                        {f.website ? (
-                          <a
-                            href={f.website.startsWith('http') ? f.website : `https://${f.website}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="shrink-0 text-sm font-semibold text-teal-700 hover:underline"
-                          >
-                            Website ↗
-                          </a>
-                        ) : null}
-                      </div>
-                      {f.phone ? (
-                        <p className="mt-1 text-xs text-slate-500">
-                          Phone: <a href={`tel:${f.phone}`} className="text-teal-700 hover:underline">{f.phone}</a>
-                        </p>
-                      ) : null}
-                    </div>
-                  );
-                })}
-              </div>
-            </section>
-          );
-        })}
 
         <section className="mt-12 rounded-xl border border-slate-200 bg-slate-50 p-5">
           <h2 className="text-lg font-semibold text-slate-900">Know a lab we're missing?</h2>

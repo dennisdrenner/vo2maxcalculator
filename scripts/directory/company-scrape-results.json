@@ -1,0 +1,482 @@
+[
+  {
+    "name": "DexaFit Atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "address": "",
+    "phone": "1714054204",
+    "website": "https://www.atlanta.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.atlanta.dexafit.com"
+  },
+  {
+    "name": "DexaFit Boston",
+    "city": "Boston",
+    "state": "MA",
+    "address": "799 Concord Ave, Cambridge, MA 02138",
+    "phone": "1716924215",
+    "website": "https://www.boston.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.boston.dexafit.com"
+  },
+  {
+    "name": "DexaFit Fort Lauderdale",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "address": "9660 W Sample Rd #203, Coral Springs, FL 33065",
+    "phone": "1715890371",
+    "website": "https://www.broward.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.broward.dexafit.com"
+  },
+  {
+    "name": "DexaFit Cincinnati",
+    "city": "Cincinnati",
+    "state": "OH",
+    "address": "",
+    "phone": "1727023737",
+    "website": "https://www.cincinnati.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.cincinnati.dexafit.com"
+  },
+  {
+    "name": "DexaFit Clear Lake",
+    "city": "Clear Lake",
+    "state": "TX",
+    "address": "",
+    "phone": "",
+    "website": "https://www.clearlake.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.clearlake.dexafit.com"
+  },
+  {
+    "name": "DexaFit Cleveland",
+    "city": "Cleveland",
+    "state": "OH",
+    "address": "23400 Mercantile Rd, Suite 1, \nBeachwood, OH 44122",
+    "phone": "1727610533",
+    "website": "https://www.cleveland.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.cleveland.dexafit.com"
+  },
+  {
+    "name": "DexaFit Denver",
+    "city": "Denver",
+    "state": "CO",
+    "address": "",
+    "phone": "0988017604",
+    "website": "https://www.colorado.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.colorado.dexafit.com"
+  },
+  {
+    "name": "DexaFit Detroit",
+    "city": "Detroit",
+    "state": "MI",
+    "address": "",
+    "phone": "1708528781",
+    "website": "https://www.detroit.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.detroit.dexafit.com"
+  },
+  {
+    "name": "DexaFit Jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "address": "",
+    "phone": "0988017604",
+    "website": "https://www.florida.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.florida.dexafit.com"
+  },
+  {
+    "name": "DexaFit Olathe",
+    "city": "Olathe",
+    "state": "KS",
+    "address": "14008 W. 135th Street Olathe, KS 66062",
+    "phone": "6005075222",
+    "website": "https://www.dexafitkc.com",
+    "source": "dexafit",
+    "source_url": "https://www.dexafitkc.com"
+  },
+  {
+    "name": "DexaFit Las Vegas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "address": "6883 W. Charleston Blvd, Suite A, Las Vegas, NV 89117",
+    "phone": "3141925352",
+    "website": "https://www.dexafitlv.com",
+    "source": "dexafit",
+    "source_url": "https://www.dexafitlv.com"
+  },
+  {
+    "name": "DexaFit Paramus",
+    "city": "Paramus",
+    "state": "NJ",
+    "address": "",
+    "phone": "1711579261",
+    "website": "https://www.dexafitnj.com",
+    "source": "dexafit",
+    "source_url": "https://www.dexafitnj.com"
+  },
+  {
+    "name": "DexaFit Houston",
+    "city": "Houston",
+    "state": "TX",
+    "address": "",
+    "phone": "1711655624",
+    "website": "https://www.dexafitwesthouston.com",
+    "source": "dexafit",
+    "source_url": "https://www.dexafitwesthouston.com"
+  },
+  {
+    "name": "DexaFit Los Alamitos",
+    "city": "Los Alamitos",
+    "state": "CA",
+    "address": "",
+    "phone": "1736786892",
+    "website": "https://www.losalamitos.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.losalamitos.dexafit.com"
+  },
+  {
+    "name": "DexaFit Phoenix",
+    "city": "Phoenix",
+    "state": "AZ",
+    "address": "706 E Bell Rd. Suite 123, Phoenix, AZ 85022",
+    "phone": "1710417313",
+    "website": "https://www.phoenix.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.phoenix.dexafit.com"
+  },
+  {
+    "name": "DexaFit Round Rock",
+    "city": "Round Rock",
+    "state": "TX",
+    "address": "",
+    "phone": "1719676558",
+    "website": "https://www.roundrock.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.roundrock.dexafit.com"
+  },
+  {
+    "name": "DexaFit Scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "address": "",
+    "phone": "1732970185",
+    "website": "https://www.scottsdale.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.scottsdale.dexafit.com"
+  },
+  {
+    "name": "DexaFit Seattle",
+    "city": "Seattle",
+    "state": "WA",
+    "address": "111 W John St, Seattle, WA 98119",
+    "phone": "1723976353",
+    "website": "https://www.seattle.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.seattle.dexafit.com"
+  },
+  {
+    "name": "DexaFit San Francisco",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": "",
+    "phone": "2503742903",
+    "website": "https://www.sfbayarea.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.sfbayarea.dexafit.com"
+  },
+  {
+    "name": "DexaFit Tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "address": "730 S. Sterling Avenue, Suite 106, Tampa, FL 33609",
+    "phone": "1748704619",
+    "website": "https://www.tampa.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.tampa.dexafit.com"
+  },
+  {
+    "name": "DexaFit Dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "address": "",
+    "phone": "0988017604",
+    "website": "https://www.texas.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.texas.dexafit.com"
+  },
+  {
+    "name": "DexaFit The Woodlands",
+    "city": "The Woodlands",
+    "state": "TX",
+    "address": "7630 Dowdell Rd suite 802, Spring, TX 77389",
+    "phone": "0315043591",
+    "website": "https://www.woodlands.dexafit.com",
+    "source": "dexafit",
+    "source_url": "https://www.woodlands.dexafit.com"
+  },
+  {
+    "name": "DexaFit Westport",
+    "city": "Westport",
+    "state": "CT",
+    "address": "",
+    "phone": "1708671633",
+    "website": "https://www.longevitywestport.com",
+    "source": "dexafit",
+    "source_url": "https://www.longevitywestport.com"
+  },
+  {
+    "name": "DexaFit Long Island",
+    "city": "Long Island",
+    "state": "NY",
+    "address": "2570 Merrick Road, Bellmore, NY 11710",
+    "phone": "1699986271",
+    "website": "https://dexafit.com/locations/new-york/long-island",
+    "source": "dexafit",
+    "source_url": "https://dexafit.com/locations/new-york/long-island"
+  },
+  {
+    "name": "Live Lean Rx Atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/atlanta-georgia",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/atlanta-georgia"
+  },
+  {
+    "name": "Live Lean Rx Austin",
+    "city": "Austin",
+    "state": "TX",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/austin-texas",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/austin-texas"
+  },
+  {
+    "name": "Live Lean Rx Charlotte",
+    "city": "Charlotte",
+    "state": "NC",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/charlotte-nc",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/charlotte-nc"
+  },
+  {
+    "name": "Live Lean Rx Chattanooga",
+    "city": "Chattanooga",
+    "state": "TN",
+    "address": "",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/chattanooga-tn",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/chattanooga-tn"
+  },
+  {
+    "name": "Live Lean Rx Chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/chicago-illinois",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/chicago-illinois"
+  },
+  {
+    "name": "Live Lean Rx Cincinnati",
+    "city": "Cincinnati",
+    "state": "OH",
+    "address": "",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/cincinnati-oh",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/cincinnati-oh"
+  },
+  {
+    "name": "Live Lean Rx Colorado Springs",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/colorado-springs-colorado",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/colorado-springs-colorado"
+  },
+  {
+    "name": "Live Lean Rx Dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/dallas-fort-worth-texas",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/dallas-fort-worth-texas"
+  },
+  {
+    "name": "Live Lean Rx Denver",
+    "city": "Denver",
+    "state": "CO",
+    "address": "",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/denver-north-west-colorado",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/denver-north-west-colorado"
+  },
+  {
+    "name": "Live Lean Rx Denver South",
+    "city": "Denver South",
+    "state": "CO",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/denver-south-colorado",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/denver-south-colorado"
+  },
+  {
+    "name": "Live Lean Rx Houston",
+    "city": "Houston",
+    "state": "TX",
+    "address": "1230 Liberty Bank Ln Suite 200 Louisville, KY 40222",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/houston-texas",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/houston-texas"
+  },
+  {
+    "name": "Live Lean Rx Indianapolis",
+    "city": "Indianapolis",
+    "state": "IN",
+    "address": "",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/indianapolis-indiana",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/indianapolis-indiana"
+  },
+  {
+    "name": "Live Lean Rx Libertyville",
+    "city": "Libertyville",
+    "state": "IL",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/libertyville-illinois",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/libertyville-illinois"
+  },
+  {
+    "name": "Live Lean Rx Louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/louisville-kentucky",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/louisville-kentucky"
+  },
+  {
+    "name": "Live Lean Rx Milford",
+    "city": "Milford",
+    "state": "CT",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/milford-connecticut",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/milford-connecticut"
+  },
+  {
+    "name": "Live Lean Rx Nashville",
+    "city": "Nashville",
+    "state": "TN",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/nashville-tn",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/nashville-tn"
+  },
+  {
+    "name": "Live Lean Rx Scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/phoenix-scottsdale-arizona",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/phoenix-scottsdale-arizona"
+  },
+  {
+    "name": "Live Lean Rx Redmond",
+    "city": "Redmond",
+    "state": "WA",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/redmond-washington",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/redmond-washington"
+  },
+  {
+    "name": "Live Lean Rx San Diego",
+    "city": "San Diego",
+    "state": "CA",
+    "address": "",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/san-diego-california",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/san-diego-california"
+  },
+  {
+    "name": "Live Lean Rx Warrenville",
+    "city": "Warrenville",
+    "state": "IL",
+    "address": "4611 Bee Cave Road, Suite 307, West Lake Hills, TX 78746",
+    "phone": "7026199712",
+    "website": "https://liveleanrx.com/locations/warrenville-illinois",
+    "source": "liveleanrx",
+    "source_url": "https://liveleanrx.com/locations/warrenville-illinois"
+  },
+  {
+    "name": "DexaBody Salt Lake City",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "address": "5263 Commerce Drive, Suite 201",
+    "phone": "",
+    "website": "https://dexabody.com/",
+    "source": "dexabody",
+    "source_url": "https://dexabody.com/"
+  },
+  {
+    "name": "DexaBody San Diego",
+    "city": "San Diego",
+    "state": "CA",
+    "address": "5465 Morehouse Drive, Suite 170",
+    "phone": "",
+    "website": "https://dexabody.com/",
+    "source": "dexabody",
+    "source_url": "https://dexabody.com/"
+  },
+  {
+    "name": "DexaBody Scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "address": "11111 N. Scottsdale Rd, Suite 205",
+    "phone": "",
+    "website": "https://dexabody.com/",
+    "source": "dexabody",
+    "source_url": "https://dexabody.com/"
+  },
+  {
+    "name": "DexaBody Atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "address": "3355 Lenox Road, Suite 750",
+    "phone": "",
+    "website": "https://dexabody.com/",
+    "source": "dexabody",
+    "source_url": "https://dexabody.com/"
+  }
+]

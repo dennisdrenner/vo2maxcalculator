@@ -13,6 +13,17 @@ export interface Facility {
   reviews_count: number | null;
   latitude: number | null;
   longitude: number | null;
+  // Enrichment fields
+  photo_url?: string;
+  photo?: string;
+  place_id?: string;
+  subtypes?: string;
+  reviews_per_score?: Record<string, number>;
+  reviews_link?: string;
+  working_hours?: Record<string, string[]>;
+  booking_link?: string;
+  maps_link?: string;
+  verified?: boolean;
 }
 
 interface DirectoryData {
@@ -39,6 +50,33 @@ export const STATE_NAMES: Record<string, string> = {
   TN: 'Tennessee', TX: 'Texas', UT: 'Utah', VT: 'Vermont', VA: 'Virginia',
   WA: 'Washington', WV: 'West Virginia', WI: 'Wisconsin', WY: 'Wyoming',
 };
+
+export function stateToSlug(abbr: string): string {
+  return (STATE_NAMES[abbr] || abbr).toLowerCase().replace(/\s+/g, '-');
+}
+
+export const STATE_SLUGS: Record<string, string> = Object.fromEntries(
+  Object.keys(STATE_NAMES).map((abbr) => [abbr, stateToSlug(abbr)]),
+);
+
+export const SLUG_TO_ABBR: Record<string, string> = Object.fromEntries(
+  Object.entries(STATE_SLUGS).map(([abbr, slug]) => [slug, abbr]),
+);
+
+export function getStateBySlug(slug: string): string | undefined {
+  return SLUG_TO_ABBR[slug];
+}
+
+export function getStateSlug(abbr: string): string {
+  return STATE_SLUGS[abbr] || abbr.toLowerCase();
+}
+
+export function formatPhone(digits: string): string {
+  if (digits.length === 10) {
+    return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
+  }
+  return digits;
+}
 
 export function getStates(): string[] {
   return Object.keys(data.states).sort();
