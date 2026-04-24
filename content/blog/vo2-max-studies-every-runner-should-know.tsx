@@ -10,6 +10,7 @@ const post: BlogPost = {
     'From Blair 1989 to Mandsager 2018, these are the papers behind every VO2 max claim you see on the internet — plus what each one actually proved.',
   datePublished: '2026-04-24',
   tags: ['research', 'training'],
+  heroImage: 'https://calculatorsites.b-cdn.net/vo2max/hero-methodology.jpg',
   keywords: [
     'vo2 max studies',
     'vo2 max research',
@@ -68,6 +69,14 @@ const post: BlogPost = {
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold text-slate-900">3. Mandsager et al., JAMA Network Open 2018 — no upper limit of benefit</h2>
+        <img
+          src="https://calculatorsites.b-cdn.net/vo2max/inline-cpet.jpg"
+          alt="Athlete wearing a metabolic cart mask during a lab CPET test on a treadmill."
+          width={800}
+          height={450}
+          loading="lazy"
+          className="mt-4 w-full rounded-2xl md:float-right md:ml-6 md:mt-2 md:mb-2 md:w-80"
+        />
         <p className="mt-3 text-slate-700">
           Clinicians at the Cleveland Clinic analyzed 122,007 patients who had undergone
           treadmill exercise testing between 1991 and 2014. They found that higher measured
@@ -103,6 +112,14 @@ const post: BlogPost = {
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold text-slate-900">5. Bassett and Howley, MSSE 2000 — what actually limits VO2 max</h2>
+        <img
+          src="https://calculatorsites.b-cdn.net/vo2max/inline-physiology.jpg"
+          alt="Illustration of oxygen flowing from the lungs through the heart and bloodstream to working muscles."
+          width={800}
+          height={450}
+          loading="lazy"
+          className="mt-4 w-full rounded-2xl md:float-left md:mr-6 md:mt-2 md:mb-2 md:w-80"
+        />
         <p className="mt-3 text-slate-700">
           This review settled a long-running debate in exercise physiology: is VO2 max limited by
           the heart's ability to pump oxygenated blood, or by the muscles' ability to use it?

@@ -14,6 +14,7 @@ const NAV: NavItem[] = [
   { href: '/', label: 'Calculator' },
   { href: '/methods/', label: 'Tests' },
   { href: '/find-a-lab/', label: 'Find a Lab' },
+  { href: '/blog/', label: 'Blog' },
   {
     href: '/chart/',
     label: 'Compare',
@@ -31,7 +32,6 @@ const NAV: NavItem[] = [
       { href: '/improve/', label: 'Training Guide' },
       { href: '/equipment/', label: 'Equipment' },
       { href: '/wearables/', label: 'Wearables' },
-      { href: '/blog/', label: 'Blog' },
       { href: '/resources/', label: 'Resources' },
       { href: '/about/', label: 'About' },
     ],

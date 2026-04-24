@@ -18,6 +18,8 @@ export interface BlogPost {
   keywords?: string[];
   /** Optional override for the hero background image URL. */
   heroImage?: string;
+  /** Optional thumbnail for blog hub cards. Falls back to heroImage when absent. */
+  cardImage?: string;
   /** One-paragraph lead that opens the article (above the ad slot). */
   lead: ReactNode;
   /** Main body, rendered after the lead. */

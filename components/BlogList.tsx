@@ -44,36 +44,51 @@ export function BlogList({ posts, activeTags }: BlogListProps) {
       ) : null}
 
       <ul className="mt-8 grid gap-5 sm:grid-cols-2">
-        {visible.map((p) => (
-          <li key={p.slug}>
-            <Link
-              href={`/blog/${p.slug}/`}
-              className="block h-full rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-teal-500 hover:shadow-md"
-            >
-              <div className="flex flex-wrap gap-1.5">
-                {p.tags.map((t) => (
-                  <span
-                    key={t}
-                    className="rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-slate-600"
-                  >
-                    {TAG_LABEL[t]}
-                  </span>
-                ))}
-              </div>
-              <h3 className="mt-3 text-lg font-semibold text-slate-900">{p.title}</h3>
-              <p className="mt-2 text-sm text-slate-600">{p.excerpt}</p>
-              <p className="mt-3 text-xs text-slate-400">
-                <time dateTime={p.datePublished}>
-                  {new Date(p.datePublished).toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  })}
-                </time>
-              </p>
-            </Link>
-          </li>
-        ))}
+        {visible.map((p) => {
+          const thumb = p.cardImage ?? p.heroImage;
+          return (
+            <li key={p.slug}>
+              <Link
+                href={`/blog/${p.slug}/`}
+                className="flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:-translate-y-0.5 hover:border-teal-500 hover:shadow-md"
+              >
+                {thumb ? (
+                  <div className="aspect-[16/9] w-full overflow-hidden bg-slate-100">
+                    <img
+                      src={thumb}
+                      alt=""
+                      loading="lazy"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                ) : null}
+                <div className="flex flex-1 flex-col p-5">
+                  <div className="flex flex-wrap gap-1.5">
+                    {p.tags.map((t) => (
+                      <span
+                        key={t}
+                        className="rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-slate-600"
+                      >
+                        {TAG_LABEL[t]}
+                      </span>
+                    ))}
+                  </div>
+                  <h3 className="mt-3 text-lg font-semibold text-slate-900">{p.title}</h3>
+                  <p className="mt-2 text-sm text-slate-600">{p.excerpt}</p>
+                  <p className="mt-3 text-xs text-slate-400">
+                    <time dateTime={p.datePublished}>
+                      {new Date(p.datePublished).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                      })}
+                    </time>
+                  </p>
+                </div>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
 
       {visible.length === 0 ? (
