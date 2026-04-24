@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { METHODS } from '@/lib/methods';
 import { AGE_BRACKETS, bracketToDecadeSlug } from '@/lib/norms';
 import { getStates, getStateSlug } from '@/lib/directory';
+import { getPostSlugs } from '@/content/blog';
 import { SITE_URL } from '@/lib/seo';
 
 const NOW = new Date();
@@ -36,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ['/equipment/', 0.75],
     ['/resources/', 0.65],
     ['/find-a-lab/', 0.8],
+    ['/blog/', 0.8],
     ['/about/', 0.5],
     ['/privacy/', 0.3],
     ['/terms/', 0.3],
@@ -62,6 +64,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const statePages = getStates().map((abbr) => `/find-a-lab/${getStateSlug(abbr)}/`);
 
+  const blogPages = getPostSlugs().map((slug) => `/blog/${slug}/`);
+
   return [
     ...staticP0.map(([p, pr]) => entry(p, pr, 'weekly')),
     ...staticP1.map(([p, pr]) => entry(p, pr, 'monthly')),
@@ -71,5 +75,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...wearableArticles.map((p) => entry(p, 0.65, 'monthly')),
     ...goodVo2ValuePages.map((p) => entry(p, 0.5, 'monthly')),
     ...statePages.map((p) => entry(p, 0.7, 'monthly')),
+    ...blogPages.map((p) => entry(p, 0.7, 'weekly')),
   ];
 }

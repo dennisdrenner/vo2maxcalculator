@@ -31,6 +31,7 @@ const NAV: NavItem[] = [
       { href: '/improve/', label: 'Training Guide' },
       { href: '/equipment/', label: 'Equipment' },
       { href: '/wearables/', label: 'Wearables' },
+      { href: '/blog/', label: 'Blog' },
       { href: '/resources/', label: 'Resources' },
       { href: '/about/', label: 'About' },
     ],
