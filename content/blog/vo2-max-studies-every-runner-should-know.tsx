@@ -10,7 +10,7 @@ const post: BlogPost = {
     'From Blair 1989 to Mandsager 2018, these are the papers behind every VO2 max claim you see on the internet — plus what each one actually proved.',
   datePublished: '2026-04-24',
   tags: ['research', 'training'],
-  heroImage: 'https://calculatorsites.b-cdn.net/vo2max/hero-methodology.jpg',
+  heroImage: 'https://calculatorsites.b-cdn.net/vo2max/hero-longevity.jpg',
   keywords: [
     'vo2 max studies',
     'vo2 max research',
