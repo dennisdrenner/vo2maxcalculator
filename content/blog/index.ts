@@ -1,8 +1,10 @@
 import type { BlogPost, BlogPostMap, BlogTag } from './types';
 import vo2MaxStudies from './vo2-max-studies-every-runner-should-know';
+import myCpetTest from './my-vo2-max-test-at-54';
 
 export const BLOG_POSTS: BlogPostMap = {
   [vo2MaxStudies.slug]: vo2MaxStudies,
+  [myCpetTest.slug]: myCpetTest,
 };
 
 export function getAllPosts(): BlogPost[] {
