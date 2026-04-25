@@ -7,6 +7,8 @@ import { HomeCalculatorSection } from '@/components/HomeCalculatorSection';
 import { Hero } from '@/components/Hero';
 import { SectionLabel } from '@/components/SectionLabel';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
+import { getAllPosts } from '@/content/blog';
+import { TAG_LABEL } from '@/content/blog/types';
 
 export const metadata: Metadata = buildMetadata({
   title: 'VO2 Max Calculator — Free Tool, 17 Test Methods',
@@ -204,6 +206,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <LatestFromBlog />
+
       <section className="bg-slate-50 py-10">
         <div className="mx-auto max-w-4xl px-4">
           <SectionLabel>FAQ</SectionLabel>
@@ -237,6 +241,85 @@ export default function HomePage() {
         <RelatedLinks pageType="home" />
       </div>
     </div>
+  );
+}
+
+function LatestFromBlog() {
+  const posts = getAllPosts().slice(0, 3);
+  if (posts.length === 0) return null;
+
+  return (
+    <section className="mx-auto max-w-5xl px-4 py-12">
+      <div className="flex items-end justify-between gap-4">
+        <div>
+          <SectionLabel>Blog</SectionLabel>
+          <h2 className="mt-2 text-2xl font-bold text-slate-900">Latest from the blog</h2>
+          <p className="mt-2 text-slate-600">
+            Research roundups, training-science commentary, and first-hand lab notes.
+          </p>
+        </div>
+        <Link
+          href="/blog/"
+          className="hidden text-sm font-semibold text-teal-700 hover:underline sm:inline"
+        >
+          See all posts →
+        </Link>
+      </div>
+
+      <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {posts.map((p) => {
+          const thumb = p.cardImage ?? p.heroImage;
+          return (
+            <li key={p.slug}>
+              <Link
+                href={`/blog/${p.slug}/`}
+                className="flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:-translate-y-0.5 hover:border-teal-500 hover:shadow-md"
+              >
+                {thumb ? (
+                  <div className="aspect-[16/9] w-full overflow-hidden bg-slate-100">
+                    <img
+                      src={thumb}
+                      alt=""
+                      loading="lazy"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                ) : null}
+                <div className="flex flex-1 flex-col p-5">
+                  <div className="flex flex-wrap gap-1.5">
+                    {p.tags.map((t) => (
+                      <span
+                        key={t}
+                        className="rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-slate-600"
+                      >
+                        {TAG_LABEL[t]}
+                      </span>
+                    ))}
+                  </div>
+                  <h3 className="mt-3 text-lg font-semibold text-slate-900">{p.title}</h3>
+                  <p className="mt-2 text-sm text-slate-600">{p.excerpt}</p>
+                  <p className="mt-3 text-xs text-slate-400">
+                    <time dateTime={p.datePublished}>
+                      {new Date(p.datePublished).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                      })}
+                    </time>
+                  </p>
+                </div>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+
+      <p className="mt-6 sm:hidden">
+        <Link href="/blog/" className="text-sm font-semibold text-teal-700 hover:underline">
+          See all posts →
+        </Link>
+      </p>
+    </section>
   );
 }
 
