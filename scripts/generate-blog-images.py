@@ -35,7 +35,7 @@ PROMPTS = [
     ("vo2max-at-80-masters-athletes",
      "Vibrant inspiring photograph of a fit older man in his late sixties or seventies cycling outdoors on a road bike, helmet on, smiling, sunlit countryside background. Vitality of healthy aging." + STYLE),
     ("experts-agree-disagree-vo2max",
-     "Editorial illustration of five diverse scientist and doctor figures seated around a table with a central abstract chart of an upward curve, friendly magazine-feature aesthetic, warm tones." + ILLUSTRATION_STYLE),
+     "Sharp photograph of five professionals — doctors, scientists, fitness coaches in business casual — seated around a wooden conference table in a bright modern office, mid-discussion, papers and laptops on the table. Tack-sharp focus, shallow depth of field, natural window light. Documentary photography aesthetic." + STYLE),
     ("andrew-huberman-vo2max",
      "Close-up action shot of a man riding a stationary assault bike at absolute maximum effort, knuckles tight on the handles, sweat, total exertion. Dramatic side lighting, slight motion blur on the moving fan." + STYLE),
     ("andy-galpin-vo2max-training",

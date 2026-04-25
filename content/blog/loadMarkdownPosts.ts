@@ -22,7 +22,7 @@ const POST_META: Record<string, PostMeta> = {
   'couch-to-top-25-percent-vo2max': { tags: ['training'], heroImage: 'couch-to-top-25-percent-vo2max.jpg' },
   'vo2max-at-80-masters-athletes': { tags: ['research'], heroImage: 'vo2max-at-80-masters-athletes.jpg' },
   'experts-agree-disagree-vo2max': { tags: ['methodology'], heroImage: 'experts-agree-disagree-vo2max.jpg' },
-  'andrew-huberman-vo2max': { tags: ['video'], heroImage: 'andrew-huberman-vo2max.jpg' },
+  'andrew-huberman-vo2max': { tags: ['video'], heroImage: 'andrew-huberman-portrait.jpg' },
   'andy-galpin-vo2max-training': { tags: ['video'], heroImage: 'andy-galpin-vo2max-training.jpg' },
   'inigo-san-millan-zone-2': { tags: ['video'], heroImage: 'inigo-san-millan-zone-2.jpg' },
   'rhonda-patrick-vo2max-tabata': { tags: ['video'], heroImage: 'rhonda-patrick-vo2max-tabata.jpg' },

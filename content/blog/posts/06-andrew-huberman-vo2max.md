@@ -103,6 +103,8 @@ The [10-minute VO2max workout](/10-minute-vo2max-workout) is a good starting poi
 
 The important thing is doing something. Not doing nothing because the full program seems too big.
 
+*Hero image of Andrew Huberman by [Jamesbrianbounds](https://commons.wikimedia.org/wiki/File:Andrew_D._Huberman,_Ph.D..jpg), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+
 ---
 ## Suggested Image Prompts
 1. A clean, modern split diagram showing "Zone 2" (gentle, sustainable cardio — represented by a steady rolling wave and a conversational person) vs. "Zone 5" (explosive intensity — represented by a jagged peak and an all-out sprint figure). Medical/fitness infographic style, dark background with electric blue and orange accents.
