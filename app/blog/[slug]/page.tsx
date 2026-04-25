@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ArticleSchema, BreadcrumbSchema, FaqSchema } from '@/components/Schema';
 import { Hero } from '@/components/Hero';
 import { AdSlot } from '@/components/AdSlot';
+import { MarkdownBody } from '@/components/MarkdownBody';
 import { getAllPosts, getPost, getPostSlugs } from '@/content/blog';
 import { TAG_LABEL } from '@/content/blog/types';
 import { buildMetadata, SITE_URL } from '@/lib/seo';
@@ -85,11 +86,12 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
           </div>
         </div>
 
-        <div className="mt-6">{post.lead}</div>
+        {post.lead ? <div className="mt-6">{post.lead}</div> : null}
 
         <AdSlot slot="blog-mid" className="my-10" />
 
-        <div>{post.body}</div>
+        {post.bodyMarkdown ? <MarkdownBody source={post.bodyMarkdown} /> : null}
+        {post.body ? <div>{post.body}</div> : null}
 
         {post.faqs?.length ? (
           <section className="mt-12">

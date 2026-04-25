@@ -22,8 +22,10 @@ export interface BlogPost {
   cardImage?: string;
   /** One-paragraph lead that opens the article (above the ad slot). */
   lead: ReactNode;
-  /** Main body, rendered after the lead. */
-  body: ReactNode;
+  /** Main body, rendered after the lead. Used by handwritten TSX posts. */
+  body?: ReactNode;
+  /** Raw markdown body, rendered after the lead. Used by markdown posts. */
+  bodyMarkdown?: string;
   /** FAQs are appended and wired into FaqSchema. */
   faqs?: FaqItem[];
 }

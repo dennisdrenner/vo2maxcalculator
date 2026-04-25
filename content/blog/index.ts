@@ -1,11 +1,20 @@
 import type { BlogPost, BlogPostMap, BlogTag } from './types';
 import vo2MaxStudies from './vo2-max-studies-every-runner-should-know';
 import myCpetTest from './my-vo2-max-test-at-54';
+import { loadMarkdownPosts } from './loadMarkdownPosts';
 
-export const BLOG_POSTS: BlogPostMap = {
+const TSX_POSTS: BlogPostMap = {
   [vo2MaxStudies.slug]: vo2MaxStudies,
   [myCpetTest.slug]: myCpetTest,
 };
+
+export const BLOG_POSTS: BlogPostMap = (() => {
+  const map: BlogPostMap = { ...TSX_POSTS };
+  for (const p of loadMarkdownPosts()) {
+    if (!map[p.slug]) map[p.slug] = p;
+  }
+  return map;
+})();
 
 export function getAllPosts(): BlogPost[] {
   return Object.values(BLOG_POSTS).sort((a, b) =>
