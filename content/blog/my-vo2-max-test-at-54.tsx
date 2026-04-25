@@ -10,7 +10,7 @@ const post: BlogPost = {
     "I spend most of my working hours on this site explaining how VO2 max tests work. It felt overdue to actually take one. Here is what the five-page report said.",
   datePublished: '2026-04-24',
   tags: ['personal', 'methodology'],
-  heroImage: 'https://calculatorsites.b-cdn.net/vo2max/hero-chart.jpg',
+  heroImage: 'https://calculatorsites.b-cdn.net/vo2max/me%20in%20race%202.jpg',
   keywords: [
     'cpet test results',
     'how to read cpet report',
