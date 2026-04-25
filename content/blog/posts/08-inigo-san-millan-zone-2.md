@@ -14,6 +14,8 @@ His central message: **zone 2 training is not optional. It's the foundation. Eve
 
 ## Who Is Iñigo San Millán?
 
+![A cycling computer on a road-bike handlebar showing a steady zone-2 heart rate.](https://calculatorsites.b-cdn.net/vo2max/blog/inigo-san-millan-zone-2-inline.jpg)
+
 San Millán is a sports scientist and assistant professor at the University of Colorado School of Medicine. He specializes in the metabolic and physiological aspects of exercise — specifically the cellular mechanisms that determine endurance performance.
 
 He's also the person who made zone 2 training a household term in health and fitness circles. Before his appearances on Peter Attia's podcast — most notably a [three-hour deep dive](https://youtube.com/watch?v=-6PDBVRkCKc) that has been watched 1.7 million times — "zone 2" was mostly elite sports jargon. Now it's on every fitness blog and podcast in existence.

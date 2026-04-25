@@ -14,6 +14,8 @@ Here's a breakdown of where the major voices — Peter Attia, Andrew Huberman, I
 
 ## Where They All Agree
 
+![A researcher pointing to a bar chart on a table during a panel discussion.](https://calculatorsites.b-cdn.net/vo2max/blog/experts-agree-disagree-vo2max-inline.jpg)
+
 ### VO2max Is the Best Longevity Predictor We Have
 
 This one is unanimous. Every single expert mentioned above treats VO2max as the single most important measurable marker of longevity. Not cholesterol. Not blood pressure. Not BMI. VO2max.

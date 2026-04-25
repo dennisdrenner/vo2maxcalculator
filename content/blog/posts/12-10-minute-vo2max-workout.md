@@ -14,6 +14,8 @@ That's it.
 
 ## Why Short Works (The Actual Science)
 
+![A treadmill console mid-workout with a runner's torso visible behind.](https://calculatorsites.b-cdn.net/vo2max/blog/10-minute-vo2max-workout-inline.jpg)
+
 Your VO2max improves when your cardiovascular system is pushed to high demand. Not how long it's sustained at moderate demand — how high it gets pushed.
 
 Think of it like strength training: your muscles don't get stronger because you curl a light weight for 45 minutes. They get stronger because you lift something heavy enough to stress them. The same logic applies to your heart and aerobic system.

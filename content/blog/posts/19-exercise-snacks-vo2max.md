@@ -14,6 +14,8 @@ That's not motivational fluff. That's what the accelerometer data says.
 
 ## The Study That Changes Everything
 
+![A person walking briskly down a city sidewalk during a workday — an everyday exercise snack.](https://calculatorsites.b-cdn.net/vo2max/blog/exercise-snacks-vo2max-inline.jpg)
+
 The UK Biobank study is one of the largest health datasets in the world. Researchers took a subset of 25,000+ people who identified themselves as **non-exercisers** — people who don't work out, don't have a gym membership, don't think of themselves as physically active — and fitted them with accelerometers that measured movement every 10 seconds, 24 hours a day, for several years.
 
 Then they tracked who lived.

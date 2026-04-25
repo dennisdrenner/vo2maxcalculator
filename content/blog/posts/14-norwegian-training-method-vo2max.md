@@ -14,6 +14,8 @@ Something's different about how they train. And increasingly, exercise scientist
 
 ## The 4×4 Method: Norway's Secret Weapon
 
+![A runner ascending a misty mountain road in cold conditions at dawn.](https://calculatorsites.b-cdn.net/vo2max/blog/norwegian-training-method-vo2max-inline.jpg)
+
 The Norwegian national protocol for VO2max training — the one that's been refined over decades and exported to world champions across multiple sports — is deceptively simple:
 
 **4 minutes at hard effort. 4 minutes easy recovery. Repeat 4 times.**

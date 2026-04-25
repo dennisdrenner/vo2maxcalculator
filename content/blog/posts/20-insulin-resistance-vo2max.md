@@ -14,6 +14,8 @@ Here's the biology that links them.
 
 ## What Is Insulin Resistance, Exactly?
 
+![Illustration of a muscle cell with both exercise-activated and insulin-activated glucose transporters.](https://calculatorsites.b-cdn.net/vo2max/blog/insulin-resistance-vo2max-inline.jpg)
+
 Let's start with a clear definition, because "insulin resistance" is one of those terms that gets thrown around without much explanation.
 
 Insulin is a hormone your pancreas releases when blood glucose rises (usually after eating carbohydrates). Its job is to signal cells — primarily muscle cells, fat cells, and liver cells — to absorb glucose from the blood.

@@ -14,6 +14,8 @@ And her protocol reflects that conviction.
 
 ## Her Exact Protocol (The Full Picture)
 
+![A phone with a Tabata interval timer beside a folded sweat towel on a yoga mat.](https://calculatorsites.b-cdn.net/vo2max/blog/rhonda-patrick-vo2max-tabata-inline.jpg)
+
 Rhonda Patrick's primary VO2max stimulus is Tabata — a specific high-intensity interval protocol named after Japanese exercise scientist Dr. Izumi Tabata:
 
 - **20 seconds of absolute maximum effort**

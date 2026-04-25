@@ -12,6 +12,8 @@ It might not be you. It might be the type of exercise.
 
 ## The Non-Responder Problem
 
+![A runner mid-stride during all-out sprint intervals on an outdoor track.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-non-responders-cardio-inline.jpg)
+
 Dr. Martin Gibala at McMaster University has spent decades studying how people respond to exercise. One of his most striking findings is also one of the least discussed outside academic circles:
 
 **Approximately 40% of people show zero measurable VO2max improvement after six months of guideline-based moderate-intensity continuous exercise.**

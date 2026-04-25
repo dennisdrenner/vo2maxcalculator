@@ -14,6 +14,8 @@ Here's the honest picture — and, more importantly, what you can actually do ab
 
 ## The Decline Is Real (And Earlier Than You Think)
 
+![A fit hiker in their late forties climbing a steep alpine trail in golden light.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-after-40-inline.jpg)
+
 After about age 35–40, VO2max naturally decreases by approximately **8–10% per decade** — even in people who stay moderately active.
 
 Put that in concrete terms: if you had a VO2max of 48 at age 30, by age 60 — without specific training — it might be around 35. That's a drop of roughly 27%. And it's not all happening slowly and gradually. After 60, the decline can accelerate.

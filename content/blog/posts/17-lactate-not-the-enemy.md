@@ -14,6 +14,8 @@ Here's the thing: everything the fitness world has taught you about lactate is w
 
 ## The Myth: Lactate = Bad
 
+![Scientific illustration of lactate molecules flowing through a blood vessel toward a muscle cell.](https://calculatorsites.b-cdn.net/vo2max/blog/lactate-not-the-enemy-inline.jpg)
+
 The idea that lactate causes muscle burn and should be avoided became mainstream in the mid-20th century. The theory went like this: intense exercise produces lactic acid, which accumulates in muscles, lowers pH, causes the burning sensation, and ultimately forces you to slow down.
 
 The narrative sounded clean. It stuck. It spread into textbooks, PT certifications, and fitness culture.

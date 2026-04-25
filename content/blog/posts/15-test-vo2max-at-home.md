@@ -14,6 +14,8 @@ Good news: there are several accessible methods that give you a reasonable estim
 
 ## First: Why Bother Testing?
 
+![Overhead flat-lay of a sport watch, chest strap, phone, and running shoes used for at-home VO2 max testing.](https://calculatorsites.b-cdn.net/vo2max/blog/test-vo2max-at-home-inline.jpg)
+
 Because what gets measured gets managed.
 
 Knowing your VO2max number tells you:

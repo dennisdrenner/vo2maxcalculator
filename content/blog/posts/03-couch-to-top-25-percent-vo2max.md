@@ -14,6 +14,8 @@ Here's how to get there.
 
 ## First: What Does "Top 25%" Actually Mean?
 
+![A person lacing up running shoes on a porch in morning light, beginning a training routine.](https://calculatorsites.b-cdn.net/vo2max/blog/couch-to-top-25-percent-vo2max-inline.jpg)
+
 VO2max is measured in ml/kg/min — milliliters of oxygen your body can consume per kilogram of bodyweight per minute. Higher = better aerobic engine.
 
 Here's a rough guide for what the top 25% looks like by decade (values vary slightly by source, but this gives you the picture):

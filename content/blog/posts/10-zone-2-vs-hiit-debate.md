@@ -14,6 +14,8 @@ Here's the breakdown.
 
 ## The Zone 2 Case (San Millán, Attia)
 
+![Two pairs of running shoes side by side: easy-day trainers and racing flats.](https://calculatorsites.b-cdn.net/vo2max/blog/zone-2-vs-hiit-debate-inline.jpg)
+
 Iñigo San Millán is not speaking from theory. He coaches Tadej Pogačar — the man who has dominated professional cycling in a way not seen in a generation. When Pogačar climbs mountains that make other professional cyclists crumble, San Millán's training philosophy is what built that engine.
 
 His core argument: **zone 2 training is the non-negotiable foundation of aerobic fitness, and no amount of high-intensity work fully substitutes for it.**

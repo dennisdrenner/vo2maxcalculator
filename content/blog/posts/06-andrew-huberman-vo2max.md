@@ -12,6 +12,8 @@ So what does Huberman actually do for VO2max? And more importantly, why?
 
 ## His Core Belief: VO2max Belongs in the Same Conversation as Sleep
 
+![A person riding a fan-resistance assault bike at maximum effort with motion blur on the fan blades.](https://calculatorsites.b-cdn.net/vo2max/blog/andrew-huberman-vo2max-inline.jpg)
+
 Huberman is known for treating sleep as the master variable of health — the non-negotiable foundation that everything else is built on. In his hierarchy of health interventions, VO2max sits right beside it.
 
 He's argued repeatedly that cardiovascular fitness, as measured by VO2max, is one of the strongest predictors of both lifespan and what he calls "healthspan" — the quality of those years, not just the quantity.

@@ -58,6 +58,15 @@ export function MarkdownBody({ source }: MarkdownBodyProps) {
             />
           ),
           hr: () => <hr className="my-10 border-slate-200" />,
+          img: ({ node, src, alt, ...rest }) => (
+            <img
+              src={src}
+              alt={alt ?? ''}
+              loading="lazy"
+              className="mt-4 w-full rounded-2xl md:float-right md:ml-6 md:mt-2 md:mb-2 md:w-72"
+              {...rest}
+            />
+          ),
           table: ({ node, ...props }) => (
             <div className="mt-6 overflow-x-auto">
               <table className="w-full border-collapse text-sm" {...props} />

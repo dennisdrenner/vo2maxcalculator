@@ -14,6 +14,8 @@ The evidence is compelling enough that some neuroscientists have started calling
 
 ## BDNF: The "Miracle-Gro" for Your Brain
 
+![A runner cresting a hill at sunrise, lit from behind, suggesting the link between exercise and brain health.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-brain-health-bdnf-inline.jpg)
+
 To understand why VO2max training helps your brain, you need to know about BDNF — Brain-Derived Neurotrophic Factor.
 
 Andrew Huberman has called BDNF "one of the most important molecules for brain health" and described it as "miracle-gro for your brain." The analogy is apt. BDNF is a protein that:

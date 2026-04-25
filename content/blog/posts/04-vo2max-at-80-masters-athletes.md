@@ -16,6 +16,8 @@ This isn't a magic trick. It's what consistent aerobic training does to a body o
 
 ## The Bad News First
 
+![Older runners chatting and smiling on a park path in late-afternoon sunlight.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-at-80-masters-athletes-inline.jpg)
+
 Let's not sugarcoat the biology. VO2max naturally declines with age, and the decline starts earlier than you'd like.
 
 After about age 35–40, aerobic capacity drops roughly **8–10% per decade** — even in people who stay moderately active. By your 60s, you might have lost 25–30% of your peak aerobic capacity. By your 70s, potentially more.

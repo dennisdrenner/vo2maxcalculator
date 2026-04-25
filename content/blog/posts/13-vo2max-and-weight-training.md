@@ -14,6 +14,8 @@ Here's the real picture on combining strength training and VO2max training, and 
 
 ## The "Interference Effect" — Real, But Overstated
 
+![A loaded barbell next to a stationary bike on a gym floor.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-and-weight-training-inline.jpg)
+
 Exercise scientists have a term for the concern: the **interference effect**. The idea is that endurance training and strength training send competing physiological signals, potentially blunting each other's adaptations.
 
 And there's something to this. Research does show that very high volumes of endurance training can reduce strength and muscle size gains — particularly in athletes doing 10+ hours of cardio per week. When you're spending 15 hours on the bike, there's less recovery capacity left for building muscle.

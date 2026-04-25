@@ -14,6 +14,8 @@ If that doesn't motivate you to care about this number, nothing will.
 
 ## The Core Concept: Your Aerobic Engine
 
+![Athlete mid-stroke on a rowing machine wearing a chest heart-rate monitor.](https://calculatorsites.b-cdn.net/vo2max/blog/andy-galpin-vo2max-training-inline.jpg)
+
 Galpin breaks down VO2max using what exercise scientists call the Modified Fick Equation. Don't let the name scare you — it's actually a beautifully simple idea:
 
 **VO2max = Cardiac Output × Oxygen Extraction**

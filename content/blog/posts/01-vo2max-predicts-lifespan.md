@@ -12,6 +12,8 @@ That number is your **VO2max**.
 
 ## So What Is VO2max, Exactly?
 
+![Doctor checking a patient's heart with a stethoscope, illustrating cardiovascular fitness as a clinical measure.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-predicts-lifespan-inline.jpg)
+
 Think of VO2max as your engine size.
 
 More precisely, it's the maximum rate at which your body can consume oxygen during intense exercise — measured in milliliters of oxygen per kilogram of body weight per minute (ml/kg/min). The higher the number, the more oxygen your muscles and organs can use, and the harder and longer you can work before you run out of steam.

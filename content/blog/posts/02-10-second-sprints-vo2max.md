@@ -14,6 +14,8 @@ Here's the uncomfortable truth from exercise science: your body doesn't care how
 
 ## The 10-Second Limit Is Real
 
+![A digital stopwatch at the edge of a running track, ticking through a 10-second sprint interval.](https://calculatorsites.b-cdn.net/vo2max/blog/10-second-sprints-vo2max-inline.jpg)
+
 Think about Usain Bolt — arguably the most explosive human who has ever lived. He runs 100 meters in under 10 seconds. But watch the race carefully: he starts decelerating around the 60–70 meter mark. Even Usain Bolt can't maintain absolute maximum output for more than a few seconds before his body starts pulling back.
 
 For the rest of us, that same biology applies. A genuine all-out sprint — 100% effort, everything you've got — lasts roughly 10 seconds before you're forced to pace yourself.
