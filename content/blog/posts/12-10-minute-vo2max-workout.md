@@ -52,6 +52,8 @@ Dr. Rhonda Patrick's exact protocol is [two Tabatas back-to-back plus a cool-dow
 
 ## Workout 2: Sprint Intervals (20–25 minutes, any fitness level)
 
+![Person doing high knees in a living room.](https://calculatorsites.b-cdn.net/vo2max/blog/10-minute-vo2max-workout-inline-2.jpg)
+
 This is Gibala's signature protocol and the most research-backed option for general populations.
 
 **Structure:**
@@ -87,6 +89,8 @@ This is harder than Tabata in terms of sustained effort, but more manageable tha
 Research consistently shows this protocol produces among the largest VO2max gains of any tested method. Full breakdown in the [Norwegian method post](/norwegian-training-method-vo2max).
 
 ## The Exercise Snack Version (For the Extremely Time-Crunched)
+
+![Person taking stairs two at a time in a stairwell.](https://calculatorsites.b-cdn.net/vo2max/blog/10-minute-vo2max-workout-inline-3.jpg)
 
 If even these options feel unrealistic, there's a simpler version backed by compelling data.
 

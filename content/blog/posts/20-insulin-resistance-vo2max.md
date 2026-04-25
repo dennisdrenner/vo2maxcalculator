@@ -46,6 +46,8 @@ People with type 2 diabetes have measurably lower VO2max than age-matched contro
 
 ## The Other Direction: How Exercise Reverses the Cycle
 
+![Hands preparing a healthy meal of vegetables and lean protein.](https://calculatorsites.b-cdn.net/vo2max/blog/insulin-resistance-vo2max-inline-2.jpg)
+
 Here's where it gets hopeful. Exercise is one of the most powerful insulin-sensitizing interventions known — often more effective than medication in early-stage insulin resistance.
 
 And it works through several mechanisms simultaneously:
@@ -91,6 +93,8 @@ Here's what the research supports:
 **Add strength training.** Muscle mass is a major site of glucose disposal — more muscle means more capacity to absorb blood glucose. Resistance training three times per week is complementary to cardio for metabolic health.
 
 ## The Fat Loss Connection
+
+![A blood-glucose meter on a kitchen counter next to running shoes.](https://calculatorsites.b-cdn.net/vo2max/blog/insulin-resistance-vo2max-inline-3.jpg)
 
 One of the confusing things about insulin resistance and VO2max is that the relationship with body fat is bidirectional.
 

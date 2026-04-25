@@ -36,6 +36,8 @@ Short, intense efforts do that very efficiently.
 
 ## The People Who Don't Respond to Normal Cardio
 
+![Empty starting blocks on a track in early morning light.](https://calculatorsites.b-cdn.net/vo2max/blog/10-second-sprints-vo2max-inline-2.jpg)
+
 Here's a finding that might explain why you've been struggling.
 
 Gibala's research identified something called **non-response**: about 40% of people show absolutely zero measurable VO2max improvement after six months of guideline-recommended moderate-intensity exercise.
@@ -69,6 +71,8 @@ This is extraordinary. We're not talking about athletes. We're talking about peo
 Gibala covers this data in detail in his [FoundMyFitness interview](https://youtube.com/watch?v=anzG6tVdjkQ). Dr. Rhonda Patrick highlights it as one of the most important fitness findings in recent years in her research on [why vigorous exercise is more effective](https://youtube.com/watch?v=QnloZ45PVxQ).
 
 ## The Tabata Protocol: 4 Minutes of Genuine Suffering
+
+![A sprinter shot from behind mid-stride with motion blur.](https://calculatorsites.b-cdn.net/vo2max/blog/10-second-sprints-vo2max-inline-3.jpg)
 
 If you want a structured version of this, Tabata is the classic.
 

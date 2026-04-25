@@ -40,6 +40,8 @@ The only way to know for certain where your true zone 2 is? A lab-based lactate 
 
 ## Why Zone 2 Matters: The Mitochondria Story
 
+![First-person view of cycling on an alpine road at sunrise.](https://calculatorsites.b-cdn.net/vo2max/blog/inigo-san-millan-zone-2-inline-2.jpg)
+
 San Millán's explanation of zone 2 is fundamentally a story about mitochondria.
 
 Mitochondria are the tiny structures inside cells that convert oxygen into usable energy (ATP). Think of them as the engine cylinders in your body's energy system. More mitochondria = more oxygen-burning capacity = higher VO2max.
@@ -63,6 +65,8 @@ Elite cyclists can produce enormous power outputs. What separates Pogačar is th
 This isn't just genetic. It's the product of decades of zone 2 training that built a massive aerobic foundation. The high-intensity work builds the peaks. The zone 2 work built the mountain those peaks sit on.
 
 ## How to Actually Do Zone 2
+
+![Cyclist on a lab trainer with metabolic cart and lactate sensor.](https://calculatorsites.b-cdn.net/vo2max/blog/inigo-san-millan-zone-2-inline-3.jpg)
 
 San Millán is specific about implementation:
 

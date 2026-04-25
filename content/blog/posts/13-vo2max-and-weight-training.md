@@ -60,6 +60,8 @@ This is why strength training is particularly important for VO2max after 40. It'
 
 ## Andy Galpin's Approach for Concurrent Athletes
 
+![A person doing a kettlebell swing in a home gym.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-and-weight-training-inline-2.jpg)
+
 Dr. Andy Galpin, who coaches elite athletes across multiple sports, treats zone 2 cardio as **complementary** to resistance training — not competing with it.
 
 In his [VO2max training framework](https://youtube.com/watch?v=6XIoWlwUKU0), he notes that zone 2 improves aerobic recovery capacity, fat metabolism, and overall cardiovascular health — all of which benefit strength athletes and make their lifting sessions more effective over time.
@@ -80,6 +82,8 @@ Their framework: cardio improves recovery and cardiovascular health, but the pri
 This isn't wrong — it just reflects different goals. If your main goal is strength and muscle, RP's prioritization makes sense. If your goal is longevity and cardiovascular health alongside a decent physique, Galpin's concurrent approach is better aligned.
 
 ## A Practical Sample Week
+
+![Squat rack in a modern gym with loaded plates.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-and-weight-training-inline-3.jpg)
 
 Here's a template that works for most people who want meaningful progress in both strength and VO2max:
 

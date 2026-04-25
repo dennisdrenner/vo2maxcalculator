@@ -46,6 +46,8 @@ At genuine maximum effort on a bike, most people can achieve 90–95% of max hea
 
 ## The Science That Motivates Her
 
+![Interior of a sauna with glowing stones and wood walls.](https://calculatorsites.b-cdn.net/vo2max/blog/rhonda-patrick-vo2max-tabata-inline-2.jpg)
+
 Patrick doesn't do this because it's trendy. She does it because of specific research findings she finds genuinely compelling.
 
 ### Vigorous Exercise Is 4–10x More Effective
@@ -87,6 +89,8 @@ Most people who think they're doing high-intensity intervals are actually doing 
 She recommends keeping a heart rate monitor visible during the session. You want to see that number climbing and staying high.
 
 ## The Sauna Connection
+
+![Outdoor cold plunge tub with steam rising at dawn.](https://calculatorsites.b-cdn.net/vo2max/blog/rhonda-patrick-vo2max-tabata-inline-3.jpg)
 
 Patrick is also well-known for her advocacy of sauna use — and she frames it partly as "passive cardiovascular exercise." During a hot sauna session (around 170–212°F), heart rate can rise to 100–150 bpm, blood volume increases, and some of the same heat-shock proteins activated by exercise are triggered.
 

@@ -52,6 +52,8 @@ A critical insight from Galpin (and elite sport science more broadly): **most re
 
 ## Joel Jameson's Metamorphosis Protocol
 
+![Anatomical illustration of the human heart with blood flow.](https://calculatorsites.b-cdn.net/vo2max/blog/andy-galpin-vo2max-training-inline-2.jpg)
+
 Galpin recommends an eight-week program from conditioning coach Joel Jameson — a man who has trained world champions in combat sports and whose methods are backed by extensive evidence. [Galpin walks through the full protocol](https://youtube.com/watch?v=6XIoWlwUKU0) in a video that covers everything from training theory to practical implementation.
 
 Here's how it works:
@@ -105,6 +107,8 @@ Run it at the start and the end. The delta will be motivating.
 If running isn't your thing, use [one of the calculator-based methods](/test-vo2max-at-home) instead. But doing some form of consistent measurement is important — it keeps you honest about whether the training is working.
 
 ## The Specificity Principle (Don't Train for Running and Expect Cycling Gains)
+
+![Athlete on a treadmill in a lab wearing a metabolic mask.](https://calculatorsites.b-cdn.net/vo2max/blog/andy-galpin-vo2max-training-inline-3.jpg)
 
 One practical note Galpin emphasizes: **VO2max improvements are partly sport-specific.**
 

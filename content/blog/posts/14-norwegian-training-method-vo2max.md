@@ -52,6 +52,8 @@ The result: they plateau. They're always somewhat tired, never fully recovered, 
 
 ## The Polarized Training Principle
 
+![Athlete doing hill intervals at dawn with visible breath.](https://calculatorsites.b-cdn.net/vo2max/blog/norwegian-training-method-vo2max-inline-2.jpg)
+
 This 80/20 approach has a name in sports science: **polarized training**. The idea is to avoid the middle zone and instead train at the two poles — very easy and very hard.
 
 Research comparing polarized training to "threshold training" (training mostly in the moderate-hard zone) consistently finds polarized approaches produce better VO2max gains and fewer overuse injuries.
@@ -69,6 +71,8 @@ The logic: by staying just below the intensity where lactate accumulates signifi
 This is not for beginners. It's an elite-level periodization tool. But it explains why Norwegian athletes can train 25–30 hours per week without constantly being injured or overtrained.
 
 ## Rich Roll's Inside Look
+
+![Runner on a road by a Norwegian fjord at sunrise.](https://calculatorsites.b-cdn.net/vo2max/blog/norwegian-training-method-vo2max-inline-3.jpg)
 
 Rich Roll — a former elite swimmer who became one of the world's top ultraendurance athletes in his 40s — had Kristian Blummenfelt and Gustav Iden on his podcast and extracted remarkable detail about their training.
 

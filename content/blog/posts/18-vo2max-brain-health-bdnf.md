@@ -48,6 +48,8 @@ Dr. Martin Gibala covers this extensively in his [interview with Rhonda Patrick]
 
 ## VO2Max and Cognitive Aging
 
+![A person reading a book by a sunlit window.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-brain-health-bdnf-inline-2.jpg)
+
 The connection between cardiovascular fitness and brain health extends far beyond the acute BDNF spike after a workout.
 
 People with higher VO2max show:
@@ -76,6 +78,8 @@ The mechanisms under investigation:
 The research hasn't yet proven that exercise prevents Alzheimer's — these are prospective associations, not randomized prevention trials. But the signal is consistent and biologically plausible. Rhonda Patrick covers the emerging evidence in her [video on the longevity and brain benefits of vigorous exercise](https://youtube.com/watch?v=YXl1evV_spo).
 
 ## Exercise for Depression and Mental Health
+
+![A person doing a morning bodyweight workout outdoors at sunrise.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-brain-health-bdnf-inline-3.jpg)
 
 The brain benefits of VO2max training extend into mental health — with evidence that's stronger than most people realize.
 

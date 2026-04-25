@@ -47,6 +47,8 @@ You're never too old for this to matter.
 
 ## What Masters Athletes Tell Us
 
+![Older swimmer doing laps in an outdoor pool.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-at-80-masters-athletes-inline-2.jpg)
+
 Masters athletes — competitive athletes in their 50s, 60s, 70s, and beyond — give us the clearest picture of what consistent training preserves.
 
 Compared to sedentary adults their age, masters athletes typically show:
@@ -70,6 +72,8 @@ As Andy Galpin explains in his [VO2max training video](https://youtube.com/watch
 If you're 65 and haven't exercised in years, you are sitting on more opportunity to extend your life than almost any intervention medicine has to offer. That's not motivational fluff. That's what the data says.
 
 ## Training Smart After 50: What Changes
+
+![Older woman doing a balance pose on a yoga mat outdoors.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-at-80-masters-athletes-inline-3.jpg)
 
 The principles of VO2max training don't change with age. The implementation does.
 

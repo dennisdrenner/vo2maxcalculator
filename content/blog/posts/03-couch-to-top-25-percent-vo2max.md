@@ -50,6 +50,8 @@ Dr. Andy Galpin, who coaches professional fighters and elite athletes and is one
 
 ## The Timeline: What to Expect
 
+![A runner on a forest trail at golden hour.](https://calculatorsites.b-cdn.net/vo2max/blog/couch-to-top-25-percent-vo2max-inline-2.jpg)
+
 People underestimate how fast the body responds to training. Here's a realistic progression:
 
 **Weeks 1–4:** Your nervous system and cardiovascular system start adapting. Resting heart rate may begin dropping. Everyday activities feel slightly less exhausting.
@@ -97,6 +99,8 @@ Add a "hard day" to the rotation:
 **Progression rule:** Never increase volume or intensity by more than about 10% per week. This sounds overly conservative, but it's how you avoid the overuse injuries that derail most programs.
 
 ## The Cooper Test: Your Benchmark
+
+![Runner checking their GPS watch after a workout.](https://calculatorsites.b-cdn.net/vo2max/blog/couch-to-top-25-percent-vo2max-inline-3.jpg)
 
 Named after Dr. Kenneth Cooper (the man who invented the word "aerobics"), the Cooper Test is the simplest way to track your VO2max progress:
 

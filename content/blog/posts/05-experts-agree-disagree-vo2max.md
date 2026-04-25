@@ -108,6 +108,10 @@ San Millán would argue most people who think they're doing zone 2 are actually 
 
 ## The Takeaway
 
+![Exercise physiology lab with a treadmill and metabolic cart.](https://calculatorsites.b-cdn.net/vo2max/blog/experts-agree-disagree-vo2max-inline-3.jpg)
+
+![A researcher reviewing a scientific paper at a laptop.](https://calculatorsites.b-cdn.net/vo2max/blog/experts-agree-disagree-vo2max-inline-2.jpg)
+
 The experts agree on the big things: VO2max matters enormously, lactate isn't waste, everyone needs some intensity, and you can improve at any age.
 
 The disagreements are mostly about implementation — how much zone 2 vs. HIIT, how to define the zones, and whether non-response to moderate exercise is a major clinical issue.

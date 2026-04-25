@@ -38,6 +38,8 @@ Think of it like this: some people get a tan easily. Others burn and stay pale n
 
 ## What Counts as a Non-Responder?
 
+![A person doing a burpee in a home gym.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-non-responders-cardio-inline-2.jpg)
+
 If you've been doing consistent moderate cardio for more than 2–3 months and:
 
 - Your resting heart rate hasn't dropped
@@ -58,6 +60,8 @@ Why? High-intensity exercise sends a stronger signal. When you push your cardiov
 Moderate exercise sends a weaker signal. For most people it's enough. For 40% of people, it isn't.
 
 ## Three HIIT Options to Add to Your Week
+
+![Fitness display showing a heart rate trace in the high zone.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-non-responders-cardio-inline-3.jpg)
 
 You don't need to abandon everything you're doing. Just add one of these:
 

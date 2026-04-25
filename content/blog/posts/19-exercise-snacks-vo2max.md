@@ -63,6 +63,8 @@ The intensity is the signal. Without genuine effort, the cardiovascular system i
 
 ## The McMaster Exercise Snack Trials
 
+![Office worker doing chair squats next to a desk.](https://calculatorsites.b-cdn.net/vo2max/blog/exercise-snacks-vo2max-inline-2.jpg)
+
 Dr. Gibala's lab at McMaster University and collaborators at the University of British Columbia are running formal trials of a more structured exercise snack approach.
 
 Participants receive smartphone notifications throughout the day — four to five times — prompting them to do a brief vigorous activity. Each "snack" is about 60 seconds. Options include:
@@ -89,6 +91,8 @@ No single snack is as powerful as a 25-minute HIIT session. But four to five of 
 Dr. Rhonda Patrick highlights this in her work on vigorous exercise — noting that the threshold for benefit is lower than previously thought, and that any vigorous movement "counts" in terms of mortality data. Her [video on why vigorous exercise is 4–10× more effective](https://youtube.com/watch?v=QnloZ45PVxQ) provides the research context.
 
 ## Who Is This For?
+
+![Colleagues having a walking meeting on a city sidewalk.](https://calculatorsites.b-cdn.net/vo2max/blog/exercise-snacks-vo2max-inline-3.jpg)
 
 Exercise snacks aren't designed to replace a structured training program. If you're already doing [zone 2 training](/inigo-san-millan-zone-2) and [HIIT sessions](/10-minute-vo2max-workout), this is extra credit, not your primary strategy.
 

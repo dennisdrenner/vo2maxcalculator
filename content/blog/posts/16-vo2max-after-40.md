@@ -44,6 +44,8 @@ Understanding the "why" helps you address each component:
 
 ## The Biggest Longevity Opportunity at Any Age
 
+![Person in their late forties doing dumbbell rows.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-after-40-inline-2.jpg)
+
 Here's the part that should genuinely excite you, no matter your current fitness level.
 
 The mortality data on VO2max shows that **the largest benefits come at the bottom of the fitness spectrum** — and they apply at any age.
@@ -94,6 +96,8 @@ This one surprises people. But sarcopenia — the loss of muscle mass with age �
 Resistance training after 40 isn't just for aesthetics or injury prevention. It's cardiovascular maintenance. Aim for two to three sessions per week alongside your cardio.
 
 ## Rich Roll's Story (The Reminder That It's Not Too Late)
+
+![A couple in their fifties running together on a beach path at sunset.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-after-40-inline-3.jpg)
 
 Rich Roll was a corporate lawyer approaching 40. Overweight. Sedentary. By his own account, heading toward a health crisis. He got sober at 39 and started training — running, cycling, swimming — from a very low base.
 

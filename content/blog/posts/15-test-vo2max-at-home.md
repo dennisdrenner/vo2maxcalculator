@@ -56,6 +56,8 @@ Andy Galpin recommends this test as the benchmark in his [8-week Metamorphosis p
 
 ## Method 2: The World Fitness Level Calculator (No Running Required)
 
+![Close-up of a smartwatch on a wrist showing fitness stats.](https://calculatorsites.b-cdn.net/vo2max/blog/test-vo2max-at-home-inline-2.jpg)
+
 Developed by Norwegian researchers — the same scientific culture that produced the Norwegian 4×4 training method — this tool estimates your VO2max without any physical test.
 
 **Inputs:**
@@ -95,6 +97,8 @@ These devices estimate VO2max using heart rate data collected during runs or oth
 If your Garmin says you're 48 and a lab test shows 45 — that's within normal error range. If your number goes from 42 to 47 on your watch over six months, your fitness is genuinely improving.
 
 ## Method 4: Resting Heart Rate (The Simplest Daily Proxy)
+
+![Runner pausing on a path to check a fitness app.](https://calculatorsites.b-cdn.net/vo2max/blog/test-vo2max-at-home-inline-3.jpg)
 
 This isn't a VO2max test — but it's a strong indicator of cardiovascular fitness trends.
 

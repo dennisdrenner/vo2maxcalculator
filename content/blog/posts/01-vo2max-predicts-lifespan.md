@@ -40,6 +40,8 @@ No upper limit. Higher is always better. That's a remarkable finding in medicine
 
 ## The Good News: You Don't Need to Be Elite
 
+![Older couple cycling together on a tree-lined path.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-predicts-lifespan-inline-2.jpg)
+
 Here's the part that should actually excite you.
 
 The biggest mortality benefit doesn't come from going from "good" to "great." It comes from going from **the bottom to slightly above the bottom**.
@@ -66,6 +68,8 @@ Your heart, lungs, blood vessels, and muscles all have to work together to achie
 A low VO2max, on the other hand, often reflects underlying cardiovascular disease, metabolic dysfunction, or years of sedentary behavior — all of which compound into worse health outcomes. It's not that VO2max causes you to live longer; it's a window into the overall health of your body's most critical systems.
 
 ## The Decline Is Real — But So Is the Recovery
+
+![Sport watch on a runner's wrist showing a high heart rate during exercise.](https://calculatorsites.b-cdn.net/vo2max/blog/vo2max-predicts-lifespan-inline-3.jpg)
 
 Here's the sobering part: VO2max naturally declines about **8–10% per decade** after age 35–40, even with some activity. By your 60s, an untrained person can lose 30–40% of their peak aerobic capacity.
 

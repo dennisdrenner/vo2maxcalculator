@@ -50,6 +50,8 @@ Eight rounds of 20/10 seconds is only about four minutes of work. But if you're 
 
 ## The Rationale: Why Both Zones?
 
+![A person riding a stationary bike at a steady zone-2 pace.](https://calculatorsites.b-cdn.net/vo2max/blog/andrew-huberman-vo2max-inline-2.jpg)
+
 Huberman frames zone 2 and zone 5 as addressing complementary mechanisms.
 
 **Zone 2** improves the "peripheral" side of VO2max — how efficiently your muscles extract and use oxygen from the blood. Mitochondrial density, fat oxidation, capillary network development.
@@ -76,6 +78,8 @@ Huberman has called BDNF "one of the most important molecules for brain health" 
 For Huberman, this means VO2max training isn't just a longevity strategy — it's a cognitive performance strategy. You're literally making your brain work better.
 
 ## Practical Protocol Summary
+
+![Stopwatch and sweat-soaked towel on a gym mat after a workout.](https://calculatorsites.b-cdn.net/vo2max/blog/andrew-huberman-vo2max-inline-3.jpg)
 
 For those who want to follow Huberman's approach:
 

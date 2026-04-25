@@ -53,6 +53,8 @@ He made this argument directly in a [Gabrielle Lyon interview](https://youtube.c
 
 ## The Actual Answer (More Nuanced Than "Who Wins")
 
+![Empty outdoor running track in golden hour.](https://calculatorsites.b-cdn.net/vo2max/blog/zone-2-vs-hiit-debate-inline-2.jpg)
+
 Here's what the debate looks like when you zoom out:
 
 **They're optimizing for different outcomes.**
@@ -78,6 +80,8 @@ Most recreational athletes do most of their training in this zone — and wonder
 The fix: go easier on easy days. Go harder on hard days. Leave the grey zone alone.
 
 ## A Practical Summary
+
+![Misty forest trail at sunrise.](https://calculatorsites.b-cdn.net/vo2max/blog/zone-2-vs-hiit-debate-inline-3.jpg)
 
 | Goal | Best Approach |
 |------|---------------|

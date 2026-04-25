@@ -37,6 +37,8 @@ In fact, some research suggests lactate may actually help counteract the pH drop
 
 ## What Lactate Actually Is: Fuel
 
+![Runner pushing through the burn at the end of a hard interval.](https://calculatorsites.b-cdn.net/vo2max/blog/lactate-not-the-enemy-inline-2.jpg)
+
 Here's the twist that changes everything.
 
 Lactate is not a waste product your body is trying to flush. It's an important fuel molecule — one your body produces constantly, even at rest, and actively uses across multiple organ systems.
@@ -64,6 +66,8 @@ Rather than a toxic waste product, lactate is a **cross-cellular energy currency
 Iñigo San Millán — whose [deep dive with Peter Attia](https://youtube.com/watch?v=-6PDBVRkCKc) remains the most viewed explanation of zone 2 science — calls this internal recycling the heart of what makes elite athletes exceptional. The best endurance athletes don't produce less lactate. They **produce and clear lactate more efficiently** at higher intensities.
 
 ## The Threshold: Not What You Thought
+
+![Illustration of the brain receiving energy molecules via the bloodstream.](https://calculatorsites.b-cdn.net/vo2max/blog/lactate-not-the-enemy-inline-3.jpg)
 
 All of this reframes "lactate threshold" — one of the most important concepts in endurance training.
 
