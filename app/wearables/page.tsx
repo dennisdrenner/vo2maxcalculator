@@ -86,6 +86,11 @@ export default function WearablesHubPage() {
           title="Whoop VO2 max"
           hook="Whoop estimates VO2 max from workout data and resting HR. Validation is thinner than Garmin; mean error is typically 5–8 ml/kg/min."
         />
+        <WearableCard
+          href="/wearables/polar-vo2-max/"
+          title="Polar VO2 max (OwnIndex)"
+          hook="Polar's Fitness Test uses a 5-minute resting HR measurement plus demographics. Published accuracy is ±3.5 ml/kg/min vs. lab — better than wrist-only estimates."
+        />
       </div>
 
       <AdSlot slot="wearable-hub" className="my-10" />

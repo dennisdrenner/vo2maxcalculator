@@ -22,7 +22,7 @@ export function AffiliateCard({ product }: AffiliateCardProps) {
       {item.image ? (
         <img
           src={item.image}
-          alt=""
+          alt={item.label}
           width={96}
           height={96}
           loading="lazy"

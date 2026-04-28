@@ -54,6 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/wearables/garmin-vo2-max-accuracy/',
     '/wearables/apple-watch-vo2-max/',
     '/wearables/whoop-vo2-max/',
+    '/wearables/polar-vo2-max/',
   ];
 
   const methodPages = METHODS.map((m) => `/methods/${m.slug}/`);

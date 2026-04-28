@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const method = getMethod(slug);
   const article = METHOD_ARTICLES[slug];
   return buildMetadata({
-    title: `${method.displayName} VO2 Max Calculator — Formula, Protocol, Accuracy`,
+    title: `${method.displayName} VO2 Max Calculator — Free Online Tool`,
     description:
       article?.metaDescription ??
       `${method.description} Free calculator with the exact formula, step-by-step protocol, accuracy data, and citation.`,

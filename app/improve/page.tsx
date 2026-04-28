@@ -40,6 +40,21 @@ const FAQS: FaqItem[] = [
     answer:
       'Measurable VO2 max improvements appear in 4–6 weeks of consistent training. Peak response for most protocols is at 8–12 weeks. After that, further gains require progressive overload: longer intervals, higher volume, or added variety.',
   },
+  {
+    question: 'Can you improve VO2 max after 50?',
+    answer:
+      'Yes — and the relative gains are similar to younger adults. Studies in adults aged 50–70 show 10–20% VO2 max improvements with 12 weeks of structured training, combining easy aerobic work and 1–2 weekly interval sessions. The absolute ceiling is lower than at 30, but trainability is preserved well into the 70s.',
+  },
+  {
+    question: 'Does weight loss improve VO2 max?',
+    answer:
+      'Indirectly, yes. VO2 max is expressed per kilogram of body weight (ml/kg/min), so losing fat mass without losing aerobic capacity raises your number even if absolute oxygen uptake is unchanged. A 10% reduction in body weight typically lifts weight-adjusted VO2 max by 5–8% on its own. Combined with training, the effects compound.',
+  },
+  {
+    question: 'Can I improve VO2 max with cycling instead of running?',
+    answer:
+      'Yes. The cardiovascular adaptations are mode-independent — your heart and oxygen-delivery system don\'t care whether you\'re running, cycling, or rowing. Where mode matters is sport-specific economy: a runner tested on a bike will score lower than on a treadmill, and vice versa, because their muscles aren\'t equally trained. Train in the modality you care about for performance; train in any cardio modality for general fitness gains.',
+  },
 ];
 
 export default function ImproveHubPage() {
@@ -147,6 +162,100 @@ export default function ImproveHubPage() {
         loading="lazy"
         className="mt-10 w-full rounded-2xl"
       />
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-slate-900">A sample 8-week VO2 max training plan</h2>
+        <p className="mt-3 text-slate-700">
+          The plan below is a polarized 80/20 program calibrated for an adult who can already run
+          continuously for 30 minutes (or do an equivalent volume of cycling or rowing). Heart-rate
+          zones are based on percent of max HR; if you don't have a measured HRmax, the
+          220&nbsp;−&nbsp;age estimate is acceptable for these purposes.
+        </p>
+        <div className="mt-6 overflow-x-auto">
+          <table className="w-full border-collapse text-sm">
+            <thead className="bg-slate-50">
+              <tr>
+                <th className="border border-slate-200 px-3 py-2 text-left font-semibold text-slate-900">Week</th>
+                <th className="border border-slate-200 px-3 py-2 text-left font-semibold text-slate-900">Total sessions</th>
+                <th className="border border-slate-200 px-3 py-2 text-left font-semibold text-slate-900">Zone 2 (60–70% HRmax)</th>
+                <th className="border border-slate-200 px-3 py-2 text-left font-semibold text-slate-900">Intervals</th>
+                <th className="border border-slate-200 px-3 py-2 text-left font-semibold text-slate-900">Weekly volume</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="border border-slate-200 px-3 py-2 font-medium">1</td><td className="border border-slate-200 px-3 py-2">3</td><td className="border border-slate-200 px-3 py-2">2 × 40 min</td><td className="border border-slate-200 px-3 py-2">1 × 4×3 min @ 90% HRmax (3 min easy)</td><td className="border border-slate-200 px-3 py-2">~2.5 hr</td></tr>
+              <tr><td className="border border-slate-200 px-3 py-2 font-medium">2</td><td className="border border-slate-200 px-3 py-2">3</td><td className="border border-slate-200 px-3 py-2">2 × 45 min</td><td className="border border-slate-200 px-3 py-2">1 × 4×3 min @ 90% HRmax</td><td className="border border-slate-200 px-3 py-2">~2.7 hr</td></tr>
+              <tr><td className="border border-slate-200 px-3 py-2 font-medium">3</td><td className="border border-slate-200 px-3 py-2">4</td><td className="border border-slate-200 px-3 py-2">3 × 45 min</td><td className="border border-slate-200 px-3 py-2">1 × 4×4 min @ 92% HRmax (3 min easy)</td><td className="border border-slate-200 px-3 py-2">~3.5 hr</td></tr>
+              <tr><td className="border border-slate-200 px-3 py-2 font-medium">4</td><td className="border border-slate-200 px-3 py-2">4</td><td className="border border-slate-200 px-3 py-2">3 × 50 min</td><td className="border border-slate-200 px-3 py-2">1 × 4×4 min @ 92% HRmax</td><td className="border border-slate-200 px-3 py-2">~3.7 hr</td></tr>
+              <tr><td className="border border-slate-200 px-3 py-2 font-medium">5</td><td className="border border-slate-200 px-3 py-2">4</td><td className="border border-slate-200 px-3 py-2">2 × 60 min + 1 × 45 min</td><td className="border border-slate-200 px-3 py-2">1 × 5×3 min @ 92% HRmax (2 min easy)</td><td className="border border-slate-200 px-3 py-2">~4.0 hr</td></tr>
+              <tr><td className="border border-slate-200 px-3 py-2 font-medium">6</td><td className="border border-slate-200 px-3 py-2">4</td><td className="border border-slate-200 px-3 py-2">2 × 60 min + 1 × 45 min</td><td className="border border-slate-200 px-3 py-2">1 × Norwegian 4×4 (4 min @ 92–95%, 3 min easy)</td><td className="border border-slate-200 px-3 py-2">~4.2 hr</td></tr>
+              <tr><td className="border border-slate-200 px-3 py-2 font-medium">7</td><td className="border border-slate-200 px-3 py-2">5</td><td className="border border-slate-200 px-3 py-2">3 × 60 min + 1 × 45 min</td><td className="border border-slate-200 px-3 py-2">1 × Norwegian 4×4</td><td className="border border-slate-200 px-3 py-2">~4.7 hr</td></tr>
+              <tr><td className="border border-slate-200 px-3 py-2 font-medium">8</td><td className="border border-slate-200 px-3 py-2">3 (deload)</td><td className="border border-slate-200 px-3 py-2">2 × 45 min</td><td className="border border-slate-200 px-3 py-2">1 × 3×3 min @ 90% HRmax</td><td className="border border-slate-200 px-3 py-2">~2.5 hr</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-3 text-sm text-slate-600">
+          Retest at the end of week 8 — most adherent users see a 10–18% gain over baseline. The{' '}
+          <Link href="/improve/norwegian-4x4/" className="text-teal-700 underline">Norwegian 4×4 protocol</Link>{' '}
+          is documented in detail on its own page.
+        </p>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-slate-900">How long does it take to improve VO2 max?</h2>
+        <p className="mt-3 text-slate-700">
+          Measurable changes appear sooner than most people expect. Mitochondrial density and
+          plasma volume — the early adaptations — start expanding within 2–3 weeks of consistent
+          training. Stroke-volume increases (the central cardiovascular adaptation) take 4–8
+          weeks to register. By <strong>week 4</strong>, most untrained adults can detect a
+          shift in their resting heart rate (typically 5–10 bpm lower) and a noticeable
+          improvement in conversational running pace.
+        </p>
+        <p className="mt-3 text-slate-700">
+          Peak response from any single training block lands at <strong>weeks 8–12</strong>.
+          Beyond that, gains slow as you approach your current ceiling and progressive overload
+          becomes necessary — longer intervals, more sessions, or harder formats. Trained
+          athletes see 1–3% improvements per 8–12-week training cycle; untrained adults still
+          see 10–20%.
+        </p>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold text-slate-900">VO2 max training by sport</h2>
+        <p className="mt-3 text-slate-700">
+          The cardiovascular adaptations are sport-agnostic — your heart and lungs don't know
+          whether you're running or rowing. But mode-specific economy and tested VO2 max do
+          differ between modalities, because the muscles you train are the muscles that
+          contribute to the test. A few notes:
+        </p>
+        <ul className="mt-3 list-disc space-y-3 pl-6 text-slate-700">
+          <li>
+            <strong>Running.</strong> The most accessible VO2 max stimulus per minute. Treadmill
+            and field-test VO2 values are usually the highest reported numbers for trained
+            athletes. Use the <Link href="/methods/cooper-12-minute-run/" className="text-teal-700 underline">Cooper 12-minute run</Link>{' '}
+            or <Link href="/methods/1-5-mile-run/" className="text-teal-700 underline">1.5-mile run</Link> for testing.
+          </li>
+          <li>
+            <strong>Cycling.</strong> Lower joint load makes cycling great for high-volume zone 2
+            and for athletes with running injuries. Cycling VO2 max scores typically run 5–10%
+            below treadmill scores in non-cyclists; trained cyclists test similar or higher on
+            the bike. Use the <Link href="/methods/astrand-rhyming-cycle/" className="text-teal-700 underline">Åstrand-Rhyming cycle test</Link>{' '}
+            for estimation.
+          </li>
+          <li>
+            <strong>Rowing.</strong> Engages legs, core, and upper body — produces the highest
+            absolute VO2 max scores in elite athletes (commonly 70+ ml/kg/min in international
+            rowers). Strong choice for total-body cardiovascular development. The Concept2
+            erg's predicted-VO2 calculation is reasonably accurate for trained users.
+          </li>
+          <li>
+            <strong>Swimming.</strong> Swimming VO2 max scores test 10–20% lower than running for
+            non-swimmers because of skill-dependent economy. Swimming is excellent for
+            recovery-day cardiovascular work and for athletes with land-based injuries — but
+            poor as a primary VO2 max-development modality unless you're a trained swimmer.
+          </li>
+        </ul>
+      </section>
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-slate-900">What doesn't work (or barely works)</h2>
