@@ -1,0 +1,39 @@
+{
+  "name": "VO2 Max Calculator",
+  "url": "https://vo2maxcalculators.com",
+  "tagline_short": "Free VO2 max calculator with 17 validated field tests.",
+  "tagline_medium": "Calculate your VO2 max with 17 peer-reviewed field tests — Cooper, Rockport, Bruce, Norwegian 4x4, and more. Free. No signup. Cooper Institute percentile chart included.",
+  "description_long": "VO2 Max Calculator is a free, independent reference tool for estimating cardiorespiratory fitness. It implements 17 validated field-test formulas from the exercise-physiology literature (Cooper 12-minute run, 1.5-mile run, Rockport 1-mile walk, Åstrand-Rhyming cycle, Bruce treadmill protocol, beep test, Yo-Yo IR1, and more) and renders results against the full Cooper Institute percentile chart used in ACSM's Guidelines for Exercise Testing and Prescription, 11th edition. The site also publishes a research-grounded blog covering longevity studies, training protocols, and expert summaries (Peter Attia, Andrew Huberman, Andy Galpin, Iñigo San-Millán, Rhonda Patrick) plus a directory of 1,056 lab-based VO2 max testing facilities across all 50 US states.",
+  "description_one_paragraph": "Free VO2 max calculator with 17 validated field tests, full Cooper Institute percentile chart, training guides, lab-test directory, and a research-grounded blog. No signup. No paywall.",
+  "categories": [
+    "Health & Fitness",
+    "Calculators",
+    "Free Tools",
+    "Exercise / Sports Science"
+  ],
+  "keywords": [
+    "vo2 max calculator",
+    "vo2 max test",
+    "cardiorespiratory fitness",
+    "cooper test",
+    "fitness percentile",
+    "aerobic capacity",
+    "running calculator",
+    "cycling calculator"
+  ],
+  "founder": {
+    "name": "Dennis Drenner",
+    "bio_short": "Maryland-based developer with a biology degree from the University of Maryland. Builder of vo2maxcalculators.com.",
+    "bio_long": "Dennis Drenner is the founder of Smart Raven AI and the developer behind vo2maxcalculators.com. He holds a biology degree from the University of Maryland, has personally undergone lab-based CPET testing, and has spent years studying the exercise-physiology literature behind VO2 max estimation."
+  },
+  "contact_email": "dennis@smartravenai.com",
+  "twitter": "",
+  "logo_url": "https://calculatorsites.b-cdn.net/vo2max/og-default.png",
+  "screenshot_urls": [
+    "https://calculatorsites.b-cdn.net/vo2max/hero-homepage.jpg",
+    "https://calculatorsites.b-cdn.net/vo2max/hero-chart.jpg"
+  ],
+  "pricing": "Free",
+  "open_source": false,
+  "platforms": ["Web"]
+}
